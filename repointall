@@ -1,0 +1,30 @@
+##Repoints all pointers found at given location 
+##(Eg. repoints pointer located at 0x8016364 which is 0x81D65A8 in vanilla, does not repoint 0x8016364)
+gSpeciesNames 08000144
+gBaseStats 080001BC
+gLevelUpLearnsets 0803EA7C
+gEggMoves 08045C50
+
+gCryTable 08072114
+gCryTable2 08072104
+#gSpeciesIdToCryId 08043328 #NO LONGER NEEDED
+
+gMonFrontPicTable 08000128
+gMonBackPicTable 0800012C
+gMonFrontPicCoords 08011F4C
+gMonBackPicCoords 08074634
+gEnemyMonElevation 080356F8
+gMonPaletteTable 08000130
+gMonShinyPaletteTable 08000134
+
+#Evolution Table
+gPokedexEntries 08088E34
+gHabitatPtrsTable 08106888
+gSpeciesToNationalPokedexNum 0804323C
+gPokedexOrder_Alphabetical 08103694
+gPokedexOrder_Weight 081037CC
+gPokedexOrder_Height 08103868
+
+gMonIconTable 08000138
+gMonIconPaletteIndices 0800013C
+gItemAnimationTable 0812EAE0

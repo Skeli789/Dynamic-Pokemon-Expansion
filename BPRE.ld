@@ -1,0 +1,17 @@
+malloc_ = 0x08002B9C|1;
+free_ = 0x08002BC4|1;
+__divsi3 = 0x081E4018|1;
+__modsi3 = 0x081E40F4|1;
+__udivsi3 = 0x081E460C|1;
+__umodsi3 = 0x081E4684|1;
+memcpy_ = 0x081E5E78|1;
+memset_ = 0x081E5ED8|1;
+
+GetGenderFromSpeciesAndPersonality = 0x803F78C | 1;
+SpeciesToNationalPokedexNum = 0x8043298 | 1;
+DrawSpindaSpots = 0x8043458 | 1;
+GetUnownLetterFromPersonality = 0x8082AB8 | 1;
+LZ77UnCompWram = 0x81E3B70 | 1;
+
+/*The Deal Breaker*/
+break_func = 0x08416304 | 1;

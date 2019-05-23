@@ -1,0 +1,11 @@
+a.exe
+*.gba
+build/*
+extracted/*
+*.sgm
+*.dmp
+*.bak
+*.lnk
+*.sav
+offsets.ini
+generatedrepoints
