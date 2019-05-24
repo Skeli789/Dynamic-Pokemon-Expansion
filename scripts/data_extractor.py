@@ -7,7 +7,7 @@ import os
 ############
 
 ROM_NAME = "BPRE0.gba"  #the name of your rom
-NumberOfPokemon = 412 #Change to total number of species in original rom
+NumberOfPokemon = 440 #Change to total number of species in original rom
 
 OutputFolder = os.getcwd() + "/extracted/"
 SpeciesDefines = os.getcwd() + "/include/species.h"
