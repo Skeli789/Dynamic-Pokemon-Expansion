@@ -4971,7947 +4971,7945 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	
-//New Data Starts Here
 	[SPECIES_TURTWIG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95a4790,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GROTLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95a6330,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TORTERRA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95a87c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHIMCHAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95ae2d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MONFERNO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95f24b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_INFERNAPE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95b66b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIPLUP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95bbcc0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PRINPLUP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95bdc80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EMPOLEON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95c0c20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STARLY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95d4ec0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STARAVIA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95d8620,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STARAPTOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95dc2b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BIDOOF] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98ea610,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BIBAREL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98ecf30,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KRICKETOT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95f6ed0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KRICKETUNE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95fa450,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHINX] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95e0490,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LUXIO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95e29e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LUXRAY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95e82e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BUDEW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98f0710,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROSERADE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98f3790,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CRANIDOS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95ffaa0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RAMPARDOS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9602050,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHIELDON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98f6120,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BASTIODON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98f8ca0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BURMY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98fd0c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WORMADAM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98feb60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MOTHIM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9903660,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COMBEE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9905ce0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VESPIQUEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x990a410,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PACHIRISU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x990e7c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BUIZEL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9910040,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOATZEL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9912740,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHERUBI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9916930,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHERRIM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99181b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHELLOS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x991aae0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GASTRODON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x991c410,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AMBIPOM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9920bd0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRIFLOON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9606e60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRIFBLIM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x960a0c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BUNEARY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9923530,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LOPUNNY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9926810,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MISMAGIUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x960eb80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HONCHKROW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9613200,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GLAMEOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x992bda0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PURUGLY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x992d730,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHINGLING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9930540,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STUNKY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9934ac0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SKUNTANK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99362c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BRONZOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x993b7b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BRONZONG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x993dfc0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BONSLY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9943980,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MIME_JR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9945540,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HAPPINY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9947850,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHATOT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9949320,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SPIRITOMB] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x994bcd0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GIBLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95c6610,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GABITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95c79b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GARCHOMP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95c9570,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MUNCHLAX] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9951720,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RIOLU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9952d60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LUCARIO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99541b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HIPPOPOTAS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99562b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HIPPOWDON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x995a7b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SKORUPI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99601a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRAPION] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9963a10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CROAGUNK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95cc640,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TOXICROAK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95d0380,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CARNIVINE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9966710,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FINNEON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x996a220,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LUMINEON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x996e7e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MANTYKE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99741c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SNOVER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x957bcb0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ABOMASNOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95ed3e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WEAVILE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9625910,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAGNEZONE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9975f00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LICKILICKY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x997b680,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RHYPERIOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x997fe30,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TANGROWTH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99836f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ELECTIVIRE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99878e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAGMORTAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x998d390,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TOGEKISS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99916e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_YANMEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9996f70,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LEAFEON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x999c850,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GLACEON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x999fc60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GLISCOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99a5510,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAMOSWINE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99a8fd0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PORYGON_Z] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99AE5E0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GALLADE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99b30c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PROBOPASS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99b7db0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DUSKNOIR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99bd6d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FROSLASS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c2fa0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROTOM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c8b10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_UXIE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99cc2f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MESPRIT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99d1a20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AZELF] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99d6250,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DIALGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99d98b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PALKIA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99ded10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HEATRAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99fe120,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_REGIGIGAS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a03c40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GIRATINA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a09740,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CRESSELIA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a0e950,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PHIONE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a141c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MANAPHY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a17910,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DARKRAI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x96279c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHAYMIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a1c330,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VICTINI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a27100,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SNIVY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a2cbf0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SERVINE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x961c310,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SERPERIOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a332f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TEPIG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a37dc0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIGNITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a3c610,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EMBOAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a41770,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_OSHAWOTT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a45ab0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEWOTT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a46f60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SAMUROTT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a49340,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PATRAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a4e980,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WATCHOG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a50a20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LILLIPUP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a524b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HERDIER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a56f70,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STOUTLAND] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a5ae60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PURRLOIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a60990,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LIEPARD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a638d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PANSAGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a67470,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SIMISAGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a68cc0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PANSEAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a6c0b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SIMISEAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a6d950,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PANPOUR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a70c00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SIMIPOUR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a72540,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MUNNA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a76f60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MUSHARNA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a7b1a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIDOVE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a80bd0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TRANQUILL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a863e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_UNFEZANT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a88470,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BLITZLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a8b520,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZEBSTRIKA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a8dda0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROGGENROLA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a935f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BOLDORE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a97ed0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GIGALITH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a9d270,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WOOBAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9aa2c60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SWOOBAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9aa60b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRILBUR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9aab4d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EXCADRILL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ab0ef0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AUDINO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ab69d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TIMBURR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9aba600,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GURDURR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ac00f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CONKELDURR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ac58e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TYMPOLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9acb060,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PALPITOAD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9acf520,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SEISMITOAD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ad4b70,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_THROH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ada1b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SAWK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9adee20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SEWADDLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ae3d80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SWADLOON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ae6150,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LEAVANNY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ae8f90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VENIPEDE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9aecf80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WHIRLIPEDE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9af1420,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SCOLIPEDE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9af5d10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COTTONEE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9afb750,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WHIMSICOTT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9afe270,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PETILIL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b03ac0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LILLIGANT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b050a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BASCULIN_RED] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b08f80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SANDILE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b0dd10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KROKOROK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b0fbb0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KROOKODILE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b14340,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DARUMAKA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b19a50,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DARMANITAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b1f040,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MARACTUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b24360,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DWEBBLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b27eb0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CRUSTLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b2cbc0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SCRAGGY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b31a80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SCRAFTY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b37250,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SIGILYPH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b3c7b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_YAMASK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b421b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COFAGRIGUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b461a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TIRTOUGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b4b990,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CARRACOSTA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b4de30,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCHEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b529b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCHEOPS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b581e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TRUBBISH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b5cc10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GARBODOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b62660,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZORUA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b67fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZOROARK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b6a7f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINCCINO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b6fe00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CINCCINO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b73480,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOTHITA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b78a20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOTHORITA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b7d620,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOTHITELLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b82d50,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SOLOSIS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b88820,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DUOSION] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b8b3d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_REUNICLUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b8e600,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DUCKLETT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b92140,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SWANNA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b93980,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VANILLITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b99470,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VANILLISH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b9d050,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VANILLUXE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba2190,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEERLING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba7280,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SAWSBUCK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba9fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EMOLGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9baee90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KARRABLAST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bb0ea0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ESCAVALIER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bb5560,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FOONGUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bbb050,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AMOONGUSS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bbe0a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FRILLISH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bc2ae0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_JELLICENT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bc71f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ALOMOMOLA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bcc7d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_JOLTIK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bd22b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GALVANTULA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bd7d30,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FERROSEED] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bdbb10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FERROTHORN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9be0df0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KLINK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9be58d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KLANG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9be8950,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KLINKLANG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bebc00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TYNAMO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bf1090,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EELEKTRIK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bf6960,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EELEKTROSS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bfbf00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ELGYEM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c01fa0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BEHEEYEM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c05a50,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LITWICK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c0b210,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LAMPENT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c0e5e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHANDELURE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c14060,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AXEW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c19a00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FRAXURE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c1d210,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HAXORUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c22c40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CUBCHOO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c28710,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BEARTIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c2b9a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CRYOGONAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c31490,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHELMET] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c36cb0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ACCELGOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c3c770,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STUNFISK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c42210,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MIENFOO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c475c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MIENSHAO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c4d020,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRUDDIGON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c52650,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOLETT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c57fd0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOLURK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c5c530,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PAWNIARD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c61b80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BISHARP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c63f70,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BOUFFALANT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c68450,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RUFFLET] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c6dfe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BRAVIARY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c72890,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VULLABY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c77c20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MANDIBUZZ] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c7d370,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HEATMOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c82e30,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DURANT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c88820,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEINO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c8d950,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZWEILOUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c932b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HYDREIGON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c98a90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LARVESTA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9c9e4a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VOLCARONA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ca3600,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COBALION] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ca8fa0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TERRAKION] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cad440,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIRIZION] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cb2110,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TORNADUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cb7910,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_THUNDURUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cbd3d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RESHIRAM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cc2de0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZEKROM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cc89b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LANDORUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cce580,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KYUREM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cd3fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KELDEO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cd9530,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MELOETTA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cde930,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GENESECT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce4240,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_UNFEZANT_F] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98a8470,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FRILLISH_F] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bc2ae2,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_JELLICENT_F] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9bc71f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHADOW_WARRIOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a0e950,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BURMY_SANDY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98fd0c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BURMY_TRASH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98fd0c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WORMADAM_SANDY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98feb60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WORMADAM_TRASH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x98feb60,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHELLOS_EAST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x991aae0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GASTRODON_EAST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x991c410,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROTOM_HEAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c8b10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROTOM_WASH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c8b10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROTOM_FROST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c8b10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROTOM_FAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c8b10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROTOM_MOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99c8b10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GIRATINA_ORIGIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a09740,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHAYMIN_SKY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x962bd98,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_FIGHT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_FLYING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_POISON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_GROUND] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_ROCK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_BUG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_GHOST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_STEEL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_FIRE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_WATER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_GRASS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_ELECTRIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_PSYCHIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_ICE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_DRAGON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_DARK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BASCULIN_BLUE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b08f80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DARMANITANZEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9b1f040,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEERLING_SUMMER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba7280,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEERLING_AUTUMN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba7280,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEERLING_WINTER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba7280,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SAWSBUCK_SUMMER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba9fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SAWSBUCK_AUTUMN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba9fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SAWSBUCK_WINTER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ba9fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HIPPOPOTAS_F] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99562b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HIPPOWDON_F] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x995a7b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MELOETTA_PIROUETTE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cde930,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GENESECT_SHOCK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce4240,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GENESECT_BURN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce4240,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GENESECT_CHILL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce4240,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GENESECT_DOUSE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce4240,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHERRIM_SUN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99181b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KYUREM_BLACK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cd3fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KYUREM_WHITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cd3fe0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TORNADUS_THERIAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cb7910,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_THUNDURUS_THERIAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cbd3d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LANDORUS_THERIAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cce580,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KELDEO_RESOLUTE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cd9530,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHESPIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce82d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_QUILLADIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ce9a00,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHESNAUGHT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cecae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FENNEKIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cf09e8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BRAIXEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cf2ca8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DELPHOX] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cf55d8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FROAKIE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cf9c94,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FROGADIER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cfba34,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GRENINJA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cfe0d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BUNNELBY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d011b4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DIGGERSBY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d0279c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLETCHLING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d06410,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLETCHINDER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d082f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TALONFLAME] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d0a5b8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SCATTERBUG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d0df9c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SPEWPA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d0f2f4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LITLEO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d15b28,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PYROAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d18fe8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLABEBE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1d2c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOETTE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1fd40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLORGES] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2386c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SKIDDO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d27c94,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOGOAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d298e8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PANCHAM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2d2cc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PANGORO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2f1b4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ESPURR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d33214,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MEOWSTIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d34048,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HONEDGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d353a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DOUBLADE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d37a3c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AEGISLASH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d3a0d8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SPRITZEE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d3cc98,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AROMATISSE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d3f0a4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SWIRLIX] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d43618,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SLURPUFF] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d46320,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_INKAY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d497e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MALAMAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d4a4cc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BINACLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d4e288,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BARBARACLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d50f90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SKRELP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d54abc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRAGALGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d56d7c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CLAUNCHER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d5be80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CLAWITZER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d5d090,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HELIOPTILE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d60404,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HELIOLISK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d62fc4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TYRUNT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d66af0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TYRANTRUM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d684b4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AMAURA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d6c128,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AURORUS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d702c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SYLVEON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d7579c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HAWLUCHA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d79934,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEDENNE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d7c3ac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CARBINK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d7deb8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOOMY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d82050,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SLIGGOO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d84980,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOODRA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d88b18,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KLEFKI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d8bbfc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PHANTUMP] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d8eb98,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TREVENANT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d9280c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PUMPKABOO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d97158,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOURGEIST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d99188,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BERGMITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d9e28c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AVALUGG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9da0e4c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NOIBAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9da5274,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NOIVERN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9da7e34,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_XERNEAS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dab960,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_YVELTAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dafaf8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZYGARDE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9db4bfc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DIANCIE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dc6938,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HOOPA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dcb7a8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HOOPA_UNBOUND] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8eb1590,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VOLCANION] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dceb1c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PYROAR_FEMALE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d18fe8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MEOWSTIC_FEMALE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d34048,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AEGISLASH_BLADE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d3a0d8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARCEUS_FAIRY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9a21d90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZYGARDE_CELL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dc25a8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZYGARDE_CORE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dc25a8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZYGARDE_10] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9db9690,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZYGARDE_COMPLETE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dbc8bc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ASHGRENINJA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9cfe0d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLABEBE_BLUE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1d2c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLABEBE_ORANGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1d2c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLABEBE_YELLOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1d2c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLABEBE_WHITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1d2c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOETTE_BLUE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1fd40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOETTE_ORANGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1fd40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOETTE_YELLOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1fd40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOETTE_WHITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1fd40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLOETTE_ETERNAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d1fd40,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLORGES_BLUE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2386c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLORGES_ORANGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2386c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLORGES_YELLOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2386c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FLORGES_WHITE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d2386c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PUMPKABOO_XL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d97158,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PUMPKABOO_L] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d97158,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PUMPKABOO_M] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d97158,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOURGEIST_XL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d99188,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOURGEIST_L] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d99188,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOURGEIST_M] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d99188,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_HEART] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_DIAMOND] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_STAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_PHAROAH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_KABUKI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_LA_REINE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_MATRON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_DANDY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FURFROU_DEBUTANTE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d31ae4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_FANCY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95c79b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VENUSAUR_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8511ce0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHARIZARD_MEGA_X] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8514d28,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHARIZARD_MEGA_Y] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8514d28,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BLASTOISE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8518024,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BEEDRILL_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x851df9c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIDGEOT_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85205e8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ALAKAZAM_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x854f678,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SLOWBRO_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x855fcd4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GENGAR_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x856f70c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KANGASKHAN_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x858af14,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PINSIR_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d18fe8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GYARADOS_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x859c97c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AERODACTYL_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85a8410,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MEWTWO_MEGA_X] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85b0fc4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MEWTWO_MEGA_Y] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85b0fc4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AMPHAROS_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85cba80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STEELIX_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85e5074,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SCIZOR_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85ea850,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HERACROSS_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85ec980,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HOUNDOOM_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85fc978,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TYRANITAR_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x860e750,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SCEPTILE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8629010,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BLAZIKEN_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8625074,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SWAMPERT_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x862c2b4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GARDEVOIR_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x863afc8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SABLEYE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x867cc08,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAWILE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x867d7ac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AGGRON_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8680130,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MEDICHAM_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x865f938,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MANECTRIC_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x861727c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHARPEDO_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x861b7cc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CAMERUPT_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x864b3b4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ALTARIA_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x861e868,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BANETTE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x862f13c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ABSOL_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x865e69c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GLALIE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x86428bc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SALAMENCE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x86899d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_METAGROSS_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x866de10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LATIAS_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x861921c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LATIOS_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8699c80,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GROUDON_PRIMAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x86833e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KYOGRE_PRIMAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x86858ec,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RAYQUAZA_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8687ca4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LOPUNNY_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9926810,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GARCHOMP_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95c9570,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LUCARIO_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99541b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ABOMASNOW_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95ed3e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GALLADE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99b30c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_AUDINO_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ab69d0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DIANCIE_MEGA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dc6938,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DIALGA_PRIMAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99d98b0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PALKIA_PRIMAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x99ded10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_ARCHIPELAGO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_CONTINENTAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_ELEGANT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_GARDEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_HIGH_PLAINS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_ICY_SNOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_JUNGLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_MARINE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_MODERN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_MONSOON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_OCEAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_POKEBALL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_POLAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_RIVER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_SANDSTORM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_SAVANNA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_SUN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIVILLON_TUNDRA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9d11700,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROWLET] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dd2f44,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DARTRIX] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dd4e2c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DECIDUEYE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dd8810,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LITTEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ddd914,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TORRACAT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9de0244,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_INCINEROAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9de43dc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_POPPLIO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9de8d28,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BRIONNE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9deaac8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PRIMARINA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dedf88,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKIPEK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9df1e8c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TRUMBEAK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9df4298,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TOUCANNON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9df78a0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_YUNGOOS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dfc1ec,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GUMSHOOS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dff188,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GRUBBIN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e03d68,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CHARJABUG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e05d98,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VIKAVOLT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e08be8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CRABRAWLER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e0d3ec,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CRABOMINABLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e0e368,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ORICORIO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e11e94,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CUTIEFLY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e21aac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RIBOMBEE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e24148,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ROCKRUFF] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e27dbc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LYCANROC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e2925c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WISHIWASHI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e2bcd4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAREANIE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e2e0e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TOXAPEX] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e3107c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MUDBRAY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e35214,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MUDSDALE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e37c8c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEWPIDER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e3b294,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ARAQUANID] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e3c5ec,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_FOMANTIS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e3f2f4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LURANTIS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e411dc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MORELULL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e43d9c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SHIINOTIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e473a4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SALANDIT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e4b7cc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SALAZZLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e4edd4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STUFFUL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e53868,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BEWEAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e5522c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BOUNSWEET] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e5807c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STEENEE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e5a33c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TSAREENA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e5d420,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COMFEY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e61324,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ORANGURU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e65604,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PASSIMIAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e698e4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WIMPOD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e6cc58,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOLISOPOD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e6e240,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SANDYGAST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e72144,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PALOSSAND] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e762dc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PYUKUMUKU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e7b3e0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TYPE_NULL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e7d2c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_SHIELD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KOMALA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e88e90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TURTONATOR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e8ba50,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TOGEDEMARU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e90b54,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MIMIKYU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e927a8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BRUXISH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e955f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DRAMPA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e98300,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DHELMISE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e9c874,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_JANGMO_O] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ea11c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_HAKAMO_O] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ea1eac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KOMMO_O] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ea5b20,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TAPU_KOKO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eaac24,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TAPU_LELE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eaf6b8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TAPU_BULU] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eb4528,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_TAPU_FINI] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eb9398,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COSMOG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ebe5e4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_COSMOEM] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ec1958,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SOLGALEO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ec63ec,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LUNALA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ecb4f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NIHILEGO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ecfe3c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BUZZWOLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ed5868,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PHEROMOSA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eda96c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_XURKITREE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9edfa70,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CELESTEELA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ee4b74,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_KARTANA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eea420,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GUZZLORD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9eef524,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NECROZMA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9ef5250,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAGEARNA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9efa354,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MARSHADOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9efdd38,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RATTATA_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x852171c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RATICATE_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8521efc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_RAICHU_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85282ac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SANDSHREW_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8529a6c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SANDSLASH_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x852a3c0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_VULPIX_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8531a90,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NINETALES_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8533260,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DIGLETT_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8540c5c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DUGTRIO_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8541fcc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MEOWTH_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8543338,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PERSIAN_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8543cc8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GEODUDE_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85591f4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GRAVELER_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x855a9a8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GOLEM_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x855c590,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_GRIMER_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8568abc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MUK_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8569544,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EXEGGCUTE_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x857bb4c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_EXEGGUTOR_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x857ce2c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_CUBONE_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x857ee10,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAROWAK_A] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x857fd30,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEOXYS_ATTACK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x869bffc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEOXYS_DEFENSE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x869bffc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DEOXYS_SPEED] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x869bffc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ORICORIO_Y] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e155e4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ORICORIO_P] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e19b58,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ORICORIO_S] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e1ec5c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LYCANROC_N] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9f022ac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_WISHIWASHI_S] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9f0658c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_FIGHT] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_FLYING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_POISON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_GROUND] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_ROCK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_BUG] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_GHOST] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_STEEL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_FIRE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_WATER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_GRASS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_ELECTRIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_PSYCHIC] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_ICE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_DRAGON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_DARK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_SILVALLY_FAIRY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e80cac,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_RED] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_BLUE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_ORANGE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_YELLOW] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_INDIGO] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_GREEN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MINIOR_VIOLET] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e855f8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MIMIKYU_BUSTED] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9e927a8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MAGEARNA_P] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9efa354,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_POIPOLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9f09cdc,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NAGANADEL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9765550,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_STAKATAKA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x976d670,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_BLACEPHALON] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x97754a4,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_ZERAORA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x977cf6c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NECROZMA_MANE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9783008,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NECROZMA_WINGS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x978ae9c,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_NECROZMA_ULTRA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9792948,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_LYCANROC_DUSK] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x979a4c8,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MELTAN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95a4790,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_MELMETAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x95a4790,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_SURFING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_FLYING] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_COSPLAY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_LIBRE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_POP_STAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_ROCK_STAR] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_BELLE] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_PHD] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_ORIGINAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_HOENN] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_SINNOH] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_UNOVA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_KALOS] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_ALOLA] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_PARTNER] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x8527204,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_PICHU_SPIKY] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x85c65f0,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_XERNEAS_NATURAL] =
-	{	
+	{
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = 0x0,
+		.wav = 0x9dab960,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
