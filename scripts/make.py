@@ -8,8 +8,8 @@ import os
 #Options go here.
 ############
 
-ROM_NAME = "BPRE0.gba"  #The name of your rom
-OFFSET_TO_PUT = 0x1A00000
+ROM_NAME = "Pokemon Unbound.gba"  #The name of your rom
+OFFSET_TO_PUT = 0x18D9580
 SEARCH_FREE_SPACE = False #Set to True if you want the script to search for free space;Set to False if you don't want to search for free space as you for example update the engine
 
 #############
