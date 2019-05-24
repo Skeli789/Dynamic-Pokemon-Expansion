@@ -1,5 +1,23 @@
 # Dynamic-Pokemon-Expansion
 
+## What is this:
+A dynamic data inserter for expanding Pokemon in FireRed.
+
+## Features:
+* Dynamic insertion, meaning no worrying about repointing ever!
+* Support for as many different Pokemon (regular Pokemon, forms, etc.) as you'd like.
+* Support for different gendered forms.
+* Support for different form Pokedex entries like in Sun/Moon.
+* Support for up to 999 different Pokedex entries (not including alternate forms).
+* Support for Pokemon sprite and icon insertion.
+
+**NOTE** It is highly recommended to apply the [Complete Fire Red Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade)
+following the insertion of this hack. Otherwise, make sure to comment out the 
+line ``#define EXPAND_LEARNSETS`` in the defines file or your game will crash. 
+Additonally, if you're **not** using the Complete Fire Red Upgrade, in [bytereplacement](https://github.com/Skeli789/Dynamic-Pokemon-Expansion/blob/master/bytereplacement), 
+find the changes for the seen  and caught flag ram, and change it to some free 
+save space. Make sure to apply a saveblock hack first, though.
+
 ## Installation Instructions:
 ```
 1. Download devkitpro. Follow the instructions.
