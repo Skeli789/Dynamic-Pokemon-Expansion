@@ -98,14 +98,14 @@ elif (len(sys.argv) > 1) and sys.argv[1].upper() == 'GRAPHICS':
 	os.chdir("build")
 	for root, dirs, files in os.walk(".", topdown = False):
 		for file in files:
-			if file.startswith('IMG_'): #Don't remove image file
+			if file.startswith('IMG_'): #Remove image file
 				os.remove(os.path.join(root, file))	
 			
 else:
 	os.chdir("build")
 	for root, dirs, files in os.walk(".", topdown = False):
 		for file in files:
-			if not file.startswith('IMG_'): #Don't remove image file
+			if not file.startswith('IMG_') and not file.startswith('AUDIO_'): #Don't remove image or cry file
 				os.remove(os.path.join(root, file))	
 
 print("Directory cleaned!")

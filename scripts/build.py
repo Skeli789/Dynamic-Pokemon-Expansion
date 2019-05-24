@@ -31,12 +31,14 @@ AS = (PATH + PREFIX + 'as')
 CC = (PATH + PREFIX + 'gcc')
 LD = (PATH + PREFIX + 'ld')
 GR = ("deps/grit.exe")
+WAV2AGB = ("deps/wav2agb.exe")
 ARP = ('armips')
 OBJCOPY = (PATH + PREFIX + 'objcopy')
 SRC = './src'
 GRAPHICS = './graphics'
 ASSEMBLY = './assembly'
 STRINGS = './strings'
+AUDIO = './audio'
 BUILD = './build'
 IMAGES = '\Images'
 ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
@@ -45,6 +47,7 @@ CFLAGS = ['-mthumb', '-mno-thumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi'
 '-mno-long-calls', '-march=armv4t', '-Wall', '-Wextra','-Os', '-fira-loop-pressure', '-fipa-pta']
 
 PrintedCompilingImages = False #Used to tell the script whether or not the string "Compiling Images" has been printed
+PrintedCompilingAudio = False #Used to tell the script whether or not the strings "Compiling Cries" has been printed
 
 def run_command(cmd):
 	try:
@@ -74,6 +77,22 @@ def make_output_img_file(filename):
 	m = hashlib.md5()
 	m.update(filename.encode())
 	newfilename = os.path.join(BUILD, 'IMG_' + m.hexdigest() + '.o')
+	
+	if not os.path.isfile(filename):
+		return [newfilename, False]
+	
+	fileExists = os.path.isfile(newfilename)
+	
+	if fileExists and os.path.getmtime(newfilename) > os.path.getmtime(filename): #If the object file was created after the file was last modified
+		return [newfilename, False]
+	
+	return [newfilename, True]
+
+def make_output_audio_file(filename):
+	'''Return "AUDIO" + hash of filename to use as object filename'''
+	m = hashlib.md5()
+	m.update(filename.encode())
+	newfilename = os.path.join(BUILD, 'AUDIO_' + m.hexdigest() + '.o')
 	
 	if not os.path.isfile(filename):
 		return [newfilename, False]
@@ -193,6 +212,39 @@ def process_image(in_file):
 	os.remove(out_file)
 	return new_out_file
 
+def process_audio(in_file):
+	'''Compile Audio'''
+	out_file = in_file.split('.wav')[0] + '.s'
+
+	cmd = [WAV2AGB, in_file] + [out_file, '-c']
+	
+	out_file_list = make_output_audio_file(out_file)
+	new_out_file = out_file_list[0]
+	try:
+		if os.path.getmtime(new_out_file) > os.path.getmtime(in_file): #If the .o file was created after the image was last modified
+			return new_out_file
+		else:
+			run_command(cmd)
+	
+	except FileNotFoundError:
+		run_command(cmd) #No .o file has been created
+
+	global PrintedCompilingAudio
+	if (PrintedCompilingAudio is False):
+		print ('Compiling Cries')
+		PrintedCompilingAudio = True
+	
+	out_file_list = make_output_audio_file(out_file)
+	new_out_file = out_file_list[0]
+	if out_file_list[1] == False:
+		os.remove(out_file)
+		return new_out_file	#No point in recompiling file
+
+	cmd = [AS] + ASFLAGS + ['-c', out_file, '-o', new_out_file]
+	run_command(cmd)
+	os.remove(out_file)
+	return new_out_file
+
 def link(objects):
 	'''Link objects into one binary'''
 	linked = 'build/linked.o'
@@ -208,6 +260,8 @@ def run_glob(globstr, fn):
 	'''Glob recursively and run the processor function on each file in result'''
 	if globstr == '**/*.png' or globstr == '**/*.bmp': #Search the graphics location
 		return run_glob_graphics(globstr, fn)
+	elif globstr == '**/*.wav':
+		return run_glob_audio(globstr, fn)
 	
 	if sys.version_info > (3, 4):
 		files = glob(os.path.join(SRC, globstr), recursive = True)
@@ -224,7 +278,16 @@ def run_glob_graphics(globstr, fn):
 	else:
 		files = Path(GRAPHICS).glob(globstr)
 		return map(fn, map(str, files))
-		
+
+def run_glob_audio(globstr, fn):
+	'''Glob recursively and run the processor function on each file in result'''
+	if sys.version_info > (3, 4):
+		files = glob(os.path.join(AUDIO, globstr), recursive = True)
+		return map(fn, files)
+	else:
+		files = Path(AUDIO).glob(globstr)
+		return map(fn, map(str, files))
+
 def main():
 	starttime = datetime.now()
 	globs = {
@@ -232,7 +295,8 @@ def main():
 			'**/*.c': process_c,
 			'**/*.string': process_string,
 			'**/*.png': process_image,
-			'**/*.bmp': process_image
+			'**/*.bmp': process_image,
+			'**/*.wav': process_audio,
 	}
 		
 	# Create output directory
