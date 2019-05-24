@@ -173,6 +173,11 @@ def GetLengthOfLongestValue(dicty):
     return len(maxim)
 
 #Code Execution Begins Here
+try:
+	os.makedirs(OutputFolder)
+except FileExistsError:
+	pass
+
 SpeciesDict = DefinesDictMaker(SpeciesDefines)
 
 GeneralStructTableExtractor(0x128, SpeciesDict, OutputFolder + "Front_Pic_Table.c", "const struct CompressedSpriteSheet", "gMonFrontPicTable", "NUM_SPECIES", NumberOfPokemon, 8, [], [4, 2, 2], [False, False, SpeciesDict], False, True, 0)
