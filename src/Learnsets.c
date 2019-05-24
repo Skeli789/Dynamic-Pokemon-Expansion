@@ -1,6 +1,8 @@
 #include "defines.h"
 #include "../include/moves.h"
 
+#ifdef EXPAND_LEARNSETS
+
 #define LEVEL_UP_MOVE(lvl, move) {move, lvl}
 #define LEVEL_UP_END {0x0, 0xFF}
 
@@ -18154,3 +18156,4 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_PICHU_SPIKY] = sSpeciesPichuLevelUpLearnset,
 	[SPECIES_XERNEAS_NATURAL] = sSpeciesXerneasLevelUpLearnset,
 };
+#endif
