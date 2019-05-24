@@ -110,8 +110,6 @@ const struct CompressedSpritePalette* GetMonSpritePalStructFromOtIdPersonality(u
     u32 shinyValue;
 	species = TryGetFemaleGenderedSpecies(species, personality);
 
-	break_func(5);
-
     shinyValue = HIHALF(otId) ^ LOHALF(otId) ^ HIHALF(personality) ^ LOHALF(personality);
     if (shinyValue < 8)
         return &gMonShinyPaletteTable[species];
