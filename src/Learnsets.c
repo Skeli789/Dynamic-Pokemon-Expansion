@@ -15600,7 +15600,7 @@ static const struct LevelUpMove sSalanditLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove szleLevelUpLearnset[] = {
+static const struct LevelUpMove sSalazzleLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 0, MOVE_CAPTIVATE),
 	LEVEL_UP_MOVE( 1, MOVE_DISABLE),
 	LEVEL_UP_MOVE( 1, MOVE_ENCORE),
