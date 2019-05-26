@@ -10977,7 +10977,7 @@ static const struct LevelUpMove sLilligantLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sBasculinRedLevelUpLearnset[] = {
+static const struct LevelUpMove sBasculinLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TAILWHIP),
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
 	LEVEL_UP_MOVE( 1, MOVE_WATERGUN),
@@ -17656,7 +17656,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_WHIMSICOTT] = sWhimsicottLevelUpLearnset,
 	[SPECIES_PETILIL] = sPetililLevelUpLearnset,
 	[SPECIES_LILLIGANT] = sLilligantLevelUpLearnset,
-	[SPECIES_BASCULIN_RED] = sBasculinRedLevelUpLearnset,
+	[SPECIES_BASCULIN_RED] = sBasculinLevelUpLearnset,
 	[SPECIES_SANDILE] = sSandileLevelUpLearnset,
 	[SPECIES_KROKOROK] = sKrokorokLevelUpLearnset,
 	[SPECIES_KROOKODILE] = sKrookodileLevelUpLearnset,
@@ -17789,14 +17789,14 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_ARCEUS_ICE] = sArceusLevelUpLearnset,
 	[SPECIES_ARCEUS_DRAGON] = sArceusLevelUpLearnset,
 	[SPECIES_ARCEUS_DARK] = sArceusLevelUpLearnset,
-	[SPECIES_BASCULIN_BLUE] = sArceusLevelUpLearnset,
-	[SPECIES_DARMANITANZEN] = sArceusLevelUpLearnset,
-	[SPECIES_DEERLING_SUMMER] = sArceusLevelUpLearnset,
-	[SPECIES_DEERLING_AUTUMN] = sArceusLevelUpLearnset,
-	[SPECIES_DEERLING_WINTER] = sArceusLevelUpLearnset,
-	[SPECIES_SAWSBUCK_SUMMER] = sArceusLevelUpLearnset,
-	[SPECIES_SAWSBUCK_AUTUMN] = sArceusLevelUpLearnset,
-	[SPECIES_SAWSBUCK_WINTER] = sArceusLevelUpLearnset,
+	[SPECIES_BASCULIN_BLUE] = sBasculinLevelUpLearnset,
+	[SPECIES_DARMANITANZEN] = sDarmanitanLevelUpLearnset,
+	[SPECIES_DEERLING_SUMMER] = sDeerlingLevelUpLearnset,
+	[SPECIES_DEERLING_AUTUMN] = sDeerlingLevelUpLearnset,
+	[SPECIES_DEERLING_WINTER] = sDeerlingLevelUpLearnset,
+	[SPECIES_SAWSBUCK_SUMMER] = sSawsbuckLevelUpLearnset,
+	[SPECIES_SAWSBUCK_AUTUMN] = sSawsbuckLevelUpLearnset,
+	[SPECIES_SAWSBUCK_WINTER] = sSawsbuckLevelUpLearnset,
 	[SPECIES_HIPPOPOTAS_F] = sHippopotasLevelUpLearnset,
 	[SPECIES_HIPPOWDON_F] = sHippowdonLevelUpLearnset,
 	[SPECIES_MELOETTA_PIROUETTE] = sMeloettaLevelUpLearnset,
