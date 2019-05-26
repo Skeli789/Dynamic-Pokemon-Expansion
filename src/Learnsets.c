@@ -11025,7 +11025,7 @@ static const struct LevelUpMove sLilligantLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sBasculinRedLevelUpLearnset[] = {
+static const struct LevelUpMove sBasculinLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TAILWHIP),
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
 	LEVEL_UP_MOVE( 1, MOVE_WATERGUN),
@@ -17715,7 +17715,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_WHIMSICOTT] = sWhimsicottLevelUpLearnset,
 	[SPECIES_PETILIL] = sPetililLevelUpLearnset,
 	[SPECIES_LILLIGANT] = sLilligantLevelUpLearnset,
-	[SPECIES_BASCULIN_RED] = sBasculinRedLevelUpLearnset,
+	[SPECIES_BASCULIN_RED] = sBasculinLevelUpLearnset,
 	[SPECIES_SANDILE] = sSandileLevelUpLearnset,
 	[SPECIES_KROKOROK] = sKrokorokLevelUpLearnset,
 	[SPECIES_KROOKODILE] = sKrookodileLevelUpLearnset,
