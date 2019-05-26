@@ -1,7 +1,8 @@
 #include "defines.h"
-#include "../include/pokedex.h"
-#include "../include/graphics.h"
 #include "../include/evolution.h"
+#include "../include/graphics.h"
+#include "../include/main.h"
+#include "../include/pokedex.h"
 
 //Backsprite battle start
 
@@ -142,6 +143,8 @@ u16 TryGetFemaleGenderedSpecies(u16 species, u32 personality)
 				break;
 		}
 	}
+	else if (species == SPECIES_XERNEAS && !gMain.inBattle)
+		species = SPECIES_XERNEAS_NATURAL;
 	
 	return species;
 }

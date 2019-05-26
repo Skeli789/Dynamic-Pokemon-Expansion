@@ -17,7 +17,7 @@ gEnemyMonElevation 080356F8
 gMonPaletteTable 08000130
 gMonShinyPaletteTable 08000134
 
-#Evolution Table
+gEvolutionTable 08042F6C
 gPokedexEntries 08088E34
 gHabitatPtrsTable 08106888
 gSpeciesToNationalPokedexNum 0804323C
