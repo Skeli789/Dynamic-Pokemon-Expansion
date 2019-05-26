@@ -7,6 +7,8 @@ __umodsi3 = 0x081E4684|1;
 memcpy_ = 0x081E5E78|1;
 memset_ = 0x081E5ED8|1;
 
+gMain = 0x30030F0;
+
 GetGenderFromSpeciesAndPersonality = 0x803F78C | 1;
 SpeciesToNationalPokedexNum = 0x8043298 | 1;
 DrawSpindaSpots = 0x8043458 | 1;
