@@ -17,14 +17,14 @@ struct MonCoords
 
 struct CompressedSpriteSheet
 {
-    u32 data; //const u8* data;  // LZ77 compressed pixel data
+    const u8* data;  // LZ77 compressed pixel data
     u16 size;        // Uncompressed size of pixel data
     u16 tag;
 };
 
 struct CompressedSpritePalette
 {
-    u32 data; //const u8* data;  // LZ77 compressed palette data
+    const u8* data;  // LZ77 compressed palette data
     u16 tag;
 	u16 unused;
 };

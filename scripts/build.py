@@ -74,9 +74,14 @@ def make_output_file(filename):
 
 def make_output_img_file(filename):
 	'''Return "IMG" + hash of filename to use as object filename'''
-	m = hashlib.md5()
-	m.update(filename.encode())
-	newfilename = os.path.join(BUILD, 'IMG_' + m.hexdigest() + '.o')
+	if "frontspr" in filename:
+		newfilename = os.path.join(BUILD, 'IMG_Front' + filename.split("Sprite")[1].split(".s")[0] + '.o')
+	elif "backspr" in filename:
+		newfilename = os.path.join(BUILD, 'IMG_Back' + filename.split("Sprite")[1].split(".s")[0] + '.o')
+	else:
+		m = hashlib.md5()
+		m.update(filename.encode())
+		newfilename = os.path.join(BUILD, 'IMG_' + m.hexdigest() + '.o')
 	
 	if not os.path.isfile(filename):
 		return [newfilename, False]
@@ -90,9 +95,7 @@ def make_output_img_file(filename):
 
 def make_output_audio_file(filename):
 	'''Return "AUDIO" + hash of filename to use as object filename'''
-	m = hashlib.md5()
-	m.update(filename.encode())
-	newfilename = os.path.join(BUILD, 'AUDIO_' + m.hexdigest() + '.o')
+	newfilename = os.path.join(BUILD, 'SND_' + filename.split("gCry")[1].split(".s")[0] + '.o')
 	
 	if not os.path.isfile(filename):
 		return [newfilename, False]
@@ -164,53 +167,60 @@ def process_string(filename):
     os.remove(out_file)
     return new_out_file
 
-def process_image(in_file):
-	'''Compile Image'''
-	if '.bmp' in in_file:
-		out_file = in_file.split('.bmp')[0] + '.s'
-	else:
-		out_file = in_file.split('.png')[0] + '.s'
-	
-	namelist = in_file.split("\\") #Get path of grit flags
-	namelist.pop(len(namelist) - 1)
-	flags = "".join(str(i) + "\\" for i in namelist)
-	flags += "gritflags.txt"
-	
-	try:
-		with open(flags, 'r') as file:
-			for line in file:
-				cmd = [GR, in_file] + line.split() + ['-o', out_file]
-				break #only needs the first line
-	except FileNotFoundError:
-		print("No gritflags.txt found in directory with " + in_file)
-		return 0
-	
-	out_file_list = make_output_img_file(out_file)
-	new_out_file = out_file_list[0]
-	try:
-		if os.path.getmtime(new_out_file) > os.path.getmtime(in_file): #If the .o file was created after the image was last modified
-			return new_out_file
-		else:
-			run_command(cmd)
-	
-	except FileNotFoundError:
-		run_command(cmd) #No .o file has been created
-
+def TryPrintCompilingGraphics():
 	global PrintedCompilingImages
-	if (PrintedCompilingImages is False):
-		print ('Compiling Images')
+	if not PrintedCompilingImages:
+		print("Compiling images.")
 		PrintedCompilingImages = True
-	
-	out_file_list = make_output_img_file(out_file)
-	new_out_file = out_file_list[0]
-	if out_file_list[1] == False:
-		os.remove(out_file)
-		return new_out_file	#No point in recompiling file
 
-	cmd = [AS] + ASFLAGS + ['-c', out_file, '-o', new_out_file]
-	run_command(cmd)
-	os.remove(out_file)
-	return new_out_file
+def ProcessSpriteGraphics():
+	with open(GRAPHICS + "/backspriteflags.grit", "r") as file:
+		for line in file:
+			backflags = line.split()
+			break
+			
+	with open(GRAPHICS + "/frontspriteflags.grit", "r") as file:
+		for line in file:
+			frontflags = line.split()
+			break
+
+	try:
+		os.makedirs(SRC + "/generated")
+	except FileExistsError:
+		pass
+	
+	backsprites = [file for file in glob(GRAPHICS + "/backspr" + "**/*.png", recursive=True)]
+	frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
+
+	for i in range(40 + 1): #Split the sprite files into 41 files each
+		if i == 40:
+			sprites = frontsprites[len(frontsprites) // 40 * i :] #Rest of the sprites
+		else:
+			sprites = frontsprites[len(frontsprites) // 40 * i : len(frontsprites) // 40 * (i + 1)]
+
+		if not os.path.isfile(SRC + "/generated/frontsprites" + str(i) + ".s"):
+			TryPrintCompilingGraphics()
+			run_command([GR] + sprites + frontflags + ['-o'] + [os.path.join('src', 'generated', 'frontsprites' + str(i) + '.s')])
+		else:
+			for sprite in sprites:
+				if os.path.getmtime(sprite) > os.path.getmtime(os.path.join(SRC, 'generated/frontsprites' + str(i) + '.s')):
+					TryPrintCompilingGraphics()
+					run_command([GR] + sprites + frontflags + ['-o', os.path.join(SRC, 'generated/frontsprites' + str(i) + '.s')]) #Rebuild this file
+					break
+		
+		if i == 40:
+			sprites = backsprites[len(backsprites) // 40 * i :] #Rest of the sprites
+		else:
+			sprites = backsprites[len(backsprites) // 40 * i : len(backsprites) // 40 * (i + 1)]
+		if not os.path.isfile(SRC + "/generated/backsprites" + str(i) + ".s"):
+			TryPrintCompilingGraphics()
+			run_command([GR] + sprites + backflags + ['-o'] + [os.path.join('src', 'generated', 'backsprites' + str(i) + '.s')])
+		else:
+			for sprite in sprites:
+				if os.path.getmtime(sprite) > os.path.getmtime(os.path.join(SRC, 'generated/backsprites' + str(i) + '.s')):
+					TryPrintCompilingGraphics()
+					run_command([GR] + sprites + backflags + ['-o', os.path.join(SRC, 'generated/backsprites' + str(i) + '.s')]) #Rebuild this file
+					break
 
 def process_audio(in_file):
 	'''Compile Audio'''
@@ -294,8 +304,8 @@ def main():
 			'**/*.s': process_assembly,
 			'**/*.c': process_c,
 			'**/*.string': process_string,
-			'**/*.png': process_image,
-			'**/*.bmp': process_image,
+			#'**/*.png': process_image,
+			#'**/*.bmp': process_image,
 			'**/*.wav': process_audio,
 	}
 		
@@ -304,7 +314,9 @@ def main():
 		os.makedirs(BUILD)
 	except FileExistsError:
 		pass
-		
+	
+	ProcessSpriteGraphics()
+
 	# Gather source files and process them
 	objects = itertools.starmap(run_glob, globs.items())
 	

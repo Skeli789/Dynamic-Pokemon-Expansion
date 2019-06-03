@@ -2,6 +2,8 @@ a.exe
 *.gba
 build/*
 extracted/*
+src/generated/*
+scripts/__pycache__
 *.sgm
 *.dmp
 *.bak

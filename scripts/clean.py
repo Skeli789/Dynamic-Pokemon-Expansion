@@ -12,6 +12,7 @@ GRAPHICS = './graphics'
 ASSEMBLY = './assembly'
 STRINGS = './strings'
 BUILD = './build'
+GENERATED = SRC + '/generated'
 
 def PutFileNameInRightFormat(filename):
 	filename = filename.split('/')
@@ -88,6 +89,11 @@ if (len(sys.argv) > 1) and sys.argv[1].upper() == 'ALL':
 				os.remove(os.path.join(root, file))
 
 elif (len(sys.argv) > 1) and sys.argv[1].upper() == 'GRAPHICS':
+	try:
+		shutil.rmtree(GENERATED)
+	except:
+		pass
+
 	os.chdir("graphics")
 	for root, dirs, files in os.walk(".", topdown = False):
 		for file in files:
@@ -105,7 +111,7 @@ else:
 	os.chdir("build")
 	for root, dirs, files in os.walk(".", topdown = False):
 		for file in files:
-			if not file.startswith('IMG_') and not file.startswith('AUDIO_'): #Don't remove image or cry file
+			if not file.startswith('IMG_') and not file.startswith('SND_'): #Don't remove image or cry file
 				os.remove(os.path.join(root, file))	
 
 print("Directory cleaned!")
