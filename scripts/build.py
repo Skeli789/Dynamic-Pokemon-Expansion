@@ -46,7 +46,6 @@ LDFLAGS = ['BPRE.ld', '-T', 'linker.ld']
 CFLAGS = ['-mthumb', '-mno-thumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
 '-mno-long-calls', '-march=armv4t', '-Wall', '-Wextra','-Os', '-fira-loop-pressure', '-fipa-pta']
 
-PrintedCompilingImages = False #Used to tell the script whether or not the string "Compiling Images" has been printed
 PrintedCompilingAudio = False #Used to tell the script whether or not the strings "Compiling Cries" has been printed
 
 def run_command(cmd):
@@ -167,12 +166,6 @@ def process_string(filename):
     os.remove(out_file)
     return new_out_file
 
-def TryPrintCompilingGraphics():
-	global PrintedCompilingImages
-	if not PrintedCompilingImages:
-		print("Compiling images.")
-		PrintedCompilingImages = True
-
 def ProcessSpriteGraphics():
 	with open(GRAPHICS + "/backspriteflags.grit", "r") as file:
 		for line in file:
@@ -184,6 +177,11 @@ def ProcessSpriteGraphics():
 			frontflags = line.split()
 			break
 
+	with open(GRAPHICS + "/iconspriteflags.grit", "r") as file:
+		for line in file:
+			iconflags = line.split()
+			break
+
 	try:
 		os.makedirs(SRC + "/generated")
 	except FileExistsError:
@@ -191,36 +189,46 @@ def ProcessSpriteGraphics():
 	
 	backsprites = [file for file in glob(GRAPHICS + "/backspr" + "**/*.png", recursive=True)]
 	frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
+	iconsprites = [file for file in glob(GRAPHICS + "/pokeicon" + "**/*.png", recursive=True)]
 
-	for i in range(40 + 1): #Split the sprite files into 41 files each
-		if i == 40:
-			sprites = frontsprites[len(frontsprites) // 40 * i :] #Rest of the sprites
-		else:
-			sprites = frontsprites[len(frontsprites) // 40 * i : len(frontsprites) // 40 * (i + 1)]
+	print("Processing Front Sprites")
+	combinedFile = open(os.path.join('SRC', 'generated', 'frontsprites.s'), 'w')
+	for sprite in frontsprites:
+		assembled = sprite.split('.png')[0] + '.s'
 
-		if not os.path.isfile(SRC + "/generated/frontsprites" + str(i) + ".s"):
-			TryPrintCompilingGraphics()
-			run_command([GR] + sprites + frontflags + ['-o'] + [os.path.join('src', 'generated', 'frontsprites' + str(i) + '.s')])
-		else:
-			for sprite in sprites:
-				if os.path.getmtime(sprite) > os.path.getmtime(os.path.join(SRC, 'generated/frontsprites' + str(i) + '.s')):
-					TryPrintCompilingGraphics()
-					run_command([GR] + sprites + frontflags + ['-o', os.path.join(SRC, 'generated/frontsprites' + str(i) + '.s')]) #Rebuild this file
-					break
-		
-		if i == 40:
-			sprites = backsprites[len(backsprites) // 40 * i :] #Rest of the sprites
-		else:
-			sprites = backsprites[len(backsprites) // 40 * i : len(backsprites) // 40 * (i + 1)]
-		if not os.path.isfile(SRC + "/generated/backsprites" + str(i) + ".s"):
-			TryPrintCompilingGraphics()
-			run_command([GR] + sprites + backflags + ['-o'] + [os.path.join('src', 'generated', 'backsprites' + str(i) + '.s')])
-		else:
-			for sprite in sprites:
-				if os.path.getmtime(sprite) > os.path.getmtime(os.path.join(SRC, 'generated/backsprites' + str(i) + '.s')):
-					TryPrintCompilingGraphics()
-					run_command([GR] + sprites + backflags + ['-o', os.path.join(SRC, 'generated/backsprites' + str(i) + '.s')]) #Rebuild this file
-					break
+		if (not os.path.isfile(assembled)
+		or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+			run_command([GR, sprite] + frontflags + ['-o', assembled])
+
+		with open(assembled, 'r') as tempFile:
+			combinedFile.write(tempFile.read())
+	combinedFile.close()
+
+	print("Processing Back Sprites")
+	combinedFile = open(os.path.join('SRC', 'generated', 'backsprites.s'), 'w')
+	for sprite in backsprites:
+		assembled = sprite.split('.png')[0] + '.s'
+
+		if (not os.path.isfile(assembled)
+		or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+			run_command([GR, sprite] + backflags + ['-o', assembled])
+
+		with open(assembled, 'r') as tempFile:
+			combinedFile.write(tempFile.read())
+	combinedFile.close()
+	
+	print("Processing Icon Sprites")
+	combinedFile = open(os.path.join('SRC', 'generated', 'iconsprites.s'), 'w')
+	for sprite in iconsprites:
+		assembled = sprite.split('.png')[0] + '.s'
+
+		if (not os.path.isfile(assembled)
+		or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+			run_command([GR, sprite] + iconflags + ['-o', assembled])
+
+		with open(assembled, 'r') as tempFile:
+			combinedFile.write(tempFile.read())
+	combinedFile.close()
 
 def process_audio(in_file):
 	'''Compile Audio'''
