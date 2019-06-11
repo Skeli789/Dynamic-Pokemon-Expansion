@@ -190,5 +190,3 @@ GeneralTableExtractor(0x356F8, SpeciesDict, False, OutputFolder + "Enemy_Elevati
 GeneralTableExtractor(0x138, SpeciesDict, False, OutputFolder + "Icon_Table.c", "const u32", "gMonIconTable", "", "NUM_SPECIES", 0, NumberOfPokemon, 4, False)
 GeneralTableExtractor(0x13C, SpeciesDict, False, OutputFolder + "Icon_Palette_Table.c", "const u8", "gMonIconPaletteIndices", "", "NUM_SPECIES", 0, NumberOfPokemon, 1, False)
 GeneralTableExtractor(0x105E14, SpeciesDict, False, OutputFolder + "Footprint_Table.c", "const u32", "gMonFootprintTable", "", "NUM_SPECIES", 0, NumberOfPokemon, 4, False)
-GeneralStructTableExtractor(0x72114, SpeciesDict, OutputFolder + "Cry_Table.c", "const struct ToneData", "gCryTable", "NUM_SPECIES", NumberOfPokemon, 12, ["type", "key", "length", "pan_sweep", "wav", "attack", "decay", "sustain", "release"], [1, 1, 1, 1, 4, 1, 1, 1, 1], [], True, False, 0)
-GeneralStructTableExtractor(0x72104, SpeciesDict, OutputFolder + "Cry_Table_2.c", "const struct ToneData", "gCryTable2", "NUM_SPECIES", NumberOfPokemon, 12, ["type", "key", "length", "pan_sweep", "wav", "attack", "decay", "sustain", "release"], [1, 1, 1, 1, 4, 1, 1, 1, 1], [], True, False, 0)
