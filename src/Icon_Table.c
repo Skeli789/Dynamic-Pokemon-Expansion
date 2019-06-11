@@ -1,7 +1,7 @@
 #include "defines.h"
 #include "../include/sprite_data.h"
 
-const u8* gMonIconTable[NUM_SPECIES] =
+const u8* const gMonIconTable[NUM_SPECIES] =
 {
 	[SPECIES_NONE] =                 gIconSprite000NoneTiles,
 	[SPECIES_BULBASAUR] =            gIconSprite001BulbasaurTiles,

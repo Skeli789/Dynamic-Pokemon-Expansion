@@ -32,6 +32,25 @@ def PutFileNameInRightFormat(filename):
 
 	return newFileName
 
+def TryRemoveGeneratedRepoints():
+	try:
+		os.remove('generatedrepoints')
+	except:
+		pass
+
+def TryRemoveGeneratedImageAssembly():
+	try:
+		shutil.rmtree(GENERATED)
+
+		os.chdir("graphics")
+		for root, dirs, files in os.walk(".", topdown = False):
+			for file in files:
+				if file.endswith('.h') or file.endswith('.s'):
+					os.remove(os.path.join(root, file))
+
+	except:
+		pass
+
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 try:
@@ -44,7 +63,6 @@ if len(sys.argv) > 1:
 	if len(sys.argv) > 2 and sys.argv[1].upper() == 'FILE':
 		try:
 			filename = PutFileNameInRightFormat(sys.argv[2])
-			print(filename)
 			m = hashlib.md5()
 			m.update(filename.encode())
 			newfilename = os.path.join(BUILD, m.hexdigest() + '.o')
@@ -53,6 +71,9 @@ if len(sys.argv) > 1:
 				os.remove(newfilename)
 			except FileNotFoundError:
 				os.remove(BUILD + "\\IMG_" + newfilename.split('\\')[1])
+			except FileNotFoundError:
+				os.remove(BUILD + "\\SND_" + newfilename.split('\\')[1])
+
 			print('"Build for ' + sys.argv[2] + '" removed successfully!')
 			sys.exit(1)
 		except:
@@ -60,16 +81,11 @@ if len(sys.argv) > 1:
 			sys.exit(1)
 	
 	#Don't remove generated repoints if the user only wants to remove the build.
-	elif sys.argv[1].upper() != 'BUILD' and sys.argv[1].upper() != 'GRAPHICS':
-		try:
-			os.remove('generatedrepoints')
-		except:
-			pass
+	elif sys.argv[1].upper() != 'BUILD' and sys.argv[1].upper() != 'GRAPHICS' and sys.argv[1].upper() != 'AUDIO':
+		TryRemoveGeneratedRepoints()
+
 else:
-	try:
-		os.remove('generatedrepoints')
-	except:
-		pass
+	TryRemoveGeneratedRepoints()
 
 try:
 	os.remove('offsets.ini')
@@ -82,36 +98,39 @@ if (len(sys.argv) > 1) and sys.argv[1].upper() == 'ALL':
 	except:
 		pass	
 
-	os.chdir("graphics")
-	for root, dirs, files in os.walk(".", topdown = False):
-		for file in files:
-			if file.endswith('.h'):
-				os.remove(os.path.join(root, file))
+	TryRemoveGeneratedImageAssembly()
 
 elif (len(sys.argv) > 1) and sys.argv[1].upper() == 'GRAPHICS':
 	try:
-		shutil.rmtree(GENERATED)
+		TryRemoveGeneratedImageAssembly()
+
+		os.chdir(dir_path.split('\\scripts')[0])
+		os.chdir("build")
+		for root, dirs, files in os.walk(".", topdown = False):
+			for file in files:
+				if file.startswith('IMG_'): #Remove image file
+					os.remove(os.path.join(root, file))
 	except:
 		pass
 
-	os.chdir("graphics")
-	for root, dirs, files in os.walk(".", topdown = False):
-		for file in files:
-			if file.endswith('.h'):
-				os.remove(os.path.join(root, file))
-	
-	os.chdir(dir_path.split('\\scripts')[0])
-	os.chdir("build")
-	for root, dirs, files in os.walk(".", topdown = False):
-		for file in files:
-			if file.startswith('IMG_'): #Remove image file
-				os.remove(os.path.join(root, file))	
-			
+elif (len(sys.argv) > 1) and sys.argv[1].upper() == 'AUDIO':
+	try:
+		os.chdir("build")
+		for root, dirs, files in os.walk(".", topdown = False):
+			for file in files:
+				if file.startswith('SND_'): #Remove sound file
+					os.remove(os.path.join(root, file))
+	except:
+		pass
+
 else:
-	os.chdir("build")
-	for root, dirs, files in os.walk(".", topdown = False):
-		for file in files:
-			if not file.startswith('IMG_') and not file.startswith('SND_'): #Don't remove image or cry file
-				os.remove(os.path.join(root, file))	
+	try:
+		os.chdir("build")
+		for root, dirs, files in os.walk(".", topdown = False):
+			for file in files:
+				if not file.startswith('IMG_') and not file.startswith('SND_'): #Don't remove image or cry file
+					os.remove(os.path.join(root, file))
+	except:
+		pass
 
 print("Directory cleaned!")

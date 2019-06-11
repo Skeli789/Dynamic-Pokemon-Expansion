@@ -191,44 +191,56 @@ def ProcessSpriteGraphics():
 	frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
 	iconsprites = [file for file in glob(GRAPHICS + "/pokeicon" + "**/*.png", recursive=True)]
 
-	print("Processing Front Sprites")
-	combinedFile = open(os.path.join('SRC', 'generated', 'frontsprites.s'), 'w')
-	for sprite in frontsprites:
-		assembled = sprite.split('.png')[0] + '.s'
+	assembledFrontSprites = os.path.join('SRC', 'generated', 'frontsprites.s')
+	if (not os.path.isfile(assembledFrontSprites)
+	or max(os.path.getmtime(file) for file in frontsprites) > os.path.getmtime(assembledFrontSprites)): #If a front sprite has been modified
+		print("Processing Front Sprites")
+		combinedFile = open(assembledFrontSprites, 'w')
+		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+		for sprite in frontsprites:
+			assembled = sprite.split('.png')[0] + '.s'
 
-		if (not os.path.isfile(assembled)
-		or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
-			run_command([GR, sprite] + frontflags + ['-o', assembled])
+			if (not os.path.isfile(assembled)
+			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+				run_command([GR, sprite] + frontflags + ['-o', assembled])
 
-		with open(assembled, 'r') as tempFile:
-			combinedFile.write(tempFile.read())
-	combinedFile.close()
+			with open(assembled, 'r') as tempFile:
+				combinedFile.write(tempFile.read())
+		combinedFile.close()
 
-	print("Processing Back Sprites")
-	combinedFile = open(os.path.join('SRC', 'generated', 'backsprites.s'), 'w')
-	for sprite in backsprites:
-		assembled = sprite.split('.png')[0] + '.s'
+	assembledBackSprites = os.path.join('SRC', 'generated', 'backsprites.s')
+	if (not os.path.isfile(assembledBackSprites)
+	or max(os.path.getmtime(file) for file in backsprites) > os.path.getmtime(assembledBackSprites)): #If a back sprite has been modified
+		print("Processing Back Sprites")
+		combinedFile = open(assembledBackSprites, 'w')
+		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+		for sprite in backsprites:
+			assembled = sprite.split('.png')[0] + '.s'
 
-		if (not os.path.isfile(assembled)
-		or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
-			run_command([GR, sprite] + backflags + ['-o', assembled])
+			if (not os.path.isfile(assembled)
+			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+				run_command([GR, sprite] + backflags + ['-o', assembled])
 
-		with open(assembled, 'r') as tempFile:
-			combinedFile.write(tempFile.read())
-	combinedFile.close()
-	
-	print("Processing Icon Sprites")
-	combinedFile = open(os.path.join('SRC', 'generated', 'iconsprites.s'), 'w')
-	for sprite in iconsprites:
-		assembled = sprite.split('.png')[0] + '.s'
+			with open(assembled, 'r') as tempFile:
+				combinedFile.write(tempFile.read())
+		combinedFile.close()
 
-		if (not os.path.isfile(assembled)
-		or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
-			run_command([GR, sprite] + iconflags + ['-o', assembled])
+	assembledIconSprites = os.path.join('SRC', 'generated', 'iconsprites.s')
+	if (not os.path.isfile(assembledIconSprites)	
+	or max(os.path.getmtime(file) for file in iconsprites) > os.path.getmtime(assembledIconSprites)): #If a icon sprite has been modified
+		print("Processing Icon Sprites")
+		combinedFile = open(assembledIconSprites, 'w')
+		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+		for sprite in iconsprites:
+			assembled = sprite.split('.png')[0] + '.s'
 
-		with open(assembled, 'r') as tempFile:
-			combinedFile.write(tempFile.read())
-	combinedFile.close()
+			if (not os.path.isfile(assembled)
+			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+				run_command([GR, sprite] + iconflags + ['-o', assembled])
+
+			with open(assembled, 'r') as tempFile:
+				combinedFile.write(tempFile.read())
+		combinedFile.close()
 
 def process_audio(in_file):
 	'''Compile Audio'''
