@@ -850,7 +850,7 @@ struct AlternateDexEntries
 #define NATIONAL_DEX_MELTAN 808
 #define NATIONAL_DEX_MELMETAL 809
 
-#define NUM_DEX_ENTRIES NATIONAL_DEX_MELMETAL
+#define NUM_DEX_ENTRIES NATIONAL_DEX_MELMETAL //Not +1 b/c used like this for some asm
 
 extern const u8 DEX_ENTRY_TURTWIG[];
 extern const u8 DEX_ENTRY_GROTLE[];

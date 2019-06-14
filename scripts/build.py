@@ -46,7 +46,6 @@ LDFLAGS = ['BPRE.ld', '-T', 'linker.ld']
 CFLAGS = ['-mthumb', '-mno-thumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
 '-mno-long-calls', '-march=armv4t', '-Wall', '-Wextra','-Os', '-fira-loop-pressure', '-fipa-pta']
 
-PrintedCompilingImages = False #Used to tell the script whether or not the string "Compiling Images" has been printed
 PrintedCompilingAudio = False #Used to tell the script whether or not the strings "Compiling Cries" has been printed
 
 def run_command(cmd):
@@ -74,9 +73,14 @@ def make_output_file(filename):
 
 def make_output_img_file(filename):
 	'''Return "IMG" + hash of filename to use as object filename'''
-	m = hashlib.md5()
-	m.update(filename.encode())
-	newfilename = os.path.join(BUILD, 'IMG_' + m.hexdigest() + '.o')
+	if "frontspr" in filename:
+		newfilename = os.path.join(BUILD, 'IMG_Front' + filename.split("Sprite")[1].split(".s")[0] + '.o')
+	elif "backspr" in filename:
+		newfilename = os.path.join(BUILD, 'IMG_Back' + filename.split("Sprite")[1].split(".s")[0] + '.o')
+	else:
+		m = hashlib.md5()
+		m.update(filename.encode())
+		newfilename = os.path.join(BUILD, 'IMG_' + m.hexdigest() + '.o')
 	
 	if not os.path.isfile(filename):
 		return [newfilename, False]
@@ -90,9 +94,7 @@ def make_output_img_file(filename):
 
 def make_output_audio_file(filename):
 	'''Return "AUDIO" + hash of filename to use as object filename'''
-	m = hashlib.md5()
-	m.update(filename.encode())
-	newfilename = os.path.join(BUILD, 'AUDIO_' + m.hexdigest() + '.o')
+	newfilename = os.path.join(BUILD, 'SND_' + filename.split("gCry")[1].split(".s")[0] + '.o')
 	
 	if not os.path.isfile(filename):
 		return [newfilename, False]
@@ -164,53 +166,81 @@ def process_string(filename):
     os.remove(out_file)
     return new_out_file
 
-def process_image(in_file):
-	'''Compile Image'''
-	if '.bmp' in in_file:
-		out_file = in_file.split('.bmp')[0] + '.s'
-	else:
-		out_file = in_file.split('.png')[0] + '.s'
-	
-	namelist = in_file.split("\\") #Get path of grit flags
-	namelist.pop(len(namelist) - 1)
-	flags = "".join(str(i) + "\\" for i in namelist)
-	flags += "gritflags.txt"
-	
-	try:
-		with open(flags, 'r') as file:
-			for line in file:
-				cmd = [GR, in_file] + line.split() + ['-o', out_file]
-				break #only needs the first line
-	except FileNotFoundError:
-		print("No gritflags.txt found in directory with " + in_file)
-		return 0
-	
-	out_file_list = make_output_img_file(out_file)
-	new_out_file = out_file_list[0]
-	try:
-		if os.path.getmtime(new_out_file) > os.path.getmtime(in_file): #If the .o file was created after the image was last modified
-			return new_out_file
-		else:
-			run_command(cmd)
-	
-	except FileNotFoundError:
-		run_command(cmd) #No .o file has been created
+def ProcessSpriteGraphics():
+	with open(GRAPHICS + "/backspriteflags.grit", "r") as file:
+		for line in file:
+			backflags = line.split()
+			break
+			
+	with open(GRAPHICS + "/frontspriteflags.grit", "r") as file:
+		for line in file:
+			frontflags = line.split()
+			break
 
-	global PrintedCompilingImages
-	if (PrintedCompilingImages is False):
-		print ('Compiling Images')
-		PrintedCompilingImages = True
-	
-	out_file_list = make_output_img_file(out_file)
-	new_out_file = out_file_list[0]
-	if out_file_list[1] == False:
-		os.remove(out_file)
-		return new_out_file	#No point in recompiling file
+	with open(GRAPHICS + "/iconspriteflags.grit", "r") as file:
+		for line in file:
+			iconflags = line.split()
+			break
 
-	cmd = [AS] + ASFLAGS + ['-c', out_file, '-o', new_out_file]
-	run_command(cmd)
-	os.remove(out_file)
-	return new_out_file
+	try:
+		os.makedirs(SRC + "/generated")
+	except FileExistsError:
+		pass
+	
+	backsprites = [file for file in glob(GRAPHICS + "/backspr" + "**/*.png", recursive=True)]
+	frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
+	iconsprites = [file for file in glob(GRAPHICS + "/pokeicon" + "**/*.png", recursive=True)]
+
+	assembledFrontSprites = os.path.join('SRC', 'generated', 'frontsprites.s')
+	if (not os.path.isfile(assembledFrontSprites)
+	or max(os.path.getmtime(file) for file in frontsprites) > os.path.getmtime(assembledFrontSprites)): #If a front sprite has been modified
+		print("Processing Front Sprites")
+		combinedFile = open(assembledFrontSprites, 'w')
+		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+		for sprite in frontsprites:
+			assembled = sprite.split('.png')[0] + '.s'
+
+			if (not os.path.isfile(assembled)
+			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+				run_command([GR, sprite] + frontflags + ['-o', assembled])
+
+			with open(assembled, 'r') as tempFile:
+				combinedFile.write(tempFile.read())
+		combinedFile.close()
+
+	assembledBackSprites = os.path.join('SRC', 'generated', 'backsprites.s')
+	if (not os.path.isfile(assembledBackSprites)
+	or max(os.path.getmtime(file) for file in backsprites) > os.path.getmtime(assembledBackSprites)): #If a back sprite has been modified
+		print("Processing Back Sprites")
+		combinedFile = open(assembledBackSprites, 'w')
+		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+		for sprite in backsprites:
+			assembled = sprite.split('.png')[0] + '.s'
+
+			if (not os.path.isfile(assembled)
+			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+				run_command([GR, sprite] + backflags + ['-o', assembled])
+
+			with open(assembled, 'r') as tempFile:
+				combinedFile.write(tempFile.read())
+		combinedFile.close()
+
+	assembledIconSprites = os.path.join('SRC', 'generated', 'iconsprites.s')
+	if (not os.path.isfile(assembledIconSprites)	
+	or max(os.path.getmtime(file) for file in iconsprites) > os.path.getmtime(assembledIconSprites)): #If a icon sprite has been modified
+		print("Processing Icon Sprites")
+		combinedFile = open(assembledIconSprites, 'w')
+		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+		for sprite in iconsprites:
+			assembled = sprite.split('.png')[0] + '.s'
+
+			if (not os.path.isfile(assembled)
+			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+				run_command([GR, sprite] + iconflags + ['-o', assembled])
+
+			with open(assembled, 'r') as tempFile:
+				combinedFile.write(tempFile.read())
+		combinedFile.close()
 
 def process_audio(in_file):
 	'''Compile Audio'''
@@ -294,8 +324,8 @@ def main():
 			'**/*.s': process_assembly,
 			'**/*.c': process_c,
 			'**/*.string': process_string,
-			'**/*.png': process_image,
-			'**/*.bmp': process_image,
+			#'**/*.png': process_image,
+			#'**/*.bmp': process_image,
 			'**/*.wav': process_audio,
 	}
 		
@@ -304,7 +334,9 @@ def main():
 		os.makedirs(BUILD)
 	except FileExistsError:
 		pass
-		
+	
+	ProcessSpriteGraphics()
+
 	# Gather source files and process them
 	objects = itertools.starmap(run_glob, globs.items())
 	
