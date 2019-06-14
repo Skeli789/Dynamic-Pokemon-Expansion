@@ -8,8 +8,8 @@ import binascii
 import textwrap
 import sys
 
-OFFSET_TO_PUT = 0x18d9580
-SOURCE_ROM = "Pokemon Unbound.gba"
+OFFSET_TO_PUT = 0x1800000
+SOURCE_ROM = "BPRE0.gba"
 
 from datetime import datetime
 
