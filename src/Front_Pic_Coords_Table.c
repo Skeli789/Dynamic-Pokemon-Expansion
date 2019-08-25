@@ -5398,12 +5398,12 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x4,
 	},
-	[SPECIES_NECROZMA_MANE] =
+	[SPECIES_NECROZMA_DUSK_MANE] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-	[SPECIES_NECROZMA_WINGS] =
+	[SPECIES_NECROZMA_DAWN_WINGS] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,

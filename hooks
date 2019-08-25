@@ -1,11 +1,16 @@
 ##
 LoadSpecialPokePicHook 800ECF2 4
+BattleLoadOpponentMonSpriteGfxHook 8034356 1
 SpeciesToCryId 8043304 1
 NationalPokedexNumToSpecies 8043200 1
 GetFrontSpritePalFromSpeciesAndPersonality 80440F4 3
 GetMonSpritePalStructFromOtIdPersonality 8044180 3
-UpdateEggMoveLimit 8045C58 0
+GetEggSpecies 8045970 1
+GetEggMoves 8045C28 2
+CreateMonSprite_PicBoxHook 808398C 1
 GenderedMonIconHook 8096E38 2
+GetIconSpecies 8096F5C 2
 PrepareDexListViewsHook 8103530 1
 AlphabeticalDexHook 8103684 1
 AlternateDexEntriesHook 8105CBC 0
+SummaryScreenIconPalHook 8139DDC 1

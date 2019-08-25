@@ -11,18 +11,9 @@
 
 @@Fix Num Evolutions@@
 .org 0x4598A, 0xFF
-.byte EVOS_PER_MON * 8
-
-.org 0x4598E, 0xFF
-.byte EVOS_PER_MON * 8
-
-@@Fix Breeding@@
-.org 0x459CC, 0xFF
-ldr r0, .BreedingNumSpecies
-add r0, #0x1
-
-.org 0x459EC, 0xFF
-.BreedingNumSpecies: .word NUM_SPECIES - 1
+mov r5, #EVOS_PER_MON * 8
+mov r3, r12
+add r3, #EVOS_PER_MON * 8
 
 @@Fix Egg Hatching Time@@
 .org 0x46204, 0xFF

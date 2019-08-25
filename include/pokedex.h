@@ -1302,6 +1302,6 @@ extern const u8 DEX_ENTRY_ORICORIO_S[];
 extern const u8 DEX_ENTRY_LYCANROC_N[];
 extern const u8 DEX_ENTRY_LYCANROC_DUSK[];
 extern const u8 DEX_ENTRY_WISHIWASHI_S[];
-extern const u8 DEX_ENTRY_NECROZMA_MANE[];
-extern const u8 DEX_ENTRY_NECROZMA_WINGS[];
+extern const u8 DEX_ENTRY_NECROZMA_DUSK_MANE[];
+extern const u8 DEX_ENTRY_NECROZMA_DAWN_WINGS[];
 extern const u8 DEX_ENTRY_NECROZMA_ULTRA[];

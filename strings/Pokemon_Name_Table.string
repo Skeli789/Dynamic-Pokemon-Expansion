@@ -1,0 +1,3309 @@
+MAX_LENGTH=10
+FILL_FF=True
+
+#org @gSpeciesNames
+#org @NAME_SPECIES_NONE
+??????
+
+#org @NAME_BULBASAUR
+Bulbasaur
+
+#org @NAME_IVYSAUR
+Ivysaur
+
+#org @NAME_VENUSAUR
+Venusaur
+
+#org @NAME_CHARMANDER
+Charmander
+
+#org @NAME_CHARMELEON
+Charmeleon
+
+#org @NAME_CHARIZARD
+Charizard
+
+#org @NAME_SQUIRTLE
+Squirtle
+
+#org @NAME_WARTORTLE
+Wartortle
+
+#org @NAME_BLASTOISE
+Blastoise
+
+#org @NAME_CATERPIE
+Caterpie
+
+#org @NAME_METAPOD
+Metapod
+
+#org @NAME_BUTTERFREE
+Butterfree
+
+#org @NAME_WEEDLE
+Weedle
+
+#org @NAME_KAKUNA
+Kakuna
+
+#org @NAME_BEEDRILL
+Beedrill
+
+#org @NAME_PIDGEY
+Pidgey
+
+#org @NAME_PIDGEOTTO
+Pidgeotto
+
+#org @NAME_PIDGEOT
+Pidgeot
+
+#org @NAME_RATTATA
+Rattata
+
+#org @NAME_RATICATE
+Raticate
+
+#org @NAME_SPEAROW
+Spearow
+
+#org @NAME_FEAROW
+Fearow
+
+#org @NAME_EKANS
+Ekans
+
+#org @NAME_ARBOK
+Arbok
+
+#org @NAME_PIKACHU
+Pikachu
+
+#org @NAME_RAICHU
+Raichu
+
+#org @NAME_SANDSHREW
+Sandshrew
+
+#org @NAME_SANDSLASH
+Sandslash
+
+#org @NAME_NIDORANF
+Nidoran[B6]
+
+#org @NAME_NIDORINA
+Nidorina
+
+#org @NAME_NIDOQUEEN
+Nidoqueen
+
+#org @NAME_NIDORANM
+Nidoran[B5]
+
+#org @NAME_NIDORINO
+Nidorino
+
+#org @NAME_NIDOKING
+Nidoking
+
+#org @NAME_CLEFAIRY
+Clefairy
+
+#org @NAME_CLEFABLE
+Clefable
+
+#org @NAME_VULPIX
+Vulpix
+
+#org @NAME_NINETALES
+Ninetales
+
+#org @NAME_JIGGLYPUFF
+Jigglypuff
+
+#org @NAME_WIGGLYTUFF
+Wigglytuff
+
+#org @NAME_ZUBAT
+Zubat
+
+#org @NAME_GOLBAT
+Golbat
+
+#org @NAME_ODDISH
+Oddish
+
+#org @NAME_GLOOM
+Gloom
+
+#org @NAME_VILEPLUME
+Vileplume
+
+#org @NAME_PARAS
+Paras
+
+#org @NAME_PARASECT
+Parasect
+
+#org @NAME_VENONAT
+Venonat
+
+#org @NAME_VENOMOTH
+Venomoth
+
+#org @NAME_DIGLETT
+Diglett
+
+#org @NAME_DUGTRIO
+Dugtrio
+
+#org @NAME_MEOWTH
+Meowth
+
+#org @NAME_PERSIAN
+Persian
+
+#org @NAME_PSYDUCK
+Psyduck
+
+#org @NAME_GOLDUCK
+Golduck
+
+#org @NAME_MANKEY
+Mankey
+
+#org @NAME_PRIMEAPE
+Primeape
+
+#org @NAME_GROWLITHE
+Growlithe
+
+#org @NAME_ARCANINE
+Arcanine
+
+#org @NAME_POLIWAG
+Poliwag
+
+#org @NAME_POLIWHIRL
+Poliwhirl
+
+#org @NAME_POLIWRATH
+Poliwrath
+
+#org @NAME_ABRA
+Abra
+
+#org @NAME_KADABRA
+Kadabra
+
+#org @NAME_ALAKAZAM
+Alakazam
+
+#org @NAME_MACHOP
+Machop
+
+#org @NAME_MACHOKE
+Machoke
+
+#org @NAME_MACHAMP
+Machamp
+
+#org @NAME_BELLSPROUT
+Bellsprout
+
+#org @NAME_WEEPINBELL
+Weepinbell
+
+#org @NAME_VICTREEBEL
+Victreebel
+
+#org @NAME_TENTACOOL
+Tentacool
+
+#org @NAME_TENTACRUEL
+Tentacruel
+
+#org @NAME_GEODUDE
+Geodude
+
+#org @NAME_GRAVELER
+Graveler
+
+#org @NAME_GOLEM
+Golem
+
+#org @NAME_PONYTA
+Ponyta
+
+#org @NAME_RAPIDASH
+Rapidash
+
+#org @NAME_SLOWPOKE
+Slowpoke
+
+#org @NAME_SLOWBRO
+Slowbro
+
+#org @NAME_MAGNEMITE
+Magnemite
+
+#org @NAME_MAGNETON
+Magneton
+
+#org @NAME_FARFETCHD
+Farfetch'd
+
+#org @NAME_DODUO
+Doduo
+
+#org @NAME_DODRIO
+Dodrio
+
+#org @NAME_SEEL
+Seel
+
+#org @NAME_DEWGONG
+Dewgong
+
+#org @NAME_GRIMER
+Grimer
+
+#org @NAME_MUK
+Muk
+
+#org @NAME_SHELLDER
+Shellder
+
+#org @NAME_CLOYSTER
+Cloyster
+
+#org @NAME_GASTLY
+Gastly
+
+#org @NAME_HAUNTER
+Haunter
+
+#org @NAME_GENGAR
+Gengar
+
+#org @NAME_ONIX
+Onix
+
+#org @NAME_DROWZEE
+Drowzee
+
+#org @NAME_HYPNO
+Hypno
+
+#org @NAME_KRABBY
+Krabby
+
+#org @NAME_KINGLER
+Kingler
+
+#org @NAME_VOLTORB
+Voltorb
+
+#org @NAME_ELECTRODE
+Electrode
+
+#org @NAME_EXEGGCUTE
+Exeggcute
+
+#org @NAME_EXEGGUTOR
+Exeggutor
+
+#org @NAME_CUBONE
+Cubone
+
+#org @NAME_MAROWAK
+Marowak
+
+#org @NAME_HITMONLEE
+Hitmonlee
+
+#org @NAME_HITMONCHAN
+Hitmonchan
+
+#org @NAME_LICKITUNG
+Lickitung
+
+#org @NAME_KOFFING
+Koffing
+
+#org @NAME_WEEZING
+Weezing
+
+#org @NAME_RHYHORN
+Rhyhorn
+
+#org @NAME_RHYDON
+Rhydon
+
+#org @NAME_CHANSEY
+Chansey
+
+#org @NAME_TANGELA
+Tangela
+
+#org @NAME_KANGASKHAN
+Kangaskhan
+
+#org @NAME_HORSEA
+Horsea
+
+#org @NAME_SEADRA
+Seadra
+
+#org @NAME_GOLDEEN
+Goldeen
+
+#org @NAME_SEAKING
+Seaking
+
+#org @NAME_STARYU
+Staryu
+
+#org @NAME_STARMIE
+Starmie
+
+#org @NAME_MR_MIME
+Mr. Mime
+
+#org @NAME_SCYTHER
+Scyther
+
+#org @NAME_JYNX
+Jynx
+
+#org @NAME_ELECTABUZZ
+Electabuzz
+
+#org @NAME_MAGMAR
+Magmar
+
+#org @NAME_PINSIR
+Pinsir
+
+#org @NAME_TAUROS
+Tauros
+
+#org @NAME_MAGIKARP
+Magikarp
+
+#org @NAME_GYARADOS
+Gyarados
+
+#org @NAME_LAPRAS
+Lapras
+
+#org @NAME_DITTO
+Ditto
+
+#org @NAME_EEVEE
+Eevee
+
+#org @NAME_VAPOREON
+Vaporeon
+
+#org @NAME_JOLTEON
+Jolteon
+
+#org @NAME_FLAREON
+Flareon
+
+#org @NAME_PORYGON
+Porygon
+
+#org @NAME_OMANYTE
+Omanyte
+
+#org @NAME_OMASTAR
+Omastar
+
+#org @NAME_KABUTO
+Kabuto
+
+#org @NAME_KABUTOPS
+Kabutops
+
+#org @NAME_AERODACTYL
+Aerodactyl
+
+#org @NAME_SNORLAX
+Snorlax
+
+#org @NAME_ARTICUNO
+Articuno
+
+#org @NAME_ZAPDOS
+Zapdos
+
+#org @NAME_MOLTRES
+Moltres
+
+#org @NAME_DRATINI
+Dratini
+
+#org @NAME_DRAGONAIR
+Dragonair
+
+#org @NAME_DRAGONITE
+Dragonite
+
+#org @NAME_MEWTWO
+Mewtwo
+
+#org @NAME_MEW
+Mew
+
+#org @NAME_CHIKORITA
+Chikorita
+
+#org @NAME_BAYLEEF
+Bayleef
+
+#org @NAME_MEGANIUM
+Meganium
+
+#org @NAME_CYNDAQUIL
+Cyndaquil
+
+#org @NAME_QUILAVA
+Quilava
+
+#org @NAME_TYPHLOSION
+Typhlosion
+
+#org @NAME_TOTODILE
+Totodile
+
+#org @NAME_CROCONAW
+Croconaw
+
+#org @NAME_FERALIGATR
+Feraligatr
+
+#org @NAME_SENTRET
+Sentret
+
+#org @NAME_FURRET
+Furret
+
+#org @NAME_HOOTHOOT
+Hoothoot
+
+#org @NAME_NOCTOWL
+Noctowl
+
+#org @NAME_LEDYBA
+Ledyba
+
+#org @NAME_LEDIAN
+Ledian
+
+#org @NAME_SPINARAK
+Spinarak
+
+#org @NAME_ARIADOS
+Ariados
+
+#org @NAME_CROBAT
+Crobat
+
+#org @NAME_CHINCHOU
+Chinchou
+
+#org @NAME_LANTURN
+Lanturn
+
+#org @NAME_PICHU
+Pichu
+
+#org @NAME_CLEFFA
+Cleffa
+
+#org @NAME_IGGLYBUFF
+Igglybuff
+
+#org @NAME_TOGEPI
+Togepi
+
+#org @NAME_TOGETIC
+Togetic
+
+#org @NAME_NATU
+Natu
+
+#org @NAME_XATU
+Xatu
+
+#org @NAME_MAREEP
+Mareep
+
+#org @NAME_FLAAFFY
+Flaaffy
+
+#org @NAME_AMPHAROS
+Ampharos
+
+#org @NAME_BELLOSSOM
+Bellossom
+
+#org @NAME_MARILL
+Marill
+
+#org @NAME_AZUMARILL
+Azumarill
+
+#org @NAME_SUDOWOODO
+Sudowoodo
+
+#org @NAME_POLITOED
+Politoed
+
+#org @NAME_HOPPIP
+Hoppip
+
+#org @NAME_SKIPLOOM
+Skiploom
+
+#org @NAME_JUMPLUFF
+Jumpluff
+
+#org @NAME_AIPOM
+Aipom
+
+#org @NAME_SUNKERN
+Sunkern
+
+#org @NAME_SUNFLORA
+Sunflora
+
+#org @NAME_YANMA
+Yanma
+
+#org @NAME_WOOPER
+Wooper
+
+#org @NAME_QUAGSIRE
+Quagsire
+
+#org @NAME_ESPEON
+Espeon
+
+#org @NAME_UMBREON
+Umbreon
+
+#org @NAME_MURKROW
+Murkrow
+
+#org @NAME_SLOWKING
+Slowking
+
+#org @NAME_MISDREAVUS
+Misdreavus
+
+#org @NAME_UNOWN
+Unown
+
+#org @NAME_WOBBUFFET
+Wobbuffet
+
+#org @NAME_GIRAFARIG
+Girafarig
+
+#org @NAME_PINECO
+Pineco
+
+#org @NAME_FORRETRESS
+Forretress
+
+#org @NAME_DUNSPARCE
+Dunsparce
+
+#org @NAME_GLIGAR
+Gligar
+
+#org @NAME_STEELIX
+Steelix
+
+#org @NAME_SNUBBULL
+Snubbull
+
+#org @NAME_GRANBULL
+Granbull
+
+#org @NAME_QWILFISH
+Qwilfish
+
+#org @NAME_SCIZOR
+Scizor
+
+#org @NAME_SHUCKLE
+Shuckle
+
+#org @NAME_HERACROSS
+Heracross
+
+#org @NAME_SNEASEL
+Sneasel
+
+#org @NAME_TEDDIURSA
+Teddiursa
+
+#org @NAME_URSARING
+Ursaring
+
+#org @NAME_SLUGMA
+Slugma
+
+#org @NAME_MAGCARGO
+Magcargo
+
+#org @NAME_SWINUB
+Swinub
+
+#org @NAME_PILOSWINE
+Piloswine
+
+#org @NAME_CORSOLA
+Corsola
+
+#org @NAME_REMORAID
+Remoraid
+
+#org @NAME_OCTILLERY
+Octillery
+
+#org @NAME_DELIBIRD
+Delibird
+
+#org @NAME_MANTINE
+Mantine
+
+#org @NAME_SKARMORY
+Skarmory
+
+#org @NAME_HOUNDOUR
+Houndour
+
+#org @NAME_HOUNDOOM
+Houndoom
+
+#org @NAME_KINGDRA
+Kingdra
+
+#org @NAME_PHANPY
+Phanpy
+
+#org @NAME_DONPHAN
+Donphan
+
+#org @NAME_PORYGON2
+Porygon2
+
+#org @NAME_STANTLER
+Stantler
+
+#org @NAME_SMEARGLE
+Smeargle
+
+#org @NAME_TYROGUE
+Tyrogue
+
+#org @NAME_HITMONTOP
+Hitmontop
+
+#org @NAME_SMOOCHUM
+Smoochum
+
+#org @NAME_ELEKID
+Elekid
+
+#org @NAME_MAGBY
+Magby
+
+#org @NAME_MILTANK
+Miltank
+
+#org @NAME_BLISSEY
+Blissey
+
+#org @NAME_RAIKOU
+Raikou
+
+#org @NAME_ENTEI
+Entei
+
+#org @NAME_SUICUNE
+Suicune
+
+#org @NAME_LARVITAR
+Larvitar
+
+#org @NAME_PUPITAR
+Pupitar
+
+#org @NAME_TYRANITAR
+Tyranitar
+
+#org @NAME_LUGIA
+Lugia
+
+#org @NAME_HOOH
+Ho-Oh
+
+#org @NAME_CELEBI
+Celebi
+
+#org @NAME_OLD_UNOWN_1
+?
+
+#org @NAME_OLD_UNOWN_2
+?
+
+#org @NAME_OLD_UNOWN_3
+?
+
+#org @NAME_OLD_UNOWN_4
+?
+
+#org @NAME_OLD_UNOWN_5
+?
+
+#org @NAME_OLD_UNOWN_6
+?
+
+#org @NAME_OLD_UNOWN_7
+?
+
+#org @NAME_OLD_UNOWN_8
+?
+
+#org @NAME_OLD_UNOWN_9
+?
+
+#org @NAME_OLD_UNOWN_10
+?
+
+#org @NAME_OLD_UNOWN_11
+?
+
+#org @NAME_OLD_UNOWN_12
+?
+
+#org @NAME_OLD_UNOWN_13
+?
+
+#org @NAME_OLD_UNOWN_14
+?
+
+#org @NAME_OLD_UNOWN_15
+?
+
+#org @NAME_OLD_UNOWN_16
+?
+
+#org @NAME_OLD_UNOWN_17
+?
+
+#org @NAME_OLD_UNOWN_18
+?
+
+#org @NAME_OLD_UNOWN_19
+?
+
+#org @NAME_OLD_UNOWN_20
+?
+
+#org @NAME_OLD_UNOWN_21
+?
+
+#org @NAME_OLD_UNOWN_22
+?
+
+#org @NAME_OLD_UNOWN_23
+?
+
+#org @NAME_OLD_UNOWN_24
+?
+
+#org @NAME_OLD_UNOWN_25
+?
+
+#org @NAME_TREECKO
+Treecko
+
+#org @NAME_GROVYLE
+Grovyle
+
+#org @NAME_SCEPTILE
+Sceptile
+
+#org @NAME_TORCHIC
+Torchic
+
+#org @NAME_COMBUSKEN
+Combusken
+
+#org @NAME_BLAZIKEN
+Blaziken
+
+#org @NAME_MUDKIP
+Mudkip
+
+#org @NAME_MARSHTOMP
+Marshtomp
+
+#org @NAME_SWAMPERT
+Swampert
+
+#org @NAME_POOCHYENA
+Poochyena
+
+#org @NAME_MIGHTYENA
+Mightyena
+
+#org @NAME_ZIGZAGOON
+Zigzagoon
+
+#org @NAME_LINOONE
+Linoone
+
+#org @NAME_WURMPLE
+Wurmple
+
+#org @NAME_SILCOON
+Silcoon
+
+#org @NAME_BEAUTIFLY
+Beautifly
+
+#org @NAME_CASCOON
+Cascoon
+
+#org @NAME_DUSTOX
+Dustox
+
+#org @NAME_LOTAD
+Lotad
+
+#org @NAME_LOMBRE
+Lombre
+
+#org @NAME_LUDICOLO
+Ludicolo
+
+#org @NAME_SEEDOT
+Seedot
+
+#org @NAME_NUZLEAF
+Nuzleaf
+
+#org @NAME_SHIFTRY
+Shiftry
+
+#org @NAME_NINCADA
+Nincada
+
+#org @NAME_NINJASK
+Ninjask
+
+#org @NAME_SHEDINJA
+Shedinja
+
+#org @NAME_TAILLOW
+Taillow
+
+#org @NAME_SWELLOW
+Swellow
+
+#org @NAME_SHROOMISH
+Shroomish
+
+#org @NAME_BRELOOM
+Breloom
+
+#org @NAME_SPINDA
+Spinda
+
+#org @NAME_WINGULL
+Wingull
+
+#org @NAME_PELIPPER
+Pelipper
+
+#org @NAME_SURSKIT
+Surskit
+
+#org @NAME_MASQUERAIN
+Masquerain
+
+#org @NAME_WAILMER
+Wailmer
+
+#org @NAME_WAILORD
+Wailord
+
+#org @NAME_SKITTY
+Skitty
+
+#org @NAME_DELCATTY
+Delcatty
+
+#org @NAME_KECLEON
+Kecleon
+
+#org @NAME_BALTOY
+Baltoy
+
+#org @NAME_CLAYDOL
+Claydol
+
+#org @NAME_NOSEPASS
+Nosepass
+
+#org @NAME_TORKOAL
+Torkoal
+
+#org @NAME_SABLEYE
+Sableye
+
+#org @NAME_BARBOACH
+Barboach
+
+#org @NAME_WHISCASH
+Whiscash
+
+#org @NAME_LUVDISC
+Luvdisc
+
+#org @NAME_CORPHISH
+Corphish
+
+#org @NAME_CRAWDAUNT
+Crawdaunt
+
+#org @NAME_FEEBAS
+Feebas
+
+#org @NAME_MILOTIC
+Milotic
+
+#org @NAME_CARVANHA
+Carvanha
+
+#org @NAME_SHARPEDO
+Sharpedo
+
+#org @NAME_TRAPINCH
+Trapinch
+
+#org @NAME_VIBRAVA
+Vibrava
+
+#org @NAME_FLYGON
+Flygon
+
+#org @NAME_MAKUHITA
+Makuhita
+
+#org @NAME_HARIYAMA
+Hariyama
+
+#org @NAME_ELECTRIKE
+Electrike
+
+#org @NAME_MANECTRIC
+Manectric
+
+#org @NAME_NUMEL
+Numel
+
+#org @NAME_CAMERUPT
+Camerupt
+
+#org @NAME_SPHEAL
+Spheal
+
+#org @NAME_SEALEO
+Sealeo
+
+#org @NAME_WALREIN
+Walrein
+
+#org @NAME_CACNEA
+Cacnea
+
+#org @NAME_CACTURNE
+Cacturne
+
+#org @NAME_SNORUNT
+Snorunt
+
+#org @NAME_GLALIE
+Glalie
+
+#org @NAME_LUNATONE
+Lunatone
+
+#org @NAME_SOLROCK
+Solrock
+
+#org @NAME_AZURILL
+Azurill
+
+#org @NAME_SPOINK
+Spoink
+
+#org @NAME_GRUMPIG
+Grumpig
+
+#org @NAME_PLUSLE
+Plusle
+
+#org @NAME_MINUN
+Minun
+
+#org @NAME_MAWILE
+Mawile
+
+#org @NAME_MEDITITE
+Meditite
+
+#org @NAME_MEDICHAM
+Medicham
+
+#org @NAME_SWABLU
+Swablu
+
+#org @NAME_ALTARIA
+Altaria
+
+#org @NAME_WYNAUT
+Wynaut
+
+#org @NAME_DUSKULL
+Duskull
+
+#org @NAME_DUSCLOPS
+Dusclops
+
+#org @NAME_ROSELIA
+Roselia
+
+#org @NAME_SLAKOTH
+Slakoth
+
+#org @NAME_VIGOROTH
+Vigoroth
+
+#org @NAME_SLAKING
+Slaking
+
+#org @NAME_GULPIN
+Gulpin
+
+#org @NAME_SWALOT
+Swalot
+
+#org @NAME_TROPIUS
+Tropius
+
+#org @NAME_WHISMUR
+Whismur
+
+#org @NAME_LOUDRED
+Loudred
+
+#org @NAME_EXPLOUD
+Exploud
+
+#org @NAME_CLAMPERL
+Clamperl
+
+#org @NAME_HUNTAIL
+Huntail
+
+#org @NAME_GOREBYSS
+Gorebyss
+
+#org @NAME_ABSOL
+Absol
+
+#org @NAME_SHUPPET
+Shuppet
+
+#org @NAME_BANETTE
+Banette
+
+#org @NAME_SEVIPER
+Seviper
+
+#org @NAME_ZANGOOSE
+Zangoose
+
+#org @NAME_RELICANTH
+Relicanth
+
+#org @NAME_ARON
+Aron
+
+#org @NAME_LAIRON
+Lairon
+
+#org @NAME_AGGRON
+Aggron
+
+#org @NAME_CASTFORM
+Castform
+
+#org @NAME_VOLBEAT
+Volbeat
+
+#org @NAME_ILLUMISE
+Illumise
+
+#org @NAME_LILEEP
+Lileep
+
+#org @NAME_CRADILY
+Cradily
+
+#org @NAME_ANORITH
+Anorith
+
+#org @NAME_ARMALDO
+Armaldo
+
+#org @NAME_RALTS
+Ralts
+
+#org @NAME_KIRLIA
+Kirlia
+
+#org @NAME_GARDEVOIR
+Gardevoir
+
+#org @NAME_BAGON
+Bagon
+
+#org @NAME_SHELGON
+Shelgon
+
+#org @NAME_SALAMENCE
+Salamence
+
+#org @NAME_BELDUM
+Beldum
+
+#org @NAME_METANG
+Metang
+
+#org @NAME_METAGROSS
+Metagross
+
+#org @NAME_REGIROCK
+Regirock
+
+#org @NAME_REGICE
+Regice
+
+#org @NAME_REGISTEEL
+Registeel
+
+#org @NAME_KYOGRE
+Kyogre
+
+#org @NAME_GROUDON
+Groudon
+
+#org @NAME_RAYQUAZA
+Rayquaza
+
+#org @NAME_LATIAS
+Latias
+
+#org @NAME_LATIOS
+Latios
+
+#org @NAME_JIRACHI
+Jirachi
+
+#org @NAME_DEOXYS
+Deoxys
+
+#org @NAME_CHIMECHO
+Chimecho
+
+#org @NAME_BAD_EGG
+Bad Egg
+
+#org @NAME_UNOWNB
+UNOWNB
+
+#org @NAME_UNOWNC
+UNOWNC
+
+#org @NAME_UNOWND
+UNOWND
+
+#org @NAME_UNOWNE
+UNOWNE
+
+#org @NAME_UNOWNF
+UNOWNF
+
+#org @NAME_UNOWNG
+UNOWNG
+
+#org @NAME_UNOWNH
+UNOWNH
+
+#org @NAME_UNOWNI
+UNOWNI
+
+#org @NAME_UNOWNJ
+UNOWNJ
+
+#org @NAME_UNOWNK
+UNOWNK
+
+#org @NAME_UNOWNL
+UNOWNL
+
+#org @NAME_UNOWNM
+UNOWNM
+
+#org @NAME_UNOWNN
+UNOWNN
+
+#org @NAME_UNOWNO
+UNOWNO
+
+#org @NAME_UNOWNP
+UNOWNP
+
+#org @NAME_UNOWNQ
+UNOWNQ
+
+#org @NAME_UNOWNR
+UNOWNR
+
+#org @NAME_UNOWNS
+UNOWNS
+
+#org @NAME_UNOWNT
+UNOWNT
+
+#org @NAME_UNOWNU
+UNOWNU
+
+#org @NAME_UNOWNV
+UNOWNV
+
+#org @NAME_UNOWNW
+UNOWNW
+
+#org @NAME_UNOWNX
+UNOWNX
+
+#org @NAME_UNOWNY
+UNOWNY
+
+#org @NAME_UNOWNZ
+UNOWNZ
+
+#org @NAME_UNOWN_QUESTION
+UNOWN!
+
+#org @NAME_UNOWN_EXCLAMATION
+UNOWN?
+
+#org @NAME_TURTWIG
+Turtwig
+
+#org @NAME_GROTLE
+Grotle
+
+#org @NAME_TORTERRA
+Torterra
+
+#org @NAME_CHIMCHAR
+Chimchar
+
+#org @NAME_MONFERNO
+Monferno
+
+#org @NAME_INFERNAPE
+Infernape
+
+#org @NAME_PIPLUP
+Piplup
+
+#org @NAME_PRINPLUP
+Prinplup
+
+#org @NAME_EMPOLEON
+Empoleon
+
+#org @NAME_STARLY
+Starly
+
+#org @NAME_STARAVIA
+Staravia
+
+#org @NAME_STARAPTOR
+Staraptor
+
+#org @NAME_BIDOOF
+Bidoof
+
+#org @NAME_BIBAREL
+Bibarel
+
+#org @NAME_KRICKETOT
+Kricketot
+
+#org @NAME_KRICKETUNE
+Kricketune
+
+#org @NAME_SHINX
+Shinx
+
+#org @NAME_LUXIO
+Luxio
+
+#org @NAME_LUXRAY
+Luxray
+
+#org @NAME_BUDEW
+Budew
+
+#org @NAME_ROSERADE
+Roserade
+
+#org @NAME_CRANIDOS
+Cranidos
+
+#org @NAME_RAMPARDOS
+Rampardos
+
+#org @NAME_SHIELDON
+Shieldon
+
+#org @NAME_BASTIODON
+Bastiodon
+
+#org @NAME_BURMYP
+Burmy
+
+#org @NAME_WORMADAM_P
+Wormadam
+
+#org @NAME_MOTHIM
+Mothim
+
+#org @NAME_COMBEE
+Combee
+
+#org @NAME_VESPIQUEN
+Vespiquen
+
+#org @NAME_PACHIRISU
+Pachirisu
+
+#org @NAME_BUIZEL
+Buizel
+
+#org @NAME_FLOATZEL
+Floatzel
+
+#org @NAME_CHERUBI
+Cherubi
+
+#org @NAME_CHERRIM
+Cherrim
+
+#org @NAME_SHELLOS
+Shellos
+
+#org @NAME_GASTRODON
+Gastrodon
+
+#org @NAME_AMBIPOM
+Ambipom
+
+#org @NAME_DRIFLOON
+Drifloon
+
+#org @NAME_DRIFBLIM
+Drifblim
+
+#org @NAME_BUNEARY
+Buneary
+
+#org @NAME_LOPUNNY
+Lopunny
+
+#org @NAME_MISMAGIUS
+Mismagius
+
+#org @NAME_HONCHKROW
+Honchkrow
+
+#org @NAME_GLAMEOW
+Glameow
+
+#org @NAME_PURUGLY
+Purugly
+
+#org @NAME_CHINGLING
+Chingling
+
+#org @NAME_STUNKY
+Stunky
+
+#org @NAME_SKUNTANK
+Skuntank
+
+#org @NAME_BRONZOR
+Bronzor
+
+#org @NAME_BRONZONG
+Bronzong
+
+#org @NAME_BONSLY
+Bonsly
+
+#org @NAME_MIME_JR
+Mime Jr.
+
+#org @NAME_HAPPINY
+Happiny
+
+#org @NAME_CHATOT
+Chatot
+
+#org @NAME_SPIRITOMB
+Spiritomb
+
+#org @NAME_GIBLE
+Gible
+
+#org @NAME_GABITE
+Gabite
+
+#org @NAME_GARCHOMP
+Garchomp
+
+#org @NAME_MUNCHLAX
+Munchlax
+
+#org @NAME_RIOLU
+Riolu
+
+#org @NAME_LUCARIO
+Lucario
+
+#org @NAME_HIPPOPOTAS
+Hippopotas
+
+#org @NAME_HIPPOWDON
+Hippowdon
+
+#org @NAME_SKORUPI
+Skorupi
+
+#org @NAME_DRAPION
+Drapion
+
+#org @NAME_CROAGUNK
+Croagunk
+
+#org @NAME_TOXICROAK
+Toxicroak
+
+#org @NAME_CARNIVINE
+Carnivine
+
+#org @NAME_FINNEON
+Finneon
+
+#org @NAME_LUMINEON
+Lumineon
+
+#org @NAME_MANTYKE
+Mantyke
+
+#org @NAME_SNOVER
+Snover
+
+#org @NAME_ABOMASNOW
+Abomasnow
+
+#org @NAME_WEAVILE
+Weavile
+
+#org @NAME_MAGNEZONE
+Magnezone
+
+#org @NAME_LICKILICKY
+Lickilicky
+
+#org @NAME_RHYPERIOR
+Rhyperior
+
+#org @NAME_TANGROWTH
+Tangrowth
+
+#org @NAME_ELECTIVIRE
+Electivire
+
+#org @NAME_MAGMORTAR
+Magmortar
+
+#org @NAME_TOGEKISS
+Togekiss
+
+#org @NAME_YANMEGA
+Yanmega
+
+#org @NAME_LEAFEON
+Leafeon
+
+#org @NAME_GLACEON
+Glaceon
+
+#org @NAME_GLISCOR
+Gliscor
+
+#org @NAME_MAMOSWINE
+Mamoswine
+
+#org @NAME_PORYGONZ
+Porygon-Z
+
+#org @NAME_GALLADE
+Gallade
+
+#org @NAME_PROBOPASS
+Probopass
+
+#org @NAME_DUSKNOIR
+Dusknoir
+
+#org @NAME_FROSLASS
+Froslass
+
+#org @NAME_ROTOM
+Rotom
+
+#org @NAME_UXIE
+Uxie
+
+#org @NAME_MESPRIT
+Mesprit
+
+#org @NAME_AZELF
+Azelf
+
+#org @NAME_DIALGA
+Dialga
+
+#org @NAME_PALKIA
+Palkia
+
+#org @NAME_HEATRAN
+Heatran
+
+#org @NAME_REGIGIGAS
+Regigigas
+
+#org @NAME_GIRATINA
+Giratina
+
+#org @NAME_CRESSELIA
+Cresselia
+
+#org @NAME_PHIONE
+Phione
+
+#org @NAME_MANAPHY
+Manaphy
+
+#org @NAME_DARKRAI
+Darkrai
+
+#org @NAME_SHAYMIN
+Shaymin
+
+#org @NAME_ARCEUS
+Arceus
+
+#org @NAME_VICTINI
+Victini
+
+#org @NAME_SNIVY
+Snivy
+
+#org @NAME_SERVINE
+Servine
+
+#org @NAME_SERPERIOR
+Serperior
+
+#org @NAME_TEPIG
+Tepig
+
+#org @NAME_PIGNITE
+Pignite
+
+#org @NAME_EMBOAR
+Emboar
+
+#org @NAME_OSHAWOTT
+Oshawott
+
+#org @NAME_DEWOTT
+Dewott
+
+#org @NAME_SAMUROTT
+Samurott
+
+#org @NAME_PATRAT
+Patrat
+
+#org @NAME_WATCHOG
+Watchog
+
+#org @NAME_LILLIPUP
+Lillipup
+
+#org @NAME_HERDIER
+Herdier
+
+#org @NAME_STOUTLAND
+Stoutland
+
+#org @NAME_PURRLOIN
+Purrloin
+
+#org @NAME_LIEPARD
+Liepard
+
+#org @NAME_PANSAGE
+Pansage
+
+#org @NAME_SIMISAGE
+Simisage
+
+#org @NAME_PANSEAR
+Pansear
+
+#org @NAME_SIMISEAR
+Simisear
+
+#org @NAME_PANPOUR
+Panpour
+
+#org @NAME_SIMIPOUR
+Simipour
+
+#org @NAME_MUNNA
+Munna
+
+#org @NAME_MUSHARNA
+Musharna
+
+#org @NAME_PIDOVE
+Pidove
+
+#org @NAME_TRANQUILL
+Tranquill
+
+#org @NAME_UNFEZANT
+Unfezant
+
+#org @NAME_BLITZLE
+Blitzle
+
+#org @NAME_ZEBSTRIKA
+Zebstrika
+
+#org @NAME_ROGGENROLA
+Roggenrola
+
+#org @NAME_BOLDORE
+Boldore
+
+#org @NAME_GIGALITH
+Gigalith
+
+#org @NAME_WOOBAT
+Woobat
+
+#org @NAME_SWOOBAT
+Swoobat
+
+#org @NAME_DRILBUR
+Drilbur
+
+#org @NAME_EXCADRILL
+Excadrill
+
+#org @NAME_AUDINO
+Audino
+
+#org @NAME_TIMBURR
+Timburr
+
+#org @NAME_GURDURR
+Gurdurr
+
+#org @NAME_CONKELDURR
+Conkeldurr
+
+#org @NAME_TYMPOLE
+Tympole
+
+#org @NAME_PALPITOAD
+Palpitoad
+
+#org @NAME_SEISMITOAD
+Seismitoad
+
+#org @NAME_THROH
+Throh
+
+#org @NAME_SAWK
+Sawk
+
+#org @NAME_SEWADDLE
+Sewaddle
+
+#org @NAME_SWADLOON
+Swadloon
+
+#org @NAME_LEAVANNY
+Leavanny
+
+#org @NAME_VENIPEDE
+Venipede
+
+#org @NAME_WHIRLIPEDE
+Whirlipede
+
+#org @NAME_SCOLIPEDE
+Scolipede
+
+#org @NAME_COTTONEE
+Cottonee
+
+#org @NAME_WHIMSICOTT
+Whimsicott
+
+#org @NAME_PETILIL
+Petilil
+
+#org @NAME_LILLIGANT
+Lilligant
+
+#org @NAME_BASCULINR
+Basculin
+
+#org @NAME_SANDILE
+Sandile
+
+#org @NAME_KROKOROK
+Krokorok
+
+#org @NAME_KROOKODILE
+Krookodile
+
+#org @NAME_DARUMAKA
+Darumaka
+
+#org @NAME_DARMANITAN
+Darmanitan
+
+#org @NAME_MARACTUS
+Maractus
+
+#org @NAME_DWEBBLE
+Dwebble
+
+#org @NAME_CRUSTLE
+Crustle
+
+#org @NAME_SCRAGGY
+Scraggy
+
+#org @NAME_SCRAFTY
+Scrafty
+
+#org @NAME_SIGILYPH
+Sigilyph
+
+#org @NAME_YAMASK
+Yamask
+
+#org @NAME_COFAGRIGUS
+Cofagrigus
+
+#org @NAME_TIRTOUGA
+Tirtouga
+
+#org @NAME_CARRACOSTA
+Carracosta
+
+#org @NAME_ARCHEN
+Archen
+
+#org @NAME_ARCHEOPS
+Archeops
+
+#org @NAME_TRUBBISH
+Trubbish
+
+#org @NAME_GARBODOR
+Garbodor
+
+#org @NAME_ZORUA
+Zorua
+
+#org @NAME_ZOROARK
+Zoroark
+
+#org @NAME_MINCCINO
+Minccino
+
+#org @NAME_CINCCINO
+Cinccino
+
+#org @NAME_GOTHITA
+Gothita
+
+#org @NAME_GOTHORITA
+Gothorita
+
+#org @NAME_GOTHITELLE
+Gothitelle
+
+#org @NAME_SOLOSIS
+Solosis
+
+#org @NAME_DUOSION
+Duosion
+
+#org @NAME_REUNICLUS
+Reuniclus
+
+#org @NAME_DUCKLETT
+Ducklett
+
+#org @NAME_SWANNA
+Swanna
+
+#org @NAME_VANILLITE
+Vanillite
+
+#org @NAME_VANILLISH
+Vanillish
+
+#org @NAME_VANILLUXE
+Vanilluxe
+
+#org @NAME_DEERLINGS
+Deerling
+
+#org @NAME_SAWSBUCKS
+Sawsbuck
+
+#org @NAME_EMOLGA
+Emolga
+
+#org @NAME_KARRABLAST
+Karrablast
+
+#org @NAME_ESCAVALIER
+Escavalier
+
+#org @NAME_FOONGUS
+Foongus
+
+#org @NAME_AMOONGUSS
+Amoonguss
+
+#org @NAME_FRILLISH
+Frillish
+
+#org @NAME_JELLICENT
+Jellicent
+
+#org @NAME_ALOMOMOLA
+Alomomola
+
+#org @NAME_JOLTIK
+Joltik
+
+#org @NAME_GALVANTULA
+Galvantula
+
+#org @NAME_FERROSEED
+Ferroseed
+
+#org @NAME_FERROTHORN
+Ferrothorn
+
+#org @NAME_KLINK
+Klink
+
+#org @NAME_KLANG
+Klang
+
+#org @NAME_KLINKLANG
+Klinklang
+
+#org @NAME_TYNAMO
+Tynamo
+
+#org @NAME_EELEKTRIK
+Eelektrik
+
+#org @NAME_EELEKTROSS
+Eelektross
+
+#org @NAME_ELGYEM
+Elgyem
+
+#org @NAME_BEHEEYEM
+Beheeyem
+
+#org @NAME_LITWICK
+Litwick
+
+#org @NAME_LAMPENT
+Lampent
+
+#org @NAME_CHANDELURE
+Chandelure
+
+#org @NAME_AXEW
+Axew
+
+#org @NAME_FRAXURE
+Fraxure
+
+#org @NAME_HAXORUS
+Haxorus
+
+#org @NAME_CUBCHOO
+Cubchoo
+
+#org @NAME_BEARTIC
+Beartic
+
+#org @NAME_CRYOGONAL
+Cryogonal
+
+#org @NAME_SHELMET
+Shelmet
+
+#org @NAME_ACCELGOR
+Accelgor
+
+#org @NAME_STUNFISK
+Stunfisk
+
+#org @NAME_MIENFOO
+Mienfoo
+
+#org @NAME_MIENSHAO
+Mienshao
+
+#org @NAME_DRUDDIGON
+Druddigon
+
+#org @NAME_GOLETT
+Golett
+
+#org @NAME_GOLURK
+Golurk
+
+#org @NAME_PAWNIARD
+Pawniard
+
+#org @NAME_BISHARP
+Bisharp
+
+#org @NAME_BOUFFALANT
+Bouffalant
+
+#org @NAME_RUFFLET
+Rufflet
+
+#org @NAME_BRAVIARY
+Braviary
+
+#org @NAME_VULLABY
+Vullaby
+
+#org @NAME_MANDIBUZZ
+Mandibuzz
+
+#org @NAME_HEATMOR
+Heatmor
+
+#org @NAME_DURANT
+Durant
+
+#org @NAME_DEINO
+Deino
+
+#org @NAME_ZWEILOUS
+Zweilous
+
+#org @NAME_HYDREIGON
+Hydreigon
+
+#org @NAME_LARVESTA
+Larvesta
+
+#org @NAME_VOLCARONA
+Volcarona
+
+#org @NAME_COBALION
+Cobalion
+
+#org @NAME_TERRAKION
+Terrakion
+
+#org @NAME_VIRIZION
+Virizion
+
+#org @NAME_TORNADUS
+Tornadus
+
+#org @NAME_THUNDURUS
+Thundurus
+
+#org @NAME_RESHIRAM
+Reshiram
+
+#org @NAME_ZEKROM
+Zekrom
+
+#org @NAME_LANDORUS
+Landorus
+
+#org @NAME_KYUREM
+Kyurem
+
+#org @NAME_KELDEO
+Keldeo
+
+#org @NAME_MELOETTA
+Meloetta
+
+#org @NAME_GENESECT
+Genesect
+
+#org @NAME_UNFEZANT_F
+Unfezant
+
+#org @NAME_FRILLISH_F
+Frillish
+
+#org @NAME_JELLICENTF
+Jellicent
+
+#org @NAME_SHADOW_WARRIOR
+Warrior
+
+#org @NAME_BURMYS
+Burmy
+
+#org @NAME_BURMYT
+Burmy
+
+#org @NAME_WORMADAM_S
+Wormadam
+
+#org @NAME_WORMADAM_T
+Wormadam
+
+#org @NAME_SHELLOSE
+Shellos
+
+#org @NAME_GASTRODONE
+Gastrodon
+
+#org @NAME_ROTOMHEAT
+Rotom
+
+#org @NAME_ROTOMWASH
+Rotom
+
+#org @NAME_ROTOMFROS
+Rotom
+
+#org @NAME_ROTOMFAN
+Rotom
+
+#org @NAME_ROTOMMOW
+Rotom
+
+#org @NAME_GIRATINAO
+Giratina
+
+#org @NAME_SHAYMINS
+Shaymin
+
+#org @NAME_ARCEUSFIT
+Arceus
+
+#org @NAME_ARCEUSFLY
+Arceus
+
+#org @NAME_ARCEUSPSN
+Arceus
+
+#org @NAME_ARCEUSGRD
+Arceus
+
+#org @NAME_ARCEUSROC
+Arceus
+
+#org @NAME_ARCEUSBUG
+Arceus
+
+#org @NAME_ARCEUSGST
+Arceus
+
+#org @NAME_ARCEUSSTL
+Arceus
+
+#org @NAME_ARCEUSFIR
+Arceus
+
+#org @NAME_ARCEUSWTR
+Arceus
+
+#org @NAME_ARCEUSGRS
+Arceus
+
+#org @NAME_ARCEUSELE
+Arceus
+
+#org @NAME_ARCEUSPSY
+Arceus
+
+#org @NAME_ARCEUSICE
+Arceus
+
+#org @NAME_ARCEUSDRA
+Arceus
+
+#org @NAME_ARCEUSDRK
+Arceus
+
+#org @NAME_BASCULINB
+Basculin
+
+#org @NAME_ZENITAN
+Darmanitan
+
+#org @NAME_DEERLINGM
+Deerling
+
+#org @NAME_DEERLINGF
+Deerling
+
+#org @NAME_DEERLINGW
+Deerling
+
+#org @NAME_SAWSBUCKM
+Sawsbuck
+
+#org @NAME_SAWSBUCKF
+Sawsbuck
+
+#org @NAME_SAWSBUCKW
+Sawsbuck
+
+#org @NAME_HIPPOPOTAF
+Hippopotas
+
+#org @NAME_HIPPOWDONF
+Hippowdon
+
+#org @NAME_MELOETTAP
+Meloetta
+
+#org @NAME_GENESECTE
+Genesect
+
+#org @NAME_GENESECTF
+Genesect
+
+#org @NAME_GENESECTI
+Genesect
+
+#org @NAME_GENESECTW
+Genesect
+
+#org @NAME_CHERRIMS
+Cherrim
+
+#org @NAME_KYUREMB
+Kyurem
+
+#org @NAME_KYUREMW
+Kyurem
+
+#org @NAME_TORNADUST
+Tornadus
+
+#org @NAME_THUNDURUST
+Thundurus
+
+#org @NAME_LANDORUST
+Landorus
+
+#org @NAME_KELDEOR
+Keldeo
+
+#org @NAME_CHESPIN
+Chespin
+
+#org @NAME_QUILLADIN
+Quilladin
+
+#org @NAME_CHESNAUGHT
+Chesnaught
+
+#org @NAME_FENNEKIN
+Fennekin
+
+#org @NAME_BRAIXEN
+Braixen
+
+#org @NAME_DELPHOX
+Delphox
+
+#org @NAME_FROAKIE
+Froakie
+
+#org @NAME_FROGADIER
+Frogadier
+
+#org @NAME_GRENINJA
+Greninja
+
+#org @NAME_BUNNELBY
+Bunnelby
+
+#org @NAME_DIGGERSBY
+Diggersby
+
+#org @NAME_FLETCHLING
+Fletchling
+
+#org @NAME_FLETCHINDR
+Fletchindr
+
+#org @NAME_TALONFLAME
+Talonflame
+
+#org @NAME_SCATTERBUG
+Scatterbug
+
+#org @NAME_SPEWPA
+Spewpa
+
+#org @NAME_VIVILLON
+Vivillon
+
+#org @NAME_LITLEO
+Litleo
+
+#org @NAME_PYROAR
+Pyroar
+
+#org @NAME_FLABEBE_R
+Flab\eb\e
+
+#org @NAME_FLOETTE_R
+Floette
+
+#org @NAME_FLORGES_R
+Florges
+
+#org @NAME_SKIDDO
+Skiddo
+
+#org @NAME_GOGOAT
+Gogoat
+
+#org @NAME_PANCHAM
+Pancham
+
+#org @NAME_PANGORO
+Pangoro
+
+#org @NAME_FURFROU
+Furfrou
+
+#org @NAME_ESPURR
+Espurr
+
+#org @NAME_MEOWSTIC
+Meowstic
+
+#org @NAME_HONEDGE
+Honedge
+
+#org @NAME_DOUBLADE
+Doublade
+
+#org @NAME_AEGISLASH
+Aegislash
+
+#org @NAME_SPRITZEE
+Spritzee
+
+#org @NAME_AROMATISSE
+Aromatisse
+
+#org @NAME_SWIRLIX
+Swirlix
+
+#org @NAME_SLURPUFF
+Slurpuff
+
+#org @NAME_INKAY
+Inkay
+
+#org @NAME_MALAMAR
+Malamar
+
+#org @NAME_BINACLE
+Binacle
+
+#org @NAME_BARBARACLE
+Barbaracle
+
+#org @NAME_SKRELP
+Skrelp
+
+#org @NAME_DRAGALGE
+Dragalge
+
+#org @NAME_CLAUNCHER
+Clauncher
+
+#org @NAME_CLAWITZER
+Clawitzer
+
+#org @NAME_HELIOPTILE
+Helioptile
+
+#org @NAME_HELIOLISK
+Heliolisk
+
+#org @NAME_TYRUNT
+Tyrunt
+
+#org @NAME_TYRANTRUM
+Tyrantrum
+
+#org @NAME_AMAURA
+Amaura
+
+#org @NAME_AURORUS
+Aurorus
+
+#org @NAME_SYLVEON
+Sylveon
+
+#org @NAME_HAWLUCHA
+Hawlucha
+
+#org @NAME_DEDENNE
+Dedenne
+
+#org @NAME_CARBINK
+Carbink
+
+#org @NAME_GOOMY
+Goomy
+
+#org @NAME_SLIGGOO
+Sliggoo
+
+#org @NAME_GOODRA
+Goodra
+
+#org @NAME_KLEFKI
+Klefki
+
+#org @NAME_PHANTUMP
+Phantump
+
+#org @NAME_TREVENANT
+Trevenant
+
+#org @NAME_PUMPKABOOS
+Pumpkaboo
+
+#org @NAME_GOURGEISTS
+Gourgeist
+
+#org @NAME_BERGMITE
+Bergmite
+
+#org @NAME_AVALUGG
+Avalugg
+
+#org @NAME_NOIBAT
+Noibat
+
+#org @NAME_NOIVERN
+Noivern
+
+#org @NAME_XERNEAS
+Xerneas
+
+#org @NAME_YVELTAL
+Yveltal
+
+#org @NAME_ZYGARDE
+Zygarde
+
+#org @NAME_DIANCIE
+Diancie
+
+#org @NAME_HOOPA
+Hoopa
+
+#org @NAME_HOOPAU
+Hoopa
+
+#org @NAME_VOLCANION
+Volcanion
+
+#org @NAME_PYROAR_F
+Pyroar
+
+#org @NAME_MEOWSTIC_F
+Meowstic
+
+#org @NAME_AEGISLASHB
+Aegislash
+
+#org @NAME_ARCEUSFRY
+Arceus
+
+#org @NAME_ZYGARDECEL
+Zygarde
+
+#org @NAME_ZYGARDECOR
+Zygarde
+
+#org @NAME_ZYGARDE10
+Zygarde
+
+#org @NAME_ZYGARDE100
+Zygarde
+
+#org @NAME_GRENINJA_A
+Greninja
+
+#org @NAME_FLABEBE_B
+Flab\eb\e
+
+#org @NAME_FLABEBE_O
+Flab\eb\e
+
+#org @NAME_FLABEBE_Y
+Flab\eb\e
+
+#org @NAME_FLABEBE_W
+Flab\eb\e
+
+#org @NAME_FLOETTE_B
+Floette
+
+#org @NAME_FLOETTE_O
+Floette
+
+#org @NAME_FLOETTE_Y
+Floette
+
+#org @NAME_FLOETTE_W
+Floette
+
+#org @NAME_FLOETTE_AZ
+Floette
+
+#org @NAME_FLORGES_B
+Florges
+
+#org @NAME_FLORGES_O
+Florges
+
+#org @NAME_FLORGES_Y
+Florges
+
+#org @NAME_FLORGES_W
+Florges
+
+#org @NAME_PUMPKABOOX
+Pumpkaboo
+
+#org @NAME_PUMPKABOOL
+Pumpkaboo
+
+#org @NAME_PUMPKABOOM
+Pumpkaboo
+
+#org @NAME_GOURGEISTX
+Gourgeist
+
+#org @NAME_GOURGEISTL
+Gourgeist
+
+#org @NAME_GOURGEISTM
+Gourgeist
+
+#org @NAME_FURFROU_A
+Furfrou
+
+#org @NAME_FURFROU_B
+Furfrou
+
+#org @NAME_FURFROU_C
+Furfrou
+
+#org @NAME_FURFROU_D
+Furfrou
+
+#org @NAME_FURFROU_E
+Furfrou
+
+#org @NAME_FURFROU_F
+Furfrou
+
+#org @NAME_FURFROU_G
+Furfrou
+
+#org @NAME_FURFROU_H
+Furfrou
+
+#org @NAME_FURFROU_I
+Furfrou
+
+#org @NAME_VIVILLON_FANCY
+Vivillon
+
+#org @NAME_MVENUSAUR
+Venusaur
+
+#org @NAME_CHARIZARDX
+Charizard
+
+#org @NAME_CHARIZARDY
+Charizard
+
+#org @NAME_MBLASTOISE
+Blastoise
+
+#org @NAME_MBEEDRILL
+Beedrill
+
+#org @NAME_MPIDGEOT
+Pidgeot
+
+#org @NAME_MALAKAZAM
+Alakazam
+
+#org @NAME_MSLOWBRO
+Slowbro
+
+#org @NAME_MGENGAR
+Gengar
+
+#org @NAME_MKANGASKAN
+Kangaskhan
+
+#org @NAME_MPINSIR
+Pinsir
+
+#org @NAME_MGYARADOS
+Gyarados
+
+#org @NAME_MARODACTYL
+Aerodactyl
+
+#org @NAME_MMEWTWOX
+Mewtwo
+
+#org @NAME_MMEWTWOY
+Mewtwo
+
+#org @NAME_MAMPHAROS
+Ampharos
+
+#org @NAME_MSTEELIX
+Steelix
+
+#org @NAME_MSCIZOR
+Scizor
+
+#org @NAME_MHERACROSS
+Heracross
+
+#org @NAME_MHOUNDOOM
+Houndoom
+
+#org @NAME_MTYRANITAR
+Tyranitar
+
+#org @NAME_MSCEPTILE
+Sceptile
+
+#org @NAME_MBLAZIKEN
+Blaziken
+
+#org @NAME_MSWAMPERT
+Swampert
+
+#org @NAME_MGARDEVOIR
+Gardevoir
+
+#org @NAME_MSABLEYE
+Sableye
+
+#org @NAME_MMAWILE
+Mawile
+
+#org @NAME_MAGGRON
+Aggron
+
+#org @NAME_MMEDICHAM
+Medicham
+
+#org @NAME_MMANECTRIC
+Manectric
+
+#org @NAME_MSHARPEDO
+Sharpedo
+
+#org @NAME_MCAMERUPT
+Camerupt
+
+#org @NAME_MALTARIA
+Altaria
+
+#org @NAME_MBANETTE
+Banette
+
+#org @NAME_MABSOL
+Absol
+
+#org @NAME_MGLALIE
+Glalie
+
+#org @NAME_MSALAMENCE
+Salamence
+
+#org @NAME_MMETAGROSS
+Metagross
+
+#org @NAME_MLATIAS
+Latias
+
+#org @NAME_MLATIOS
+Latios
+
+#org @NAME_PGROUDON
+Groudon
+
+#org @NAME_PKYOGRE
+Kyogre
+
+#org @NAME_MRAYQUAZA
+Rayquaza
+
+#org @NAME_MLOPUNNY
+Lopunny
+
+#org @NAME_MGARCHOMP
+Garchomp
+
+#org @NAME_MLUCARIO
+Lucario
+
+#org @NAME_MABOMASNOW
+Abomasnow
+
+#org @NAME_MGALLADE
+Gallade
+
+#org @NAME_MAUDINO
+Audino
+
+#org @NAME_MDIANCIE
+Diancie
+
+#org @NAME_PDIALGA
+Dialga
+
+#org @NAME_PPALKIA
+Palkia
+
+#org @NAME_VIVILLON2
+Vivillon
+
+#org @NAME_VIVILLON3
+Vivillon
+
+#org @NAME_VIVILLON4
+Vivillon
+
+#org @NAME_VIVILLON5
+Vivillon
+
+#org @NAME_VIVILLON6
+Vivillon
+
+#org @NAME_VIVILLON7
+Vivillon
+
+#org @NAME_VIVILLON8
+Vivillon
+
+#org @NAME_VIVILLON9
+Vivillon
+
+#org @NAME_VIVILLON10
+Vivillon
+
+#org @NAME_VIVILLON11
+Vivillon
+
+#org @NAME_VIVILLON12
+Vivillon
+
+#org @NAME_VIVILLON13
+Vivillon
+
+#org @NAME_VIVILLON14
+Vivillon
+
+#org @NAME_VIVILLON15
+Vivillon
+
+#org @NAME_VIVILLON16
+Vivillon
+
+#org @NAME_VIVILLON17
+Vivillon
+
+#org @NAME_VIVILLON18
+Vivillon
+
+#org @NAME_VIVILLON19
+Vivillon
+
+#org @NAME_ROWLET
+Rowlet
+
+#org @NAME_DARTRIX
+Dartrix
+
+#org @NAME_DECIDUEYE
+Decidueye
+
+#org @NAME_LITTEN
+Litten
+
+#org @NAME_TORRACAT
+Torracat
+
+#org @NAME_INCINEROAR
+Incineroar
+
+#org @NAME_POPPLIO
+Popplio
+
+#org @NAME_BRIONNE
+Brionne
+
+#org @NAME_PRIMARINA
+Primarina
+
+#org @NAME_PIKIPEK
+Pikipek
+
+#org @NAME_TRUMBEAK
+Trumbeak
+
+#org @NAME_TOUCANNON
+Toucannon
+
+#org @NAME_YUNGOOS
+Yungoos
+
+#org @NAME_GUMSHOOS
+Gumshoos
+
+#org @NAME_GRUBBIN
+Grubbin
+
+#org @NAME_CHARJABUG
+Charjabug
+
+#org @NAME_VIKAVOLT
+Vikavolt
+
+#org @NAME_CRABRAWLER
+Crabrawler
+
+#org @NAME_CRABMINBLE
+Crabminble
+
+#org @NAME_ORICORIO
+Oricorio
+
+#org @NAME_CUTIEFLY
+Cutiefly
+
+#org @NAME_RIBOMBEE
+Ribombee
+
+#org @NAME_ROCKRUFF
+Rockruff
+
+#org @NAME_LYCANROC
+Lycanroc
+
+#org @NAME_WISHIWASHI
+Wishiwashi
+
+#org @NAME_MAREANIE
+Mareanie
+
+#org @NAME_TOXAPEX
+Toxapex
+
+#org @NAME_MUDBRAY
+Mudbray
+
+#org @NAME_MUDSDALE
+Mudsdale
+
+#org @NAME_DEWPIDER
+Dewpider
+
+#org @NAME_ARAQUANID
+Araquanid
+
+#org @NAME_FOMANTIS
+Fomantis
+
+#org @NAME_LURANTIS
+Lurantis
+
+#org @NAME_MORELULL
+Morelull
+
+#org @NAME_SHIINOTIC
+Shiinotic
+
+#org @NAME_SALANDIT
+Salandit
+
+#org @NAME_SALAZZLE
+Salazzle
+
+#org @NAME_STUFFUL
+Stufful
+
+#org @NAME_BEWEAR
+Bewear
+
+#org @NAME_BOUNSWEET
+Bounsweet
+
+#org @NAME_STEENEE
+Steenee
+
+#org @NAME_TSAREENA
+Tsareena
+
+#org @NAME_COMFEY
+Comfey
+
+#org @NAME_ORANGURU
+Oranguru
+
+#org @NAME_PASSIMIAN
+Passimian
+
+#org @NAME_WIMPOD
+Wimpod
+
+#org @NAME_GOLISOPOD
+Golisopod
+
+#org @NAME_SANDYGAST
+Sandygast
+
+#org @NAME_PALOSSAND
+Palossand
+
+#org @NAME_PYUKUMUKU
+Pyukumuku
+
+#org @NAME_TYPE_NULL
+Type: Null
+
+#org @NAME_SILVALLY
+Silvally
+
+#org @NAME_MINIOR
+Minior
+
+#org @NAME_KOMALA
+Komala
+
+#org @NAME_TURTONATOR
+Turtonator
+
+#org @NAME_TOGEDEMARU
+Togedemaru
+
+#org @NAME_MIMIKYU
+Mimikyu
+
+#org @NAME_BRUXISH
+Bruxish
+
+#org @NAME_DRAMPA
+Drampa
+
+#org @NAME_DHELMISE
+Dhelmise
+
+#org @NAME_JANGMOO
+Jangmo-o
+
+#org @NAME_HAKAMOO
+Hakamo-o
+
+#org @NAME_KOMMOO
+Kommo-o
+
+#org @NAME_TAPU_KOKO
+Tapu Koko
+
+#org @NAME_TAPU_LELE
+Tapu Lele
+
+#org @NAME_TAPU_BULU
+Tapu Bulu
+
+#org @NAME_TAPU_FINI
+Tapu Fini
+
+#org @NAME_COSMOG
+Cosmog
+
+#org @NAME_COSMOEM
+Cosmoem
+
+#org @NAME_SOLGALEO
+Solgaleo
+
+#org @NAME_LUNALA
+Lunala
+
+#org @NAME_NIHILEGO
+Nihilego
+
+#org @NAME_BUZZWOLE
+Buzzwole
+
+#org @NAME_PHEROMOSA
+Pheromosa
+
+#org @NAME_XURKITREE
+Xurkitree
+
+#org @NAME_CELESTEELA
+Celesteela
+
+#org @NAME_KARTANA
+Kartana
+
+#org @NAME_GUZZLORD
+Guzzlord
+
+#org @NAME_NECROZMA
+Necrozma
+
+#org @NAME_MAGEARNA
+Magearna
+
+#org @NAME_MARSHADOW
+Marshadow
+
+#org @NAME_ARATTATA
+Rattata
+
+#org @NAME_ARATICATE
+Raticate
+
+#org @NAME_ARAICHU
+Raichu
+
+#org @NAME_ASANDSHREW
+Sandshrew
+
+#org @NAME_ASANDSLASH
+Sandslash
+
+#org @NAME_AVULPIX
+Vulpix
+
+#org @NAME_ANINETALES
+Ninetales
+
+#org @NAME_ADIGLETT
+Diglett
+
+#org @NAME_ADUGTRIO
+Dugtrio
+
+#org @NAME_AMEOWTH
+Meowth
+
+#org @NAME_APERSIAN
+Persian
+
+#org @NAME_AGEODUDE
+Geodude
+
+#org @NAME_AGRAVELER
+Graveler
+
+#org @NAME_AGOLEM
+Golem
+
+#org @NAME_AGRIMER
+Grimer
+
+#org @NAME_AMUK
+Muk
+
+#org @NAME_AEXEGGCUTE
+Exeggcute
+
+#org @NAME_AEXEGGUTOR
+Exeggutor
+
+#org @NAME_ACUBONE
+Cubone
+
+#org @NAME_AMAROWAK
+Marowak
+
+#org @NAME_DEOXYSA
+Deoxys
+
+#org @NAME_DEOXYSD
+Deoxys
+
+#org @NAME_DEOXYSS
+Deoxys
+
+#org @NAME_ORICORIOY
+Oricorio
+
+#org @NAME_ORICORIOP
+Oricorio
+
+#org @NAME_ORICORIOS
+Oricorio
+
+#org @NAME_LYCANROCN
+Lycanroc
+
+#org @NAME_WISHIWASHS
+Wishiwashi
+
+#org @NAME_SILVALLYFI
+Silvally
+
+#org @NAME_SILVALLYFL
+Silvally
+
+#org @NAME_SILVALLYPS
+Silvally
+
+#org @NAME_SILVALLYGR
+Silvally
+
+#org @NAME_SILVALLYRO
+Silvally
+
+#org @NAME_SILVALLYBU
+Silvally
+
+#org @NAME_SILVALLYGS
+Silvally
+
+#org @NAME_SILVALLYST
+Silvally
+
+#org @NAME_SILVALLYFR
+Silvally
+
+#org @NAME_SILVALLYWA
+Silvally
+
+#org @NAME_SILVALLYGA
+Silvally
+
+#org @NAME_SILVALLYEL
+Silvally
+
+#org @NAME_SILVALLYPY
+Silvally
+
+#org @NAME_SILVALLYIC
+Silvally
+
+#org @NAME_SILVALLYDR
+Silvally
+
+#org @NAME_SILVALLYDA
+Silvally
+
+#org @NAME_SILVALLYFA
+Silvally
+
+#org @NAME_MINIORRED
+Minior
+
+#org @NAME_MINIORBLU
+Minior
+
+#org @NAME_MINIORORG
+Minior
+
+#org @NAME_MINIORYLW
+Minior
+
+#org @NAME_MINIORIND
+Minior
+
+#org @NAME_MINIORGRN
+Minior
+
+#org @NAME_MINIORVIO
+Minior
+
+#org @NAME_MIMIKYUBU
+Mimikyu
+
+#org @NAME_MAGEARNAP
+Magearna
+
+#org @NAME_POIPOLE
+Poipole
+
+#org @NAME_NAGANADEL
+Naganadel
+
+#org @NAME_STAKATAKA
+Stakataka
+
+#org @NAME_BLACPHALON
+Blacphalon
+
+#org @NAME_ZERAORA
+Zeraora
+
+#org @NAME_NECROZMAM
+Necrozma
+
+#org @NAME_NECROZMAW
+Necrozma
+
+#org @NAME_NECROZMAU
+Necrozma
+
+#org @NAME_LYCANROCD
+Lycanroc
+
+#org @NAME_MELTAN
+Meltan
+
+#org @NAME_MELMETAL
+Melmetal
+
+#org @NAME_PIKACHU_SURFING
+Pikachu
+
+#org @NAME_PIKACHU_FLYING
+Pikachu
+
+#org @NAME_PIKACHU_COSPLAY
+Pikachu
+
+#org @NAME_PIKACHU_LIBRE
+Pikachu
+
+#org @NAME_PIKACHU_POP_STAR
+Pikachu
+
+#org @NAME_PIKACHU_ROCK_STAR
+Pikachu
+
+#org @NAME_PIKACHU_BELLE
+Pikachu
+
+#org @NAME_PIKACHU_PHD
+Pikachu
+
+#org @NAME_PIKACHU_CAP_ORIGINAL
+Pikachu
+
+#org @NAME_PIKACHU_CAP_HOENN
+Pikachu
+
+#org @NAME_PIKACHU_CAP_SINNOH
+Pikachu
+
+#org @NAME_PIKACHU_CAP_UNOVA
+Pikachu
+
+#org @NAME_PIKACHU_CAP_KALOS
+Pikachu
+
+#org @NAME_PIKACHU_CAP_ALOLA
+Pikachu
+
+#org @NAME_PIKACHU_CAP_PARTNER
+Pikachu
+
+#org @NAME_PICHU_SPIKY
+Pichu
+
+#org @NAME_XERNEAS_NATURAL
+Xerneas

@@ -3886,7 +3886,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_PYROAR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x5,
 	},
 	[SPECIES_FLABEBE] =
 	{
@@ -5398,12 +5398,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0xb,
 	},
-	[SPECIES_NECROZMA_MANE] =
+	[SPECIES_NECROZMA_DUSK_MANE] =
 	{
 		.size = 0x0,
 		.y_offset = 0x1,
 	},
-	[SPECIES_NECROZMA_WINGS] =
+	[SPECIES_NECROZMA_DAWN_WINGS] =
 	{
 		.size = 0x0,
 		.y_offset = 0x2,

@@ -28,3 +28,6 @@ gPokedexOrder_Height 08103868
 gMonIconTable 08000138
 gMonIconPaletteIndices 0800013C
 gItemAnimationTable 0812EAE0
+
+gTMHMMoves 08125A8C
+gMoveTutorMoves 08120BE4

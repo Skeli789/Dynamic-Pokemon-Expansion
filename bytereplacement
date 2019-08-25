@@ -1,4 +1,5 @@
-##
+#include "include/tutors.h"
+
 ##Use New Name Table
 08041000 C0 46 C0 46 C0 46
 
@@ -17,6 +18,7 @@
 #Icon Palette Fixes
 08096F90 C0 46
 08096E7A C0 46 C0 46
+080970A6 C0 46 C0 46 C0 46 C0 46 C0 46
 080971DA C0 46
 
 #Update Pokedex
@@ -75,3 +77,7 @@
 ##Fix Pokedex Species Issue
 0810583C FF
 08105856 FF
+
+##Increase Tutors to 72 (64 Regular + 8 Special)
+0811F456 LAST_TOTAL_TUTOR_NUM
+08127824 LAST_TOTAL_TUTOR_NUM

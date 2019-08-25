@@ -10334,7 +10334,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = (u8*) 0x85e5074,
+		.wav = (u8*) 0x85ea850,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
@@ -12644,7 +12644,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NECROZMA_MANE] = 
+	[SPECIES_NECROZMA_DUSK_MANE] = 
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -12656,7 +12656,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NECROZMA_WINGS] = 
+	[SPECIES_NECROZMA_DAWN_WINGS] = 
 	{	
 		.type = 0x20,
 		.key = 0x3c,

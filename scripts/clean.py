@@ -12,7 +12,7 @@ GRAPHICS = './graphics'
 ASSEMBLY = './assembly'
 STRINGS = './strings'
 BUILD = './build'
-GENERATED = SRC + '/generated'
+GENERATED = ASSEMBLY + '/generated'
 
 def PutFileNameInRightFormat(filename):
 	filename = filename.split('/')
