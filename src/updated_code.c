@@ -148,3 +148,27 @@ u16 TryGetFemaleGenderedSpecies(u16 species, u32 personality)
 	
 	return species;
 }
+
+u16 GetIconSpecies(u16 species, u32 personality)
+{
+    u16 result;
+
+    if (species == SPECIES_UNOWN)
+    {
+        u16 letter = GetUnownLetterFromPersonality(personality);
+        if (letter == 0)
+            letter = SPECIES_UNOWN;
+        else
+            letter += (SPECIES_UNOWN_B - 1);
+        result = letter;
+    }
+    else
+    {
+        if (species > NUM_SPECIES)
+            result = 0;
+        else
+            result = TryGetFemaleGenderedSpecies(species, personality);
+    }
+
+    return result;
+}
