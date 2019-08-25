@@ -2,7 +2,7 @@ a.exe
 *.gba
 build/*
 extracted/*
-src/generated/*
+assembly/generated/*
 scripts/__pycache__
 *.sgm
 *.dmp
@@ -11,3 +11,4 @@ scripts/__pycache__
 *.sav
 offsets.ini
 generatedrepoints
+*.idea
