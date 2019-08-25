@@ -8119,7 +8119,7 @@ const struct BaseStats gBaseStats[] =
 		.genderRatio = PERCENT_FEMALE(50),
 		.eggCycles = 40,
 		.friendship = 35,
-		.growthRate = GROWTH_MEDIUM_SLOW,
+		.growthRate = GROWTH_SLOW,
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_MONSTER,
 		.ability1 = ABILITY_GUTS,
@@ -8152,7 +8152,7 @@ const struct BaseStats gBaseStats[] =
 		.genderRatio = PERCENT_FEMALE(50),
 		.eggCycles = 40,
 		.friendship = 35,
-		.growthRate = GROWTH_MEDIUM_SLOW,
+		.growthRate = GROWTH_SLOW,
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_MONSTER,
 		.ability1 = ABILITY_SHEDSKIN,
@@ -8185,7 +8185,7 @@ const struct BaseStats gBaseStats[] =
 		.genderRatio = PERCENT_FEMALE(50),
 		.eggCycles = 40,
 		.friendship = 35,
-		.growthRate = GROWTH_MEDIUM_SLOW,
+		.growthRate = GROWTH_3SLOW,
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_MONSTER,
 		.ability1 = ABILITY_SANDSTREAM,
@@ -22451,39 +22451,6 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 
-	[SPECIES_SHADOW_WARRIOR] =
-	{
-		.baseHP 		= 60,
-		.baseAttack 	= 115,
-		.baseDefense 	= 65,
-		.baseSpAttack 	= 80,
-		.baseSpDefense 	= 65,
-		.baseSpeed 		= 115,
-		.type1 = TYPE_GHOST,
-		.type2 = TYPE_DARK,
-		.catchRate = 0,
-		.expYield = 165,
-		.evYield_HP 		= 0,
-		.evYield_Attack 	= 2,
-		.evYield_Defense 	= 0,
-		.evYield_SpAttack 	= 0,
-		.evYield_SpDefense 	= 0,
-		.evYield_Speed 		= 1,
-		.item1 = ITEM_NONE,
-		.item2 = ITEM_NONE,
-		.genderRatio = MON_GENDERLESS,
-		.eggCycles = 20,
-		.friendship = 0,
-		.growthRate = GROWTH_MEDIUM_FAST,
-		.eggGroup1 = EGG_GROUP_FIELD,
-		.eggGroup2 = EGG_GROUP_FIELD,
-		.ability1 = ABILITY_TOUGHCLAWS,
-		.ability2 = ABILITY_NONE,
-		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
-		.noFlip = TRUE,
-	},
-
 	[SPECIES_BURMY_SANDY] =
 	{
 		.baseHP 		= 40,
@@ -26539,7 +26506,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_MAGICIAN,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_PORTALPOWER,
+		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
 
@@ -28513,7 +28480,7 @@ const struct BaseStats gBaseStats[] =
 		.genderRatio = PERCENT_FEMALE(50),
 		.eggCycles = 40,
 		.friendship = 35,
-		.growthRate = GROWTH_MEDIUM_SLOW,
+		.growthRate = GROWTH_SLOW,
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_MONSTER,
 		.ability1 = ABILITY_SANDSTREAM,
@@ -29478,14 +29445,6 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
-	},
-
-	[SPECIES_DIALGA_PRIMAL] =
-	{
-	},
-
-	[SPECIES_PALKIA_PRIMAL] =
-	{
 	},
 
 	[SPECIES_VIVILLON_ARCHIPELAGO] =
