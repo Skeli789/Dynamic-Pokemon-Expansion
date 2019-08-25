@@ -10,9 +10,11 @@ memset_ = 0x081E5ED8|1;
 gMain = 0x30030F0;
 
 GetGenderFromSpeciesAndPersonality = 0x803F78C | 1;
+GetMonData = 0x803FBE8 | 1;
 SpeciesToNationalPokedexNum = 0x8043298 | 1;
 DrawSpindaSpots = 0x8043458 | 1;
 GetUnownLetterFromPersonality = 0x8082AB8 | 1;
+SafeLoadMonIconPalette = 0x80970A0 | 1;
 LZ77UnCompWram = 0x81E3B70 | 1;
 
 /*The Deal Breaker*/
