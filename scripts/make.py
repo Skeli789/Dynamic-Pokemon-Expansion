@@ -4,13 +4,13 @@ import os
 import shutil
 
 ############
-#Options go here.
+# Options go here.
 ############
 
-ROM_NAME = "BPRE0.gba"  #The name of your rom
-OFFSET_TO_PUT = 0x1800000
+ROM_NAME = "Pokemon Unbound.gba"  # The name of your rom
+OFFSET_TO_PUT = 0x17b09a0
 SEARCH_FREE_SPACE = False  # Set to True if you want the script to search for free space
-                           # Set to False if you don't want to search for free space as you for example update the engine
+                           # Set to False if you don't want to search for free space as you update the engine
 
 #############
 # Options end here.
@@ -109,7 +109,7 @@ def main():
             InsertCode()
             rom.close()
 
-    except:
+    except FileNotFoundError:
         print('Error: Could not find source rom: "' + ROM_NAME + '".\n'
               + 'Please make sure a rom with this name exists in the root.')
 
