@@ -4146,7 +4146,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_HOOPA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x8,
 	},
 	[SPECIES_HOOPA_UNBOUND] =
 	{
