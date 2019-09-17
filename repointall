@@ -4,6 +4,8 @@ gSpeciesNames 08000144
 gBaseStats 080001BC
 gLevelUpLearnsets 0803EA7C
 gEggMoves 08045C50
+gTMHMLearnsets 08043C68
+gTutorLearnsets 08120C30
 
 gCryTable 08072114
 gCryTable2 08072104

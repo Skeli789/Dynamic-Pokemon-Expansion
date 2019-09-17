@@ -9,6 +9,7 @@ import subprocess
 import sys
 from datetime import datetime
 from string import StringFileConverter
+from tm_tutor import TMDataBuilder
 
 if sys.platform.startswith('win'):
     PathVar = os.environ.get('Path')
@@ -245,53 +246,48 @@ def ProcessString(stringFile: str) -> str:
 
 
 def GetFlagsFromFlagFile(filePath: str) -> [str]:
-	try:
-		with open(filePath, "r") as file:
-			line = file.readline()  # Only needs the first line
-			flags = line.split()
-	except FileNotFoundError:
-		print('"{}" could not be found.'.format(filePath))
-		sys.exit(1)
-		
-	return flags
+    try:
+        with open(filePath, "r") as file:
+            line = file.readline()  # Only needs the first line
+            flags = line.split()
+    except FileNotFoundError:
+        print('"{}" could not be found.'.format(filePath))
+        sys.exit(1)
+
+    return flags
 
 
 def ProcessSpriteSet(fileListing: [str], flags: [str], outputFile: str, title: str):
-	assembledFile = os.path.join(ASSEMBLY, 'generated', outputFile)
-	if (not os.path.isfile(assembledFile)
-	or max(os.path.getmtime(file) for file in fileListing) > os.path.getmtime(assembledFile)):  # If a front sprite has been modified
-		print("Processing {}.".format(title))
-		combinedFile = open(assembledFile, 'w')
-		combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
-		for sprite in fileListing:
-			assembled = sprite.split('.png')[0] + '.s'
+    assembledFile = os.path.join(ASSEMBLY, 'generated', outputFile)
+    if (not os.path.isfile(assembledFile)
+            or max(list(map(os.path.getmtime, fileListing))) > os.path.getmtime(assembledFile)):  # If a sprite has been modified
+        print("Processing {}.".format(title))
+        combinedFile = open(assembledFile, 'w')
+        combinedFile.write('@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n')
+        for sprite in fileListing:
+            assembled = sprite.split('.png')[0] + '.s'
 
-			if (not os.path.isfile(assembled)
-			or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
-				RunCommand([GR, sprite] + flags + ['-o', assembled])
+            if (not os.path.isfile(assembled)
+                    or os.path.getmtime(sprite) > os.path.getmtime(assembled)):
+                RunCommand([GR, sprite] + flags + ['-o', assembled])
 
-			with open(assembled, 'r') as tempFile:
-				combinedFile.write(tempFile.read())
-		combinedFile.close()
+            with open(assembled, 'r') as tempFile:
+                combinedFile.write(tempFile.read())
+        combinedFile.close()
 
 
 def ProcessSpriteGraphics():
-	frontFlags = GetFlagsFromFlagFile(GRAPHICS + "/frontspriteflags.grit")
-	backFlags = GetFlagsFromFlagFile(GRAPHICS + "/backspriteflags.grit")
-	iconFlags = GetFlagsFromFlagFile(GRAPHICS + "/iconspriteflags.grit")
+    frontFlags = GetFlagsFromFlagFile(GRAPHICS + "/frontspriteflags.grit")
+    backFlags = GetFlagsFromFlagFile(GRAPHICS + "/backspriteflags.grit")
+    iconFlags = GetFlagsFromFlagFile(GRAPHICS + "/iconspriteflags.grit")
 
-	try:
-		os.makedirs(ASSEMBLY + "/generated")
-	except FileExistsError:
-		pass
-	
-	backsprites = [file for file in glob(GRAPHICS + "/backspr" + "**/*.png", recursive=True)]
-	frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
-	iconsprites = [file for file in glob(GRAPHICS + "/pokeicon" + "**/*.png", recursive=True)]
+    backsprites = [file for file in glob(GRAPHICS + "/backspr" + "**/*.png", recursive=True)]
+    frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
+    iconsprites = [file for file in glob(GRAPHICS + "/pokeicon" + "**/*.png", recursive=True)]
 
-	ProcessSpriteSet(frontsprites, frontFlags, 'frontsprites.s', "Front Sprites")
-	ProcessSpriteSet(backsprites, backFlags, 'backsprites.s', "Back Sprites")
-	ProcessSpriteSet(iconsprites, iconFlags, 'iconsprites.s', "Icon Sprites")
+    ProcessSpriteSet(frontsprites, frontFlags, 'frontsprites.s', "Front Sprites")
+    ProcessSpriteSet(backsprites, backFlags, 'backsprites.s', "Back Sprites")
+    ProcessSpriteSet(iconsprites, iconFlags, 'iconsprites.s', "Icon Sprites")
 
 
 def ProcessAudio(audioFile: str) -> str:
@@ -378,13 +374,13 @@ def main():
     Master.init()
     startTime = datetime.now()
     globs = {
-            '**/*.s': ProcessAssembly,
-            '**/*.c': ProcessC,
-            '**/*.string': ProcessString,
-            # '**/*.png': ProcessImage,
-            # '**/*.bmp': ProcessImage,
-            '**/*.wav': ProcessAudio,
-            '**/*.mid': ProcessMusic,
+        '**/*.s': ProcessAssembly,
+        '**/*.c': ProcessC,
+        '**/*.string': ProcessString,
+        # '**/*.png': ProcessImage,
+        # '**/*.bmp': ProcessImage,
+        '**/*.wav': ProcessAudio,
+        '**/*.mid': ProcessMusic,
     }
 
     # Create output directory
@@ -394,7 +390,13 @@ def main():
         pass
 
     try:
-        ProcessSpriteGraphics()	
+        try:
+            os.makedirs(ASSEMBLY + "/generated")
+        except FileExistsError:
+            pass
+
+        ProcessSpriteGraphics()
+        TMDataBuilder()
 
         # Gather source files and process them
         objects = itertools.starmap(RunGlob, globs.items())
