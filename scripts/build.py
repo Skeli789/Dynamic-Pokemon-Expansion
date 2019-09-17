@@ -10,43 +10,6 @@ import sys
 from datetime import datetime
 from string import StringFileConverter
 
-PathVar = os.environ.get('Path')
-Paths = PathVar.split(';')
-PATH = ""
-for candidatePath in Paths:
-    if "devkitARM" in candidatePath:
-        PATH = candidatePath
-        break
-if PATH == "":
-	print('DevKit does not exist in your Path variable.\nChecking default location.')
-	PATH = 'C://devkitPro//devkitARM//bin'
-	if os.path.isdir(PATH) == False:
-		print("...\nDevkit not found.")
-		sys.exit(1)
-	else:
-		print("Devkit found.")
-
-PREFIX = '/arm-none-eabi-'
-AS = (PATH + PREFIX + 'as')
-CC = (PATH + PREFIX + 'gcc')
-LD = (PATH + PREFIX + 'ld')
-GR = ("deps/grit.exe")
-WAV2AGB = ("deps/wav2agb.exe")
-ARP = ('armips')
-OBJCOPY = (PATH + PREFIX + 'objcopy')
-SRC = './src'
-GRAPHICS = './graphics'
-ASSEMBLY = './assembly'
-STRINGS = './strings'
-AUDIO = './audio'
-BUILD = './build'
-IMAGES = '\Images'
-ASFLAGS = ['-mthumb', '-I', ASSEMBLY]
-LDFLAGS = ['BPRE.ld', '-T', 'linker.ld']
-CFLAGS = ['-mthumb', '-mno-thumb-interwork', '-mcpu=arm7tdmi', '-mtune=arm7tdmi',
-'-mno-long-calls', '-march=armv4t', '-Wall', '-Wextra','-Os', '-fira-loop-pressure', '-fipa-pta']
-
-
 if sys.platform.startswith('win'):
     PathVar = os.environ.get('Path')
     Paths = PathVar.split(';')
@@ -430,14 +393,19 @@ def main():
     except FileExistsError:
         pass
 
-    ProcessSpriteGraphics()	
+    try:
+        ProcessSpriteGraphics()	
 
-    # Gather source files and process them
-    objects = itertools.starmap(RunGlob, globs.items())
+        # Gather source files and process them
+        objects = itertools.starmap(RunGlob, globs.items())
 
-    # Link and extract raw binary
-    linked = LinkObjects(itertools.chain.from_iterable(objects))
-    Objcopy(linked)
+        # Link and extract raw binary
+        linked = LinkObjects(itertools.chain.from_iterable(objects))
+        Objcopy(linked)
+
+    except Exception as e:
+        print("There was an error compiling the engine: {}".format(e))
+        sys.exit(1)
 
     # Build special_inserts.asm
     if os.path.isfile('special_inserts.asm'):
