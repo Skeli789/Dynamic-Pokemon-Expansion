@@ -20,7 +20,7 @@ A dynamic data insertion tool for expanding Pokemon data in FireRed.
 ```
 1. Download devkitpro. Follow the instructions.
 (Note: you can only install devkitARM)
-For Windows users, follows steps 4-6 from this tutorial:
+For Windows users, follow steps 4-6 from this tutorial:
 https://www.pokecommunity.com/showpost.php?p=8825585&postcount=96
 
 2. Download the latest version of python (3.7.2).

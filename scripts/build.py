@@ -9,7 +9,7 @@ import subprocess
 import sys
 from datetime import datetime
 from string import StringFileConverter
-from tm_tutor import TMDataBuilder
+from tm_tutor import TMDataBuilder, TutorDataBuilder
 
 if sys.platform.startswith('win'):
     PathVar = os.environ.get('Path')
@@ -397,6 +397,7 @@ def main():
 
         ProcessSpriteGraphics()
         TMDataBuilder()
+        TutorDataBuilder()
 
         # Gather source files and process them
         objects = itertools.starmap(RunGlob, globs.items())
