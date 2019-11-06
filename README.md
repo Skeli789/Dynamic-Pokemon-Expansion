@@ -47,13 +47,13 @@ a) In the 'make.py' file in the folder 'scripts' change OFFSET_TO_PUT=YYY to the
 url address or selecting 'run command prompt from here' from right clciking on empty space 
 while holding the shift key.
 
-8. In command prompt window, type 'python scripts//data_extractor.py'
-This extracts the graphics data from BPRE0.gba and places it in the
-directory *extracted*. Make sure to update the files in *src* with
-this extracted data. Do not overwrite the files in *src*. Only replace
-Pokemmon that are in your hack. Leave the expanded graphics data alone.
+8. Only if you would like to use the data extractor, in command prompt window,
+type 'python scripts//data_extractor.py' This extracts the graphics data from 
+BPRE0.gba and places it in the directory *extracted*. Make sure to update the
+files in *src* with this extracted data. Do not overwrite the files in *src*.
+Only replace Pokemmon that are in your hack. Leave the expanded graphics data alone.
 
-9. Once you're done editing the source files, in the command prompt window, 
+9. Once you're done editing the source files to your liking, in the command prompt window, 
 type 'python scripts//make.py'. If you have never compiled before, the first time
 compilation will take a few minutes. However, as long as you don't clean the build
 data, all following compilations will be much quicker.
