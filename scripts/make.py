@@ -113,7 +113,7 @@ def main():
             InsertCode()
             rom.close()
 
-    except:
+    except FileNotFoundError:
         print('Error: Could not find source rom: "' + ROM_NAME + '".\n'
               + 'Please make sure a rom with this name exists in the root.')
 
