@@ -13,7 +13,9 @@
 #define SPECIES_TABLES_TERMIN 0xFEFE
 
 //CHANGE THESE IF YOU WANT
-//#define EXPAND_LEARNSETS //Uncomment this line if you'd prefer to expand movesets here as opposed to the CFRU.
+#define EXPAND_LEARNSETS //If you're using this feature, make sure you insert the Complete Fire Red Upgrade 
+//                         afterwards or the game will crash when selecting certain Pokemon. Comment out this
+//                         line if you're using the CFRU to expand movesets.
 
 //#define INCLUDE_FOOTPRINTS //If you uncomment this line, make sure to uncomment gMonFootprintTable in "repoints", and remove the footprint remover in "bytereplacement"
 
