@@ -1,8 +1,9 @@
+#include "src/defines.h"
+
 ##Repoints all pointers found at given location 
 ##(Eg. repoints pointer located at 0x8016364 which is 0x81D65A8 in vanilla, does not repoint 0x8016364)
 gSpeciesNames 08000144
 gBaseStats 080001BC
-gLevelUpLearnsets 0803EA7C
 gEggMoves 08045C50
 gTMHMLearnsets 08043C68
 gTutorLearnsets 08120C30
@@ -33,3 +34,7 @@ gItemAnimationTable 0812EAE0
 
 gTMHMMoves 08125A8C
 gMoveTutorMoves 08120BE4
+
+#ifdef EXPAND_LEARNSETS
+gLevelUpLearnsets 0803EA7C
+#endif

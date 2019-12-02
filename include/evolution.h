@@ -45,6 +45,7 @@ enum EvolutionMethods
 	EVO_LEVEL_SPECIFIC_TIME_RANGE, // above given level with a range (unknown is [start][end]. eg lycanroc -> 1700-1800 hrs -> 0x1112)
 };
 
+#define EVO_GIGANTAMAX 0xFD
 #define EVO_MEGA 0xFE
 
 enum MegaEvoVariants
