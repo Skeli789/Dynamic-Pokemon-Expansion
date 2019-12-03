@@ -172,3 +172,8 @@ u16 GetIconSpecies(u16 species, u32 personality)
 
     return result;
 }
+
+bool8 IsInBattle(void)
+{
+	return gMain.inBattle;
+}
