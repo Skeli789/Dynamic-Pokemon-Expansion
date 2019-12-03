@@ -1136,8 +1136,6 @@ const u16 gSeaPage19[] =
 {
 	SPECIES_FRILLISH,
 	SPECIES_JELLICENT,
-	SPECIES_FRILLISH_F,
-	SPECIES_JELLICENT_F,
 };
 
 const u16 gSeaPage20[] =
@@ -1617,13 +1615,27 @@ const u16 gMountainPage35[] =
 
 const u16 gMountainPage36[] =
 {
-	SPECIES_MINIOR_SHIELD,
 	SPECIES_TURTONATOR,
 	SPECIES_TOGEDEMARU,
 	SPECIES_DRAMPA,
 };
 
-const u16 gMountainPage37[] =
+const u16 gMountainPage37[]=
+{
+	SPECIES_MINIOR_SHIELD,
+	SPECIES_MINIOR_RED,
+	SPECIES_MINIOR_BLUE,
+	SPECIES_MINIOR_ORANGE,
+};
+
+const u16 gMountainPage38[]=
+{
+	SPECIES_MINIOR_YELLOW,
+	SPECIES_MINIOR_INDIGO,
+	SPECIES_MINIOR_GREEN,
+};
+
+const u16 gMountainPage39[] =
 {
 	SPECIES_ZERAORA,
 };
@@ -1709,8 +1721,6 @@ const u16 gRoughTerrainPage13[] =
 {
 	SPECIES_HIPPOPOTAS,
 	SPECIES_HIPPOWDON,
-	SPECIES_HIPPOPOTAS_F,
-	SPECIES_HIPPOWDON_F,
 };
 
 const u16 gRoughTerrainPage14[] =
@@ -1915,7 +1925,6 @@ const u16 gUrbanPage20[] =
 	SPECIES_PIDOVE,
 	SPECIES_TRANQUILL,
 	SPECIES_UNFEZANT,
-	SPECIES_UNFEZANT_F,
 };
 
 const u16 gUrbanPage21[] =
@@ -2355,7 +2364,9 @@ const struct HabitatPage gMountainPages[] =
 	{gMountainPage34, ARRAY_COUNT(gMountainPage34)}, 
 	{gMountainPage35, ARRAY_COUNT(gMountainPage35)}, 
 	{gMountainPage36, ARRAY_COUNT(gMountainPage36)},
-	{gMountainPage37, ARRAY_COUNT(gMountainPage37)}, 
+	{gMountainPage37, ARRAY_COUNT(gMountainPage37)},
+	{gMountainPage38, ARRAY_COUNT(gMountainPage38)},
+	{gMountainPage39, ARRAY_COUNT(gMountainPage39)},
 };
 
 const struct HabitatPage gRoughTerrainPages[] =
