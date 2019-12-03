@@ -1,6 +1,28 @@
 .thumb
 .align 2
 
+@0x81025E8 with r0
+PokedexMemoryAllocationHook:
+	ldr r0, [r5]
+	strb r4, [r0]
+	bl IsInBattle
+	cmp r0, #0x0
+	bne RegularPokedexMemoryAlloc
+	ldr r0, .ExpandedPokedexSize
+	b PokedexMemoryAllocReturn
+
+RegularPokedexMemoryAlloc:
+	ldr r0, .RegularPokedexSize
+
+PokedexMemoryAllocReturn:
+	ldr r1, =0x81025F0 | 1
+	bx r1
+
+.align 2
+.RegularPokedexSize: .word 0xC10
+.ExpandedPokedexSize: .word 999 * 8
+
+.pool
 @0x8103530 with r1
 PrepareDexListViewsHook:
 	cmp r0, #0x0

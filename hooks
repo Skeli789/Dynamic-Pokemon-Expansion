@@ -10,6 +10,7 @@ GetEggMoves 8045C28 2
 CreateMonSprite_PicBoxHook 808398C 1
 GenderedMonIconHook 8096E38 2
 GetIconSpecies 8096F5C 2
+PokedexMemoryAllocationHook 81025E8 0
 PrepareDexListViewsHook 8103530 1
 AlphabeticalDexHook 8103684 1
 AlternateDexEntriesHook 8105CBC 0
