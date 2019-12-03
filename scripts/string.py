@@ -41,14 +41,39 @@ SpecialBuffers = {
     "ARROW_LEFT": ["7B"],
     "ARROW_RIGHT": ["7C"],
 
+    "SHRINK": ["FC", "06", "00"],
+    "PAUSE": ["FC", "08"],
+    "PAUSE_UNTIL_PRESS": ["FC", "09"],
+    "PLAY_BGM": ["FC", "0B"],
+    "ESCAPE": ["FC", "0C"],
+    "SHIFT_TEXT": ["FC", "0D"],
+    "PLAY_SE": ["FC", "10"],
+    "CLEAR": ["FC", "11"],
+    "SKIP": ["FC", "12"],
     "ALIGN": ["FC", "13"],
-    "SHRINK": ["FC", "06", "00"]
+    "MIN_LETTER_SPACING": ["FC", "14"],
+    "PAUSE_MUSIC": ["FC", "17"],
+    "RESUME_MUSIC": ["FC", "18"],
+
+    "A_BUTTON": ["F8", "00"],
+    "B_BUTTON": ["F8", "01"],
+    "L_BUTTON": ["F8", "02"],
+    "R_BUTTON": ["F8", "03"],
+    "START_BUTTON": ["F8", "04"],
+    "SELECT_BUTTON": ["F8", "05"],
+    "DPAD_UP": ["F8", "06"],
+    "DPAD_DOWN": ["F8", "07"],
+    "DPAD_LEFT": ["F8", "08"],
+    "DPAD_RIGHT": ["F8", "09"],
+    "DPAD_UP_DOWN": ["F8", "0A"],
+    "DPAD_LEFT_RIGHT": ["F8", "0B"],
+    "DPAD": ["F8", "0C"],
 }
 
 
 def StringFileConverter(fileName: str):
     stringToWrite = ".thumb\n.text\n.align 2\n\n"
-    with open(fileName, 'r') as file:
+    with open(fileName, 'r', encoding="utf-8") as file:
         maxLength = 0
         fillFF = False
         readingState = 0
@@ -178,7 +203,7 @@ def ProcessString(string: str, lineNum: int, maxLength=0, fillWithFF=False) -> s
 
 def PokeByteTableMaker():
     dictionary = {}
-    with open(CharMap) as file:
+    with open(CharMap, 'r', encoding="utf-8") as file:
         for line in file:
             if line.strip() != "/FF" and line.strip() != "":
                 if line[2] == '=' and line[3] != "":
@@ -190,8 +215,4 @@ def PokeByteTableMaker():
                     except:
                         pass
         dictionary[' '] = 0
-
-    dictionary["’"] = 0xB4
-    dictionary["“"] = 0xB0
-    dictionary["”"] = 0xB1
     return dictionary
