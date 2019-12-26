@@ -8084,7 +8084,7 @@ const struct PokedexEntry gPokedexEntries[NUM_DEX_ENTRIES + 1] =
 	},
 	[NATIONAL_DEX_SOLOSIS] =
 	{
-		.categoryName = {_C, _e, _l, _l, _END, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_C, _e, _l, _l, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
 		.height = 3,
 		.weight = 10,
 		.description = DEX_ENTRY_SOLOSIS,
