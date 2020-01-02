@@ -734,7 +734,7 @@
 #define ITEM_PURPLE_NECTAR 0x26D
 
 //Evolution Items
-#define ITEM_LINK_CABLE 0x5B
+#define ITEM_LINK_STONE 0x5B
 #define ITEM_DUSK_STONE 0x63
 #define ITEM_DAWN_STONE 0x64
 #define ITEM_SHINY_STONE 0x65
