@@ -9,7 +9,7 @@ import sys
 ############
 
 ROM_NAME = "Pokemon Unbound.gba"  # The name of your rom
-OFFSET_TO_PUT = 0x17b1480
+OFFSET_TO_PUT = 0x17b4eb0
 SEARCH_FREE_SPACE = False  # Set to True if you want the script to search for free space
                            # Set to False if you don't want to search for free space as you update the engine
 
