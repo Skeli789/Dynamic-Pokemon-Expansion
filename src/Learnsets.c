@@ -4537,6 +4537,7 @@ static const struct LevelUpMove sRemoraidLevelUpLearnset[] = {
 
 static const struct LevelUpMove sOctilleryLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 0, MOVE_OCTAZOOKA),
+	LEVEL_UP_MOVE( 1, MOVE_OCTOLOCK),
 	LEVEL_UP_MOVE( 1, MOVE_GUNKSHOT),
 	LEVEL_UP_MOVE( 1, MOVE_ROCKBLAST),
 	LEVEL_UP_MOVE( 1, MOVE_WATERGUN),
