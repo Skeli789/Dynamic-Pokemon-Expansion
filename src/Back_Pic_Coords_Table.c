@@ -4021,7 +4021,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_HELIOLISK] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x4,
 	},
 	[SPECIES_TYRUNT] =
 	{
@@ -4031,7 +4031,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TYRANTRUM] =
 	{
 		.size = 0x0,
-		.y_offset = 0xb,
+		.y_offset = 0x5,
 	},
 	[SPECIES_AMAURA] =
 	{
@@ -4456,7 +4456,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SCEPTILE_MEGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x2,
+		.y_offset = 0x3,
 	},
 	[SPECIES_BLAZIKEN_MEGA] =
 	{
@@ -4596,7 +4596,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_DIANCIE_MEGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x5,
 	},
 	[SPECIES_DIALGA_PRIMAL] =
 	{
