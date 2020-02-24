@@ -4,8 +4,8 @@ from glob import glob
 
 # Data
 TM_HM_COUNT = 128
-TUTOR_COUNT = 64
-SPECIES_COUNT = 0x44D
+TUTOR_COUNT = 128
+SPECIES_COUNT = 0x4EA + 1
 
 TM_OUTPUT = "assembly/generated/tm_compatibility.s"
 TUTOR_OUTPUT = "assembly/generated/tutor_compatibility.s"
@@ -68,7 +68,7 @@ def DataBuilder(directory: str, numEntries: int, outputFile: str, dataType: str)
                                 lineContents = int(ReverseSpeciesDict["SPECIES_" + line.strip()])
                                 compatibilityTable[lineContents][tmId] = 1
                             except KeyError:
-                                print('Error with key: {} on line {} in: {}'.format(line.strip(), i, filePath))
+                                print('Error with key: {} on line {} in: {}'.format(line.strip(), i + 1, filePath))
 
     output.write(".thumb\n.align 2\n\n@THIS IS A GENERATED FILE! DO NOT MODIFY IT!\n\n"
                  ".global g{}Learnsets\ng{}Learnsets:\n".format(dataType, dataType))
@@ -108,7 +108,7 @@ def ReverseString(string: str) -> str:
 
 def PokemonDataListInitializer(numEntries: int) -> [[]]:
     outerList = []
-    for a in range(int(SPECIES_COUNT) + 1):
+    for a in range(int(SPECIES_COUNT)):
         innerList = [0] * numEntries
         outerList.append(innerList)
     return outerList
