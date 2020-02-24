@@ -4086,7 +4086,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_PHANTUMP] =
 	{
 		.size = 0x0,
-		.y_offset = 0x9,
+		.y_offset = 0x7,
 	},
 	[SPECIES_TREVENANT] =
 	{
