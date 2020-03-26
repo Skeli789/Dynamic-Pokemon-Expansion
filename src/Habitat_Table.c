@@ -446,6 +446,41 @@ const u16 gForestPage8[] =
 	SPECIES_PICHU_SPIKY
 };
 
+const u16 gForestPage8_1[] =
+{
+	SPECIES_PIKACHU_SURFING,
+	SPECIES_PIKACHU_FLYING,
+};
+
+const u16 gForestPage8_2[] =
+{
+	SPECIES_PIKACHU_COSPLAY,
+	SPECIES_PIKACHU_LIBRE,
+	SPECIES_PIKACHU_POP_STAR,
+};
+
+const u16 gForestPage8_3[] =
+{
+	SPECIES_PIKACHU_ROCK_STAR,
+	SPECIES_PIKACHU_BELLE,
+	SPECIES_PIKACHU_PHD,
+};
+
+const u16 gForestPage8_4[] =
+{
+	SPECIES_PIKACHU_CAP_ORIGINAL,
+	SPECIES_PIKACHU_CAP_HOENN,
+	SPECIES_PIKACHU_CAP_SINNOH,
+	SPECIES_PIKACHU_CAP_UNOVA,
+};
+
+const u16 gForestPage8_5[] =
+{
+	SPECIES_PIKACHU_CAP_KALOS,
+	SPECIES_PIKACHU_CAP_ALOLA,
+	SPECIES_PIKACHU_CAP_PARTNER,
+};
+
 const u16 gForestPage9[] =
 {
 	SPECIES_BELLSPROUT,
@@ -2324,6 +2359,11 @@ const struct HabitatPage gForestPages[] =
 	{gForestPage6, ARRAY_COUNT(gForestPage6)}, 
 	{gForestPage7, ARRAY_COUNT(gForestPage7)}, 
 	{gForestPage8, ARRAY_COUNT(gForestPage8)}, 
+	{gForestPage8_1, ARRAY_COUNT(gForestPage8_1)}, 
+	{gForestPage8_2, ARRAY_COUNT(gForestPage8_2)}, 
+	{gForestPage8_3, ARRAY_COUNT(gForestPage8_3)}, 
+	{gForestPage8_4, ARRAY_COUNT(gForestPage8_4)}, 
+	{gForestPage8_5, ARRAY_COUNT(gForestPage8_5)}, 
 	{gForestPage9, ARRAY_COUNT(gForestPage9)}, 
 	{gForestPage10, ARRAY_COUNT(gForestPage10)}, 
 	{gForestPage11, ARRAY_COUNT(gForestPage11)}, 
