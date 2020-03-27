@@ -2751,7 +2751,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SERVINE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x6,
 	},
 	[SPECIES_SERPERIOR] =
 	{
@@ -3426,7 +3426,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_HEATMOR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x15,
+		.y_offset = 0x8,
 	},
 	[SPECIES_DURANT] =
 	{
@@ -3501,7 +3501,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_KYUREM] =
 	{
 		.size = 0x0,
-		.y_offset = 0xe,
+		.y_offset = 0x1,
 	},
 	[SPECIES_KELDEO] =
 	{
