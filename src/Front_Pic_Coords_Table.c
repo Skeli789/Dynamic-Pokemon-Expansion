@@ -896,7 +896,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_XATU] =
 	{
 		.size = 0x47,
-		.y_offset = 0x5,
+		.y_offset = 0x0,
 	},
 	[SPECIES_MAREEP] =
 	{
