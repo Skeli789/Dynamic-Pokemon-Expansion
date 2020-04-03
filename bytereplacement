@@ -85,3 +85,7 @@
 ##Increase Tutors to 72 (64 Regular + 8 Special)
 0811F456 LAST_TOTAL_TUTOR_NUM
 08127824 LAST_TOTAL_TUTOR_NUM
+
+##Remove old Opponent Gfx Hook
+08034356 00 04 05 0C 00 9E 06 E0 00 00
+
