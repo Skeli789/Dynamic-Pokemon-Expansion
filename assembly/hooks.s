@@ -104,14 +104,34 @@ LoadSpecialPokePicHook:
 	bx r0
 
 .pool
-@0x8034356 with r1
-BattleLoadOpponentMonSpriteGfxHook:
-	ldr r1, [sp] @Personality
+@0x8080344E4 with r0
+BattleLoadPlayerMonSpriteGfxHook:
+	mov r0, r5
+	mov r1, r4
 	bl TryGetFemaleGenderedSpecies
 	mov r5, r0
-	ldr r6, [sp]
-	ldr r0, =0x803436C | 1
-	bx r0
+@Prep return
+	mov r0, r6
+	mov r1, #0x1 @;Trainer Id
+	ldr r2, =GetMonData
+	bl bxr2
+	ldr r1, =0x080344EC | 1
+	bx r1
+
+.pool
+@0x803436C with r0
+BattleLoadOpponentMonSpriteGfxHook:
+	mov r0, r5
+	mov r1, r6
+	bl TryGetFemaleGenderedSpecies
+	mov r5, r0
+@Prep return
+	mov r0, r4
+	mov r1, #0x1 @;Trainer Id
+	ldr r2, =GetMonData
+	bl bxr2
+	ldr r1, =0x08034374 | 1
+	bx r1
 
 /*
 .pool
@@ -173,4 +193,5 @@ CreateMonSprite_PicBoxHook:
 	mov r3, #0x80
 	lsl r3, #0x8 @0x8000
 	ldr r2, =0x8083994 | 1
+bxr2:
 	bx r2

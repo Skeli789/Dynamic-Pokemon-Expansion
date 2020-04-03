@@ -1,6 +1,9 @@
 ##
 LoadSpecialPokePicHook 800ECF2 4
-BattleLoadOpponentMonSpriteGfxHook 8034356 1
+LoadSpecialPokePicHook 0800F136 4
+BattleLoadPlayerMonSpriteGfxHook 80344E4 0
+BattleLoadOpponentMonSpriteGfxHook 803436C 0
+
 SpeciesToCryId 8043304 1
 NationalPokedexNumToSpecies 8043200 1
 GetFrontSpritePalFromSpeciesAndPersonality 80440F4 3
