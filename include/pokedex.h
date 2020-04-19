@@ -21,6 +21,14 @@ struct AlternateDexEntries
 	const u8* description;
 };
 
+enum
+{
+    FLAG_GET_SEEN,
+    FLAG_GET_CAUGHT,
+    FLAG_SET_SEEN,
+    FLAG_SET_CAUGHT
+};
+
 //Kanto
 #define NATIONAL_DEX_NONE 0
 #define NATIONAL_DEX_BULBASAUR 1
@@ -850,7 +858,8 @@ struct AlternateDexEntries
 #define NATIONAL_DEX_MELTAN 808
 #define NATIONAL_DEX_MELMETAL 809
 
-#define NUM_DEX_ENTRIES NATIONAL_DEX_MELMETAL //Not +1 b/c used like this for some asm
+#define FINAL_DEX_ENTRY NATIONAL_DEX_MELMETAL //Not +1 b/c used like this for some asm
+#define NATIONAL_DEX_COUNT NATIONAL_DEX_MELMETAL + 1
 
 extern const u8 DEX_ENTRY_TURTWIG[];
 extern const u8 DEX_ENTRY_GROTLE[];
