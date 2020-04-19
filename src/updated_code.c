@@ -23,7 +23,7 @@ u8 __attribute__((long_call)) GetGenderFromSpeciesAndPersonality(u16 species, u3
 u8  __attribute__((long_call)) GetUnownLetterFromPersonality(u32 personality);
 bool8 __attribute__((long_call)) GetSetPokedexFlag(u16 nationalNum, u8 caseID);
 s8 __attribute__((long_call)) DexFlagCheck(u16 nationalDexNo, u8 caseId, bool8 indexIsSpecies);
-void __attribute__((long_call)) break_func(u32);
+void __attribute__((long_call)) break_func();
 
 //This file's functions
 u16 TryGetFemaleGenderedSpecies(u16 species, u32 personality);
@@ -33,14 +33,45 @@ u16 SpeciesToCryId(u16 species)
 	return species + 1;
 }
 
-u16 NationalPokedexNumToSpecies(u16 nationalNum)
+struct PivotalDexSpecies
 {
 	u16 species;
+	u16 dexNum;
+};
 
-	if (!nationalNum)
+static const struct PivotalDexSpecies sPivotalDexSpecies[] =
+{
+	//These species have Pokemon grouped in order after them
+	{SPECIES_ROWLET, NATIONAL_DEX_ROWLET},
+	{SPECIES_CHESPIN, NATIONAL_DEX_CHESPIN},
+	{SPECIES_TURTWIG, NATIONAL_DEX_TURTWIG},
+	{SPECIES_TREECKO, NATIONAL_DEX_TREECKO},
+	{SPECIES_BULBASAUR, NATIONAL_DEX_BULBASAUR},
+};
+
+u16 NationalPokedexNumToSpecies(u16 nationalNum)
+{
+	u16 species, i;
+
+	if (nationalNum == 0)
 		return 0;
 
 	species = 0;
+	
+	//Optimization
+	if (nationalNum <= SPECIES_SHIFTRY || nationalNum >= SPECIES_TURTWIG) //Hoenn Mons are too out of order for this to work
+	{
+		for (i = 0; i < ARRAY_COUNT(sPivotalDexSpecies); ++i)
+		{
+			if (nationalNum > sPivotalDexSpecies[i].dexNum)
+			{
+				u16 difference = nationalNum - sPivotalDexSpecies[i].dexNum;
+				if (gSpeciesToNationalPokedexNum[sPivotalDexSpecies[i].species + difference - 1] == nationalNum)
+					return sPivotalDexSpecies[i].species + difference;
+				break;
+			}
+		}
+	}
 
 	while (species < (NUM_SPECIES - 1) && gSpeciesToNationalPokedexNum[species] != nationalNum)
 		species++;
