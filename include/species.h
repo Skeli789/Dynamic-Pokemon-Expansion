@@ -1,5 +1,7 @@
 #pragma once
 
+#define POKEMON_NAME_LENGTH 10
+
 #define SPECIES_NONE 0x0
 #define SPECIES_BULBASAUR 0x1
 #define SPECIES_IVYSAUR 0x2

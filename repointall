@@ -27,6 +27,7 @@ gSpeciesToNationalPokedexNum 0804323C
 gPokedexOrder_Alphabetical 08103694
 gPokedexOrder_Weight 081037CC
 gPokedexOrder_Height 08103868
+gPokedexOrder_Type 8103734
 
 gMonIconTable 08000138
 gMonIconPaletteIndices 0800013C

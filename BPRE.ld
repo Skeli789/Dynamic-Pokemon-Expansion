@@ -7,6 +7,7 @@ __umodsi3 = 0x081E4684|1;
 memcpy_ = 0x081E5E78|1;
 memset_ = 0x081E5ED8|1;
 
+gPokedexScreenDataPtr = 0x203ACF0;
 gMain = 0x30030F0;
 
 GetGenderFromSpeciesAndPersonality = 0x803F78C | 1;

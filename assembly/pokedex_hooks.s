@@ -16,61 +16,12 @@ RegularPokedexMemoryAlloc:
 
 PokedexMemoryAllocReturn:
 	ldr r1, =0x81025F0 | 1
+bxr1:
 	bx r1
 
 .align 2
 .RegularPokedexSize: .word 0xC10
 .ExpandedPokedexSize: .word 999 * 8
-
-.pool
-@0x8103530 with r1
-PrepareDexListViewsHook:
-	cmp r0, #0x0
-	beq PrepareDexListViewsReturn
-	ldr r2, =gNumDexEntries
-	ldrh r2, [r2]
-	str r2, [sp]
-
-PrepareDexListViewsReturn:
-	ldr r2, =gRegionalDexCount
-	ldrh r2, [r2]
-	sub r2, #0x1
-	lsl r2, #0x1
-	ldr r0, =gPokedexOrder_Regional
-	ldrh r2, [r0, r2] @Load final dexNum in regional dex
-	ldr r0, =0x810353A | 1
-	bx r0
-
-@0x810356C with r0
-RegionalDexHook:
-	mov r4, r8
-	lsl r0, r4, #0x1 @;Index x2
-	ldr r1, =gPokedexOrder_Regional
-	ldrh r0, [r1, r0]
-	add r4, #0x1
-	mov r5, r0
-	mov r1, #0
-	ldr r2, =0x8103578 | 1
-	bx r2
-
-@0x81035B4 with r1
-StoreLastDexSeenHook:
-	str r0, [r2]
-	mov r10, r4
-	mov r4, r3
-	ldr r0, =0x081035D6 | 1
-	bx r0
-
-@0x081035F4 with r0
-LazyRegionalDexEndHook:
-	mov r0, r8
-	ldr r1, =gRegionalDexCount
-	ldrh r1, [r1]
-	cmp r0, r1
-	bcc RegionalDexHook
-	ldr r1, =0x08103906 | 1
-bxr1:
-	bx r1
 
 @0x8104A66 with r1
 DisplayRegionalDexNumHook:
@@ -92,25 +43,12 @@ DisplayRegionalDexNumHook:
 
 UseRegionalDexOrdering:
 	mov r0, r5
-	ldr r1, =SpeciesToNationalPokedexNum
-	bl bxr1
-	bl NatDexNumToRegionalDexNum
+	bl SpeciesToRegionalDexNum
 	
 DisplayDexNumberReturn:
 	mov r5, r0
 	ldr r0, =0x8104A70 | 1
 	bx r0
-
-.pool
-@0x8103684 with r1
-AlphabeticalDexHook:
-	add r8, r0
-	ldr r0, =gNumDexEntries
-	ldrh r0, [r0]
-	sub r0, #0x1
-	cmp r8, r0
-	ldr r1, =0x810368C | 1
-	bx r1
 
 .pool
 @0x8105CBC with r0
