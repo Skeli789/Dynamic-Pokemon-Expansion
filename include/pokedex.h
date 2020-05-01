@@ -6,13 +6,13 @@ struct PokedexEntry
     /*0x0C*/ u16 height; //in decimeters
     /*0x0E*/ u16 weight; //in hectograms
     /*0x10*/ const u8* description;
-    /*0x14*/ u16 unused;
-    /*0x16*/ u16 pokemonScale;
-    /*0x18*/ u16 pokemonOffset;
-    /*0x1A*/ u16 trainerScale;
-    /*0x1C*/ u16 trainerOffset;
-	/*0x1E*/ u16 unknown1;
-	/*0x20*/ u32 unknown2;
+    /*0x14*/ const u8* unusedDescription;
+    /*0x18*/ u16 unused;
+    /*0x1A*/ u16 pokemonScale;
+    /*0x1C*/ u16 pokemonOffset;
+    /*0x1E*/ u16 trainerScale;
+    /*0x20*/ u16 trainerOffset;
+	/*0x22*/ u16 unused2;
 };  /*size = 0x24*/
 
 struct AlternateDexEntries
@@ -20,6 +20,65 @@ struct AlternateDexEntries
 	u16 species;
 	const u8* description;
 };
+
+struct ListMenuItem
+{
+    const u8* name;
+    s32 id;
+};
+
+struct PokedexScreenData
+{
+    u8 field_00;
+    u8 field_01;
+    u8 field_02;
+    u8 field_03;
+    u8 field_04;
+    u32 field_08;
+    u32 field_0C;
+    u16 field_10;
+    u16 field_12;
+    u8 field_14;
+    u8 field_15;
+    u8 field_16;
+    u8 field_17;
+    u16 field_18[0x4];
+    u8 field_20[0x4];
+    u8 field_24[0x4];
+    u8 field_28;
+    u8 field_29;
+    u8 field_2A;
+    u8 field_2B;
+    u8 field_2C;
+    u8 field_2D;
+    u8 field_2E;
+    u8 field_2F;
+    u32 field_30;
+    u16 field_34;
+    u16 field_36;
+    u16 field_38;
+    u16 field_3A;
+    u16 field_3C;
+    u16 field_3E;
+    u8 field_40;
+    u8 field_41;
+    u8 field_42;
+    struct ListMenuItem* listItem;
+    u16 field_48;
+    u8 field_4A[0x10];
+    u16 field_5A;
+    u16 * field_5C;
+    u8 field_60;
+    u8 field_61;
+    u16 field_62;
+    u8 field_64;
+    u16 field_66;
+    u16 field_68;
+    u16 field_6A;
+    u16 field_6C;
+};
+
+struct PokedexScreenData* gPokedexScreenDataPtr;
 
 enum
 {

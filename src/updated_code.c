@@ -6,10 +6,21 @@
 
 //Backsprite battle start
 
+extern const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1];
 extern const u16 gSpeciesIdToCryId[];
 extern const u16 gSpeciesToNationalPokedexNum[];
-extern const u16 gRegionalDexCount;
+
 extern const u16 gPokedexOrder_Regional[];
+extern const u16 gRegionalDexCount;
+extern const u16 gPokedexOrder_Alphabetical[];
+extern const u16 gPokedexOrderAlphabeticalCount;
+extern const u16 gPokedexOrder_Weight[];
+extern const u16 gPokedexOrderWeightCount;
+extern const u16 gPokedexOrder_Height[];
+extern const u16 gPokedexOrderHeightCount;
+extern const u16 gPokedexOrder_Type[];
+extern const u16 gPokedexOrderTypeCount;
+
 extern const struct AlternateDexEntries gAlternateDexEntries[];
 extern const struct CompressedSpriteSheet gMonBackPicTable[];
 extern const struct CompressedSpriteSheet gMonFrontPicTable[];
@@ -27,6 +38,7 @@ void __attribute__((long_call)) break_func();
 
 //This file's functions
 u16 TryGetFemaleGenderedSpecies(u16 species, u32 personality);
+static u16 LoadNationalPokedexView(void);
 
 u16 SpeciesToCryId(u16 species)
 {
@@ -288,15 +300,127 @@ bool16 HasAllMons(void)
 	return TRUE;
 }
 
-u16 NatDexNumToRegionalDexNum(u16 natDexNum)
+u16 SpeciesToRegionalDexNum(u16 species)
 {
 	u16 i;
 
 	for (i = 0; i < gRegionalDexCount; ++i)
 	{
-		if (gPokedexOrder_Regional[i] == natDexNum)
+		if (gPokedexOrder_Regional[i] == species)
 			return i + 1;
 	}
 	
 	return 0;
+}
+
+extern const u16 gPokedexOrder_Regional[];
+extern const u16 gRegionalDexCount;
+extern const u16 gPokedexOrder_Alphabetical[];
+extern const u16 gPokedexOrderAlphabeticalCount;
+extern const u16 gPokedexOrder_Weight[];
+extern const u16 gPokedexOrderWeightCount;
+extern const u16 gPokedexOrder_Height[];
+extern const u16 gPokedexOrderHeightCount;
+extern const u16 gPokedexOrder_Type[];
+extern const u16 gPokedexOrderTypeCount;
+
+u16 LoadPokedexViews(u8 type)
+{
+	u16 i, counter, count, lastMeaningfulIndex;
+	const u16* dexList;
+	bool8 showUnseenSpecies = FALSE;
+
+	switch (type) {
+		case 0:
+			dexList = gPokedexOrder_Regional;
+			count = gRegionalDexCount;
+			showUnseenSpecies = TRUE;
+			break;
+		case 1:
+			dexList = gPokedexOrder_Alphabetical;
+			count = gPokedexOrderAlphabeticalCount;
+			break;
+		case 2:
+			dexList = gPokedexOrder_Type;
+			count = gPokedexOrderTypeCount;
+			break;
+		case 3:
+			dexList = gPokedexOrder_Weight;
+			count = gPokedexOrderWeightCount;
+			break;
+		case 4:
+			dexList = gPokedexOrder_Height;
+			count = gPokedexOrderHeightCount;
+			break;
+		case 5:
+		default:
+			return LoadNationalPokedexView();
+	}
+
+	for (i = 0, counter = 0, lastMeaningfulIndex = 0; i < count; ++i)
+	{
+		u16 species = dexList[i];
+		bool8 seen = DexFlagCheck(species, FLAG_GET_SEEN, TRUE);
+		bool8 caught = DexFlagCheck(species, FLAG_GET_CAUGHT, TRUE);
+		
+		if (!seen)
+		{
+			if (showUnseenSpecies)
+			{
+				gPokedexScreenDataPtr->listItem[counter].name = (void*) 0x8415F66; //-----
+				gPokedexScreenDataPtr->listItem[counter++].id = species | (0 << 16); //Unseen
+			}
+		}
+		else
+		{
+			lastMeaningfulIndex = counter + 1;
+			gPokedexScreenDataPtr->listItem[counter].name = gSpeciesNames[species];
+			
+			if (caught)
+				gPokedexScreenDataPtr->listItem[counter++].id = species | (3 << 16); //Caught
+			else
+				gPokedexScreenDataPtr->listItem[counter++].id = species | (1 << 16); //Seen
+		}
+	}
+
+	if (lastMeaningfulIndex == 0)
+	{
+		//Fix empty list
+		lastMeaningfulIndex = 1;
+		gPokedexScreenDataPtr->listItem[0].name = (void*) 0x8415F66; //-----
+		gPokedexScreenDataPtr->listItem[0].id = gPokedexOrder_Regional[0] | (0 << 16); //Unseen
+	}
+
+	return lastMeaningfulIndex;
+}
+
+static u16 LoadNationalPokedexView(void)
+{
+	u16 i, lastMeaningfulIndex;
+
+	for (i = 1, lastMeaningfulIndex = 0; i < NATIONAL_DEX_COUNT; ++i)
+	{
+		bool8 seen = DexFlagCheck(i, FLAG_GET_SEEN, FALSE);
+		bool8 caught = DexFlagCheck(i, FLAG_GET_CAUGHT, FALSE);
+		u16 species = NationalPokedexNumToSpecies(i);
+		u16 listIndex = i - 1;
+
+		if (!seen)
+		{
+			gPokedexScreenDataPtr->listItem[listIndex].name = (void*) 0x8415F66; //-----
+			gPokedexScreenDataPtr->listItem[listIndex].id = species | (0 << 16); //Unseen
+		}
+		else
+		{
+			lastMeaningfulIndex = i;
+			gPokedexScreenDataPtr->listItem[listIndex].name = gSpeciesNames[species];
+			
+			if (caught)
+				gPokedexScreenDataPtr->listItem[listIndex].id = species | (3 << 16); //Caught
+			else
+				gPokedexScreenDataPtr->listItem[listIndex].id = species | (1 << 16); //Seen
+		}
+	}
+
+	return lastMeaningfulIndex;
 }
