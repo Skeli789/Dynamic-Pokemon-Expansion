@@ -329,16 +329,19 @@ u16 LoadPokedexViews(u8 type)
 	u16 i, counter, count, lastMeaningfulIndex;
 	const u16* dexList;
 	bool8 showUnseenSpecies = FALSE;
+	bool8 showUncaughtSpecies = FALSE;
 
 	switch (type) {
 		case 0:
 			dexList = gPokedexOrder_Regional;
 			count = gRegionalDexCount;
 			showUnseenSpecies = TRUE;
+			showUncaughtSpecies = TRUE;
 			break;
 		case 1:
 			dexList = gPokedexOrder_Alphabetical;
 			count = gPokedexOrderAlphabeticalCount;
+			showUncaughtSpecies = TRUE;
 			break;
 		case 2:
 			dexList = gPokedexOrder_Type;
@@ -371,7 +374,7 @@ u16 LoadPokedexViews(u8 type)
 				gPokedexScreenDataPtr->listItem[counter++].id = species | (0 << 16); //Unseen
 			}
 		}
-		else
+		else if (caught || showUncaughtSpecies)
 		{
 			lastMeaningfulIndex = counter + 1;
 			gPokedexScreenDataPtr->listItem[counter].name = gSpeciesNames[species];
