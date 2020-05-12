@@ -1546,7 +1546,7 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_SPINDA] =
 	{
 		.size = 0x67,
-		.y_offset = 0x0,
+		.y_offset = 0x7,
 	},
 	[SPECIES_WINGULL] =
 	{
