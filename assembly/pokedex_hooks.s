@@ -30,11 +30,11 @@ DisplayRegionalDexNumHook:
 	bl bxr1
 	cmp r0, #0x0
 	beq UseRegionalDexOrdering
-	ldr r1, =0x203ACF0
-	ldr r1, [r1]
-	add r1, #0x42
-	ldrb r1, [r1]
-	cmp r1, #0x0	@;Check if looking at regional dex
+	ldr r0, =0x203ACF0
+	ldr r0, [r0]
+	add r0, #0xC
+	ldr r0, [r0]
+	cmp r0, #0x9	@;Check if looking at regional dex
 	beq UseRegionalDexOrdering
 	mov r0, r5
 	ldr r1, =SpeciesToNationalPokedexNum
