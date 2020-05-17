@@ -78,7 +78,7 @@ struct PokedexScreenData
     u16 field_6C;
 };
 
-struct PokedexScreenData* gPokedexScreenDataPtr;
+extern struct PokedexScreenData* gPokedexScreenDataPtr;
 
 enum
 {
