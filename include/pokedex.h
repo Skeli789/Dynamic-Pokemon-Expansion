@@ -1537,7 +1537,7 @@ extern const u8 DEX_ENTRY_ZIGZAGOON_G[];
 extern const u8 DEX_ENTRY_LINOONE_G[];
 extern const u8 DEX_ENTRY_DARUMAKA_G[];
 extern const u8 DEX_ENTRY_DARMANITAN_G[];
-extern const u8 DEX_ENTRY_DARMANITAN_ZEN_G[];
+extern const u8 DEX_ENTRY_DARMANITAN_G_ZEN[];
 extern const u8 DEX_ENTRY_YAMASK_G[];
 extern const u8 DEX_ENTRY_STUNFISK_G[];
 extern const u8 DEX_ENTRY_ZYGARDE_10[];
