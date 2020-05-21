@@ -1267,6 +1267,249 @@ It melts particles of iron and other\nmetals found in the subsoil, so it can\nab
 #org @DEX_ENTRY_MELMETAL
 Revered long ago for its capacity\nto create iron from nothing, it has\ncome back to life after 3000 years.
 
+#org @DEX_ENTRY_GROOKEY
+.
+
+#org @DEX_ENTRY_THWACKEY
+.
+
+#org @DEX_ENTRY_RILLABOOM
+.
+
+#org @DEX_ENTRY_SCORBUNNY
+.
+
+#org @DEX_ENTRY_RABOOT
+.
+
+#org @DEX_ENTRY_CINDERACE
+.
+
+#org @DEX_ENTRY_SOBBLE
+.
+
+#org @DEX_ENTRY_DRIZZILE
+.
+
+#org @DEX_ENTRY_INTELEON
+.
+
+#org @DEX_ENTRY_SKWOVET
+.
+
+#org @DEX_ENTRY_GREEDENT
+.
+
+#org @DEX_ENTRY_ROOKIDEE
+.
+
+#org @DEX_ENTRY_CORVISQUIRE
+.
+
+#org @DEX_ENTRY_CORVIKNIGHT
+.
+
+#org @DEX_ENTRY_BLIPBUG
+.
+
+#org @DEX_ENTRY_DOTTLER
+.
+
+#org @DEX_ENTRY_ORBEETLE
+.
+
+#org @DEX_ENTRY_NICKIT
+.
+
+#org @DEX_ENTRY_THIEVUL
+.
+
+#org @DEX_ENTRY_GOSSIFLEUR
+.
+
+#org @DEX_ENTRY_ELDEGOSS
+.
+
+#org @DEX_ENTRY_WOOLOO
+.
+
+#org @DEX_ENTRY_DUBWOOL
+.
+
+#org @DEX_ENTRY_CHEWTLE
+.
+
+#org @DEX_ENTRY_DREDNAW
+.
+
+#org @DEX_ENTRY_YAMPER
+.
+
+#org @DEX_ENTRY_BOLTUND
+.
+
+#org @DEX_ENTRY_ROLYCOLY
+.
+
+#org @DEX_ENTRY_CARKOL
+.
+
+#org @DEX_ENTRY_COALOSSAL
+.
+
+#org @DEX_ENTRY_APPLIN
+.
+
+#org @DEX_ENTRY_FLAPPLE
+.
+
+#org @DEX_ENTRY_APPLETUN
+.
+
+#org @DEX_ENTRY_SILICOBRA
+.
+
+#org @DEX_ENTRY_SANDACONDA
+.
+
+#org @DEX_ENTRY_CRAMORANT
+.
+
+#org @DEX_ENTRY_ARROKUDA
+.
+
+#org @DEX_ENTRY_BARRASKEWDA
+.
+
+#org @DEX_ENTRY_TOXEL
+.
+
+#org @DEX_ENTRY_TOXTRICITY
+.
+
+#org @DEX_ENTRY_SIZZLIPEDE
+.
+
+#org @DEX_ENTRY_CENTISKORCH
+.
+
+#org @DEX_ENTRY_CLOBBOPUS
+.
+
+#org @DEX_ENTRY_GRAPPLOCT
+.
+
+#org @DEX_ENTRY_SINISTEA
+.
+
+#org @DEX_ENTRY_POLTEAGEIST
+.
+
+#org @DEX_ENTRY_HATENNA
+.
+
+#org @DEX_ENTRY_HATTREM
+.
+
+#org @DEX_ENTRY_HATTERENE
+.
+
+#org @DEX_ENTRY_IMPIDIMP
+.
+
+#org @DEX_ENTRY_MORGREM
+.
+
+#org @DEX_ENTRY_GRIMMSNARL
+.
+
+#org @DEX_ENTRY_OBSTAGOON
+.
+
+#org @DEX_ENTRY_PERRSERKER
+.
+
+#org @DEX_ENTRY_CURSOLA
+.
+
+#org @DEX_ENTRY_SIRFETCHD
+.
+
+#org @DEX_ENTRY_MR_RIME
+.
+
+#org @DEX_ENTRY_RUNERIGUS
+.
+
+#org @DEX_ENTRY_MILCERY
+.
+
+#org @DEX_ENTRY_ALCREMIE
+.
+
+#org @DEX_ENTRY_FALINKS
+.
+
+#org @DEX_ENTRY_PINCURCHIN
+.
+
+#org @DEX_ENTRY_SNOM
+.
+
+#org @DEX_ENTRY_FROSMOTH
+.
+
+#org @DEX_ENTRY_STONJOURNER
+.
+
+#org @DEX_ENTRY_EISCUE
+.
+
+#org @DEX_ENTRY_INDEEDEE
+.
+
+#org @DEX_ENTRY_MORPEKO
+.
+
+#org @DEX_ENTRY_CUFANT
+.
+
+#org @DEX_ENTRY_COPPERAJAH
+.
+
+#org @DEX_ENTRY_DRACOZOLT
+.
+
+#org @DEX_ENTRY_ARCTOZOLT
+.
+
+#org @DEX_ENTRY_DRACOVISH
+.
+
+#org @DEX_ENTRY_ARCTOVISH
+.
+
+#org @DEX_ENTRY_DURALUDON
+.
+
+#org @DEX_ENTRY_DREEPY
+.
+
+#org @DEX_ENTRY_DRAKLOAK
+.
+
+#org @DEX_ENTRY_DRAGAPULT
+.
+
+#org @DEX_ENTRY_ZACIAN
+.
+
+#org @DEX_ENTRY_ZAMAZENTA
+.
+
+#org @DEX_ENTRY_ETERNATUS
+.
+
 //Special Form Entries
 
 #org @DEX_ENTRY_RATTATA_A
@@ -1299,6 +1542,9 @@ Its metallic whiskers are heavy, so\nit's not very fast, but it has the\npower t
 #org @DEX_ENTRY_MEOWTH_A
 It's impulsive, selfish, and fickle.\nIt's very popular with Trainers who\nlike giving it the attention it needs.
 
+#org @DEX_ENTRY_MEOWTH_G
+.
+
 #org @DEX_ENTRY_PERSIAN_A
 It has the classiest coat. The rippling\nof its fur in the heat of battle has a\nbeauty all its own.
 
@@ -1311,6 +1557,15 @@ Graveler's entire body is tinged with\nelectricity due to the stones it likes\nt
 #org @DEX_ENTRY_GOLEM_A
 Since it can't fire boulders at a rapid\npace, it's been known to seize nearby\nGeodude and fire them from its back.
 
+#org @DEX_ENTRY_PONYTA_G
+.
+
+#org @DEX_ENTRY_RAPIDASH_G
+.
+
+#org @DEX_ENTRY_FARFETCHD_G
+.
+
 #org @DEX_ENTRY_GRIMER_A
 A Grimer, which had been brought in to\nsolve a problem with garbage, developed\nover time into this form.
 
@@ -1322,6 +1577,33 @@ It swings its long neck like a whip and\nsmacks its opponents. This makes\nExegg
 
 #org @DEX_ENTRY_MAROWAK_A
 Its custom is to mourn its lost friends.\nMounds of dirt by the side of the road\nmark the graves of the Marowak.
+
+#org @DEX_ENTRY_WEEZING_G
+.
+
+#org @DEX_ENTRY_MR_MIME_G
+.
+
+#org @DEX_ENTRY_CORSOLA_G
+.
+
+#org @DEX_ENTRY_ZIGZAGOON_G
+.
+
+#org @DEX_ENTRY_LINOONE_G
+.
+
+#org @DEX_ENTRY_DARUMAKA_G
+.
+
+#org @DEX_ENTRY_DARMANITAN_G
+.
+
+#org @DEX_ENTRY_YAMASK_G
+.
+
+#org @DEX_ENTRY_STUNFISK_G
+.
 
 #org @DEX_ENTRY_ZYGARDE_10
 Born when around 10% of Zygarde's cells\nhave been gathered from all over, this\nform is skilled in close-range combat.
@@ -1355,3 +1637,54 @@ Lunala no longer has a will of its own.\nNow under the control of Necrozma, it\n
 
 #org @DEX_ENTRY_NECROZMA_ULTRA
 This is its form when it has absorbed\noverwhelming light energy. It fires\nlaser beams from all over its body.
+
+#org @DEX_ENTRY_CRAMORANT_GULPING
+.
+
+#org @DEX_ENTRY_CRAMORANT_GORGING
+.
+
+#org @DEX_ENTRY_TOXTRICITY_LOW_KEY
+.
+
+#org @DEX_ENTRY_POLTEAGEIST_ANTIQUE
+.
+
+#org @DEX_ENTRY_ALCREMIE_RUBY_CREAM
+.
+
+#org @DEX_ENTRY_ALCREMIE_MATCHA_CREAM
+.
+
+#org @DEX_ENTRY_ALCREMIE_MINT_CREAM
+.
+
+#org @DEX_ENTRY_ALCREMIE_LEMON_CREAM
+.
+
+#org @DEX_ENTRY_ALCREMIE_SALTED_CREAM
+.
+
+#org @DEX_ENTRY_ALCREMIE_RUBY_SWIRL
+.
+
+#org @DEX_ENTRY_ALCREMIE_CARAMEL_SWIRL
+.
+
+#org @DEX_ENTRY_ALCREMIE_RAINBOW_SWIRL
+.
+
+#org @DEX_ENTRY_EISCUE_NOICE
+.
+
+#org @DEX_ENTRY_INDEEDEE_F
+.
+
+#org @DEX_ENTRY_MORPEKO_HANGRY
+.
+
+#org @DEX_ENTRY_ZACIAN_CROWNED_SWORD
+.
+
+#org @DEX_ENTRY_ZAMAZENTA_CROWNED_SHIELD
+.
