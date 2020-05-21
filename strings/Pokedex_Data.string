@@ -1444,7 +1444,7 @@ Revered long ago for its capacity\nto create iron from nothing, it has\ncome bac
 #org @DEX_ENTRY_MILCERY
 .
 
-#org @DEX_ENTRY_ALCREMIE
+#org @DEX_ENTRY_ALCREMIE_STRAWBERRY
 .
 
 #org @DEX_ENTRY_FALINKS
@@ -1510,6 +1510,18 @@ Revered long ago for its capacity\nto create iron from nothing, it has\ncome bac
 #org @DEX_ENTRY_ETERNATUS
 .
 
+#org @DEX_ENTRY_ZARUDE
+.
+
+#org @DEX_ENTRY_KUBFU
+.
+
+#org @DEX_ENTRY_URSHIFU_SINGLE
+.
+
+#org @DEX_ENTRY_CALYREX
+.
+
 //Special Form Entries
 
 #org @DEX_ENTRY_RATTATA_A
@@ -1563,6 +1575,12 @@ Since it can't fire boulders at a rapid\npace, it's been known to seize nearby\n
 #org @DEX_ENTRY_RAPIDASH_G
 .
 
+#org @DEX_ENTRY_SLOWPOKE_G
+.
+
+#org @DEX_ENTRY_SLOWBRO_G
+.
+
 #org @DEX_ENTRY_FARFETCHD_G
 .
 
@@ -1582,6 +1600,18 @@ Its custom is to mourn its lost friends.\nMounds of dirt by the side of the road
 .
 
 #org @DEX_ENTRY_MR_MIME_G
+.
+
+#org @DEX_ENTRY_ARTICUNO_G
+.
+
+#org @DEX_ENTRY_ZAPDOS_G
+.
+
+#org @DEX_ENTRY_MOLTRES_G
+.
+
+#org @DEX_ENTRY_SLOWKING_G
 .
 
 #org @DEX_ENTRY_CORSOLA_G
@@ -1650,44 +1680,47 @@ This is its form when it has absorbed\noverwhelming light energy. It fires\nlase
 #org @DEX_ENTRY_TOXTRICITY_LOW_KEY
 .
 
-#org @DEX_ENTRY_POLTEAGEIST_ANTIQUE
+#org @DEX_ENTRY_SINISTEA_CHIPPED
 .
 
-#org @DEX_ENTRY_ALCREMIE_RUBY_CREAM
+#org @DEX_ENTRY_POLTEAGEIST_CHIPPED
 .
 
-#org @DEX_ENTRY_ALCREMIE_MATCHA_CREAM
+#org @DEX_ENTRY_ALCREMIE_BERRY
 .
 
-#org @DEX_ENTRY_ALCREMIE_MINT_CREAM
+#org @DEX_ENTRY_ALCREMIE_CLOVER
 .
 
-#org @DEX_ENTRY_ALCREMIE_LEMON_CREAM
+#org @DEX_ENTRY_ALCREMIE_FLOWER
 .
 
-#org @DEX_ENTRY_ALCREMIE_SALTED_CREAM
+#org @DEX_ENTRY_ALCREMIE_LOVE
 .
 
-#org @DEX_ENTRY_ALCREMIE_RUBY_SWIRL
+#org @DEX_ENTRY_ALCREMIE_RIBBON
 .
 
-#org @DEX_ENTRY_ALCREMIE_CARAMEL_SWIRL
-.
-
-#org @DEX_ENTRY_ALCREMIE_RAINBOW_SWIRL
+#org @DEX_ENTRY_ALCREMIE_STAR
 .
 
 #org @DEX_ENTRY_EISCUE_NOICE
 .
 
-#org @DEX_ENTRY_INDEEDEE_F
+#org @DEX_ENTRY_INDEEDEE_FEMALE
 .
 
 #org @DEX_ENTRY_MORPEKO_HANGRY
 .
 
-#org @DEX_ENTRY_ZACIAN_CROWNED_SWORD
+#org @DEX_ENTRY_ZACIAN_CROWNED
 .
 
-#org @DEX_ENTRY_ZAMAZENTA_CROWNED_SHIELD
+#org @DEX_ENTRY_ZAMAZENTA_CROWNED
+.
+
+#org @DEX_ENTRY_ETERNATUS_ETERNAMAX
+.
+
+#org @DEX_ENTRY_URSHIFU_RAPID
 .
