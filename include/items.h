@@ -831,7 +831,7 @@ enum
 #define ITEM_UTILITY_UMBRELLA 0x2C4
 #define ITEM_THROAT_SPRAY 0x2C5
 
-#define ITEMS_COUNT (ITEM_ROOM_SERVICE + 1)
+#define ITEMS_COUNT (ITEM_THROAT_SPRAY + 1)
 
 //For Pokemon Unbound
 #ifdef UNBOUND
