@@ -5428,7 +5428,92 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x4,
 	},
-		[SPECIES_GROOKEY] =
+	[SPECIES_PIKACHU_SURFING] =
+	{
+		.size = 0x0,
+		.y_offset = 0x6,
+	},
+	[SPECIES_PIKACHU_FLYING] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_PIKACHU_COSPLAY] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_LIBRE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_POP_STAR] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_ROCK_STAR] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_BELLE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_PHD] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_ORIGINAL] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_HOENN] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_SINNOH] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_UNOVA] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_KALOS] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_ALOLA] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PIKACHU_CAP_PARTNER] =
+	{
+		.size = 0x0,
+		.y_offset = 0x9,
+	},
+	[SPECIES_PICHU_SPIKY] =
+	{
+		.size = 0x0,
+		.y_offset = 0xe,
+	},
+	[SPECIES_XERNEAS_NATURAL] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_GROOKEY] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
@@ -6204,91 +6289,6 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 		.y_offset = 0x0,
 	},
 	[SPECIES_URSHIFU_RAPID_GIGA] =
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
-	[SPECIES_PIKACHU_SURFING] =
-	{
-		.size = 0x0,
-		.y_offset = 0x6,
-	},
-	[SPECIES_PIKACHU_FLYING] =
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
-	[SPECIES_PIKACHU_COSPLAY] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_LIBRE] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_POP_STAR] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_ROCK_STAR] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_BELLE] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_PHD] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_ORIGINAL] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_HOENN] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_SINNOH] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_UNOVA] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_KALOS] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_ALOLA] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PIKACHU_CAP_PARTNER] =
-	{
-		.size = 0x0,
-		.y_offset = 0x9,
-	},
-	[SPECIES_PICHU_SPIKY] =
-	{
-		.size = 0x0,
-		.y_offset = 0xe,
-	},
-	[SPECIES_XERNEAS_NATURAL] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
