@@ -20091,6 +20091,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_APPLETUN_GIGA] = sAppletunLevelUpLearnset,
 	[SPECIES_SANDACONDA_GIGA] = sSandacondaLevelUpLearnset,
 	[SPECIES_TOXTRICITY_GIGA] = sToxtricityLevelUpLearnset,
+	[SPECIES_TOXTRICITY_LOW_KEY_GIGA] = sToxtricityLowKeyLevelUpLearnset,
 	[SPECIES_CENTISKORCH_GIGA] = sCentiskorchLevelUpLearnset,
 	[SPECIES_HATTERENE_GIGA] = sHattereneLevelUpLearnset,
 	[SPECIES_GRIMMSNARL_GIGA] = sGrimmsnarlLevelUpLearnset,
