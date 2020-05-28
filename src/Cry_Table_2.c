@@ -12918,7 +12918,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GROOKEY] =
+/*	[SPECIES_GROOKEY] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -14802,4 +14802,5 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
+*/	
 };
