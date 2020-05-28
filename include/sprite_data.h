@@ -1077,7 +1077,7 @@ extern const u8 gFrontSprite1098PikachuCapAlolaTiles[];
 extern const u8 gFrontSprite1099PikachuCapPartnerTiles[];
 extern const u8 gFrontSprite1100PichuSpikyTiles[];
 extern const u8 gFrontSprite1101XerneasNaturalTiles[];
-extern const u8 gFrontSprite1102GrookeyTiles[];
+/*extern const u8 gFrontSprite1102GrookeyTiles[];
 extern const u8 gFrontSprite1103ThwackeyTiles[];
 extern const u8 gFrontSprite1104RillaboomTiles[];
 extern const u8 gFrontSprite1105ScorbunnyTiles[];
@@ -1235,6 +1235,7 @@ extern const u8 gFrontSprite1256DuraludonGigaTiles[];
 extern const u8 gFrontSprite1257UrshifuSilentGigaTiles[];
 extern const u8 gFrontSprite1258UrshifuRapidGigaTiles[];
 extern const u8 gFrontSprite252Tiles[];
+*/
 
 extern const u8 gBackShinySprite000NoneTiles[];
 extern const u8 gBackShinySprite001BulbasaurTiles[];
@@ -2313,7 +2314,7 @@ extern const u8 gBackShinySprite1098PikachuCapAlolaTiles[];
 extern const u8 gBackShinySprite1099PikachuCapPartnerTiles[];
 extern const u8 gBackShinySprite1100PichuSpikyTiles[];
 extern const u8 gBackShinySprite1101XerneasNaturalTiles[];
-extern const u8 gBackShinySprite1102GrookeyTiles[];
+/* extern const u8 gBackShinySprite1102GrookeyTiles[];
 extern const u8 gBackShinySprite1103ThwackeyTiles[];
 extern const u8 gBackShinySprite1104RillaboomTiles[];
 extern const u8 gBackShinySprite1105ScorbunnyTiles[];
@@ -2471,6 +2472,7 @@ extern const u8 gBackShinySprite1256DuraludonGigaTiles[];
 extern const u8 gBackShinySprite1257UrshifuSilentGigaTiles[];
 extern const u8 gBackShinySprite1258UrshifuRapidGigaTiles[];
 extern const u8 gBackShinySprite252Tiles[];
+*/
 
 #pragma once
 
@@ -3551,7 +3553,7 @@ extern const u8 gFrontSprite1098PikachuCapAlolaPal[];
 extern const u8 gFrontSprite1099PikachuCapPartnerPal[];
 extern const u8 gFrontSprite1100PichuSpikyPal[];
 extern const u8 gFrontSprite1101XerneasNaturalPal[];
-extern const u8 gFrontSprite1102GrookeyPal[];
+/* extern const u8 gFrontSprite1102GrookeyPal[];
 extern const u8 gFrontSprite1103ThwackeyPal[];
 extern const u8 gFrontSprite1104RillaboomPal[];
 extern const u8 gFrontSprite1105ScorbunnyPal[];
@@ -3709,6 +3711,7 @@ extern const u8 gFrontSprite1256DuraludonGigaPal[];
 extern const u8 gFrontSprite1257UrshifuSilentGigaPal[];
 extern const u8 gFrontSprite1258UrshifuRapidGigaPal[];
 extern const u8 gFrontSprite252Pal[];
+*/
 
 extern const u8 gBackShinySprite000NonePal[];
 extern const u8 gBackShinySprite001BulbasaurPal[];
@@ -4787,7 +4790,7 @@ extern const u8 gBackShinySprite1098PikachuCapAlolaPal[];
 extern const u8 gBackShinySprite1099PikachuCapPartnerPal[];
 extern const u8 gBackShinySprite1100PichuSpikyPal[];
 extern const u8 gBackShinySprite1101XerneasNaturalPal[];
-extern const u8 gBackShinySprite1102GrookeyPal[];
+/* extern const u8 gBackShinySprite1102GrookeyPal[];
 extern const u8 gBackShinySprite1103ThwackeyPal[];
 extern const u8 gBackShinySprite1104RillaboomPal[];
 extern const u8 gBackShinySprite1105ScorbunnyPal[];
@@ -4945,6 +4948,7 @@ extern const u8 gBackShinySprite1256DuraludonGigaPal[];
 extern const u8 gBackShinySprite1257UrshifuSilentGigaPal[];
 extern const u8 gBackShinySprite1258UrshifuRapidGigaPal[];
 extern const u8 gBackShinySprite252Pal[];
+*/
 
 extern const u8 gIconSprite000NoneTiles[];
 extern const u8 gIconSprite001BulbasaurTiles[];
@@ -6023,7 +6027,7 @@ extern const u8 gIconSprite1098PikachuCapAlolaTiles[];
 extern const u8 gIconSprite1099PikachuCapPartnerTiles[];
 extern const u8 gIconSprite1100PichuSpikyTiles[];
 extern const u8 gIconSprite1101XerneasNaturalTiles[];
-extern const u8 gIconSprite1102GrookeyTiles[];
+/* extern const u8 gIconSprite1102GrookeyTiles[];
 extern const u8 gIconSprite1103ThwackeyTiles[];
 extern const u8 gIconSprite1104RillaboomTiles[];
 extern const u8 gIconSprite1105ScorbunnyTiles[];
@@ -6181,3 +6185,4 @@ extern const u8 gIconSprite1256DuraludonGigaTiles[];
 extern const u8 gIconSprite1257UrshifuSilentGigaTiles[];
 extern const u8 gIconSprite1258UrshifuRapidGigaTiles[];
 extern const u8 gIconSprite252Tiles[];
+*/
