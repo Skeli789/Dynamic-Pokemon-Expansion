@@ -443,7 +443,7 @@ extern u8 gCryNecrozmaUltra[];
 extern u8 gCryLycanrocDusk[];
 extern u8 gCryMeltan[];
 extern u8 gCryMelmetal[];
-extern u8 gCryGrookey[];
+/* extern u8 gCryGrookey[];
 extern u8 gCryThwackey[];
 extern u8 gCryRillaboom[];
 extern u8 gCryScorbunny[];
@@ -528,3 +528,4 @@ extern u8 gCryZarude[];
 extern u8 gCryKubfu[];
 extern u8 gCryUrshifu[];
 extern u8 gCryCalyrex[];
+*/
