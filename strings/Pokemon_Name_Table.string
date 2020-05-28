@@ -3062,6 +3062,252 @@ Magearna
 #org @NAME_MARSHADOW
 Marshadow
 
+#org @NAME_ARATTATA
+Rattata
+
+#org @NAME_ARATICATE
+Raticate
+
+#org @NAME_ARAICHU
+Raichu
+
+#org @NAME_ASANDSHREW
+Sandshrew
+
+#org @NAME_ASANDSLASH
+Sandslash
+
+#org @NAME_AVULPIX
+Vulpix
+
+#org @NAME_ANINETALES
+Ninetales
+
+#org @NAME_ADIGLETT
+Diglett
+
+#org @NAME_ADUGTRIO
+Dugtrio
+
+#org @NAME_AMEOWTH
+Meowth
+
+#org @NAME_APERSIAN
+Persian
+
+#org @NAME_AGEODUDE
+Geodude
+
+#org @NAME_AGRAVELER
+Graveler
+
+#org @NAME_AGOLEM
+Golem
+
+#org @NAME_AGRIMER
+Grimer
+
+#org @NAME_AMUK
+Muk
+
+#org @NAME_AEXEGGCUTE
+Exeggcute
+
+#org @NAME_AEXEGGUTOR
+Exeggutor
+
+#org @NAME_ACUBONE
+Cubone
+
+#org @NAME_AMAROWAK
+Marowak
+
+#org @NAME_DEOXYSA
+Deoxys
+
+#org @NAME_DEOXYSD
+Deoxys
+
+#org @NAME_DEOXYSS
+Deoxys
+
+#org @NAME_ORICORIOY
+Oricorio
+
+#org @NAME_ORICORIOP
+Oricorio
+
+#org @NAME_ORICORIOS
+Oricorio
+
+#org @NAME_LYCANROCN
+Lycanroc
+
+#org @NAME_WISHIWASHS
+Wishiwashi
+
+#org @NAME_SILVALLYFI
+Silvally
+
+#org @NAME_SILVALLYFL
+Silvally
+
+#org @NAME_SILVALLYPS
+Silvally
+
+#org @NAME_SILVALLYGR
+Silvally
+
+#org @NAME_SILVALLYRO
+Silvally
+
+#org @NAME_SILVALLYBU
+Silvally
+
+#org @NAME_SILVALLYGS
+Silvally
+
+#org @NAME_SILVALLYST
+Silvally
+
+#org @NAME_SILVALLYFR
+Silvally
+
+#org @NAME_SILVALLYWA
+Silvally
+
+#org @NAME_SILVALLYGA
+Silvally
+
+#org @NAME_SILVALLYEL
+Silvally
+
+#org @NAME_SILVALLYPY
+Silvally
+
+#org @NAME_SILVALLYIC
+Silvally
+
+#org @NAME_SILVALLYDR
+Silvally
+
+#org @NAME_SILVALLYDA
+Silvally
+
+#org @NAME_SILVALLYFA
+Silvally
+
+#org @NAME_MINIORRED
+Minior
+
+#org @NAME_MINIORBLU
+Minior
+
+#org @NAME_MINIORORG
+Minior
+
+#org @NAME_MINIORYLW
+Minior
+
+#org @NAME_MINIORIND
+Minior
+
+#org @NAME_MINIORGRN
+Minior
+
+#org @NAME_MINIORVIO
+Minior
+
+#org @NAME_MIMIKYUBU
+Mimikyu
+
+#org @NAME_MAGEARNAP
+Magearna
+
+#org @NAME_POIPOLE
+Poipole
+
+#org @NAME_NAGANADEL
+Naganadel
+
+#org @NAME_STAKATAKA
+Stakataka
+
+#org @NAME_BLACPHALON
+Blacphalon
+
+#org @NAME_ZERAORA
+Zeraora
+
+#org @NAME_NECROZMAM
+Necrozma
+
+#org @NAME_NECROZMAW
+Necrozma
+
+#org @NAME_NECROZMAU
+Necrozma
+
+#org @NAME_LYCANROCD
+Lycanroc
+
+#org @NAME_MELTAN
+Meltan
+
+#org @NAME_MELMETAL
+Melmetal
+
+#org @NAME_PIKACHU_SURFING
+Pikachu
+
+#org @NAME_PIKACHU_FLYING
+Pikachu
+
+#org @NAME_PIKACHU_COSPLAY
+Pikachu
+
+#org @NAME_PIKACHU_LIBRE
+Pikachu
+
+#org @NAME_PIKACHU_POP_STAR
+Pikachu
+
+#org @NAME_PIKACHU_ROCK_STAR
+Pikachu
+
+#org @NAME_PIKACHU_BELLE
+Pikachu
+
+#org @NAME_PIKACHU_PHD
+Pikachu
+
+#org @NAME_PIKACHU_CAP_ORIGINAL
+Pikachu
+
+#org @NAME_PIKACHU_CAP_HOENN
+Pikachu
+
+#org @NAME_PIKACHU_CAP_SINNOH
+Pikachu
+
+#org @NAME_PIKACHU_CAP_UNOVA
+Pikachu
+
+#org @NAME_PIKACHU_CAP_KALOS
+Pikachu
+
+#org @NAME_PIKACHU_CAP_ALOLA
+Pikachu
+
+#org @NAME_PIKACHU_CAP_PARTNER
+Pikachu
+
+#org @NAME_PICHU_SPIKY
+Pichu
+
+#org @NAME_XERNEAS_NATURAL
+Xerneas
+
 #org @NAME_GROOKEY
 Grookey
 
@@ -3371,50 +3617,8 @@ Eternatus
 #org @NAME_URSHIFU_RAPID
 Urshifu
 
-#org @NAME_ARATTATA
-Rattata
-
-#org @NAME_ARATICATE
-Raticate
-
-#org @NAME_ARAICHU
-Raichu
-
-#org @NAME_ASANDSHREW
-Sandshrew
-
-#org @NAME_ASANDSLASH
-Sandslash
-
-#org @NAME_AVULPIX
-Vulpix
-
-#org @NAME_ANINETALES
-Ninetales
-
-#org @NAME_ADIGLETT
-Diglett
-
-#org @NAME_ADUGTRIO
-Dugtrio
-
-#org @NAME_AMEOWTH
-Meowth
-
 #org @NAME_MEOWTH_G
 Meowth
-
-#org @NAME_APERSIAN
-Persian
-
-#org @NAME_AGEODUDE
-Geodude
-
-#org @NAME_AGRAVELER
-Graveler
-
-#org @NAME_AGOLEM
-Golem
 
 #org @NAME_PONYTA_G
 Ponyta
@@ -3430,24 +3634,6 @@ Slowbro
 
 #org @NAME_FARFETCHD_G
 Farfetch'd
-
-#org @NAME_AGRIMER
-Grimer
-
-#org @NAME_AMUK
-Muk
-
-#org @NAME_AEXEGGCUTE
-Exeggcute
-
-#org @NAME_AEXEGGUTOR
-Exeggutor
-
-#org @NAME_ACUBONE
-Cubone
-
-#org @NAME_AMAROWAK
-Marowak
 
 #org @NAME_KOFFING_G
 Koffing
@@ -3496,192 +3682,6 @@ Yamask
 
 #org @NAME_STUNFISK_G
 Stunfisk
-
-#org @NAME_DEOXYSA
-Deoxys
-
-#org @NAME_DEOXYSD
-Deoxys
-
-#org @NAME_DEOXYSS
-Deoxys
-
-#org @NAME_ORICORIOY
-Oricorio
-
-#org @NAME_ORICORIOP
-Oricorio
-
-#org @NAME_ORICORIOS
-Oricorio
-
-#org @NAME_LYCANROCN
-Lycanroc
-
-#org @NAME_WISHIWASHS
-Wishiwashi
-
-#org @NAME_SILVALLYFI
-Silvally
-
-#org @NAME_SILVALLYFL
-Silvally
-
-#org @NAME_SILVALLYPS
-Silvally
-
-#org @NAME_SILVALLYGR
-Silvally
-
-#org @NAME_SILVALLYRO
-Silvally
-
-#org @NAME_SILVALLYBU
-Silvally
-
-#org @NAME_SILVALLYGS
-Silvally
-
-#org @NAME_SILVALLYST
-Silvally
-
-#org @NAME_SILVALLYFR
-Silvally
-
-#org @NAME_SILVALLYWA
-Silvally
-
-#org @NAME_SILVALLYGA
-Silvally
-
-#org @NAME_SILVALLYEL
-Silvally
-
-#org @NAME_SILVALLYPY
-Silvally
-
-#org @NAME_SILVALLYIC
-Silvally
-
-#org @NAME_SILVALLYDR
-Silvally
-
-#org @NAME_SILVALLYDA
-Silvally
-
-#org @NAME_SILVALLYFA
-Silvally
-
-#org @NAME_MINIORRED
-Minior
-
-#org @NAME_MINIORBLU
-Minior
-
-#org @NAME_MINIORORG
-Minior
-
-#org @NAME_MINIORYLW
-Minior
-
-#org @NAME_MINIORIND
-Minior
-
-#org @NAME_MINIORGRN
-Minior
-
-#org @NAME_MINIORVIO
-Minior
-
-#org @NAME_MIMIKYUBU
-Mimikyu
-
-#org @NAME_MAGEARNAP
-Magearna
-
-#org @NAME_POIPOLE
-Poipole
-
-#org @NAME_NAGANADEL
-Naganadel
-
-#org @NAME_STAKATAKA
-Stakataka
-
-#org @NAME_BLACPHALON
-Blacphalon
-
-#org @NAME_ZERAORA
-Zeraora
-
-#org @NAME_NECROZMAM
-Necrozma
-
-#org @NAME_NECROZMAW
-Necrozma
-
-#org @NAME_NECROZMAU
-Necrozma
-
-#org @NAME_LYCANROCD
-Lycanroc
-
-#org @NAME_MELTAN
-Meltan
-
-#org @NAME_MELMETAL
-Melmetal
-
-#org @NAME_PIKACHU_SURFING
-Pikachu
-
-#org @NAME_PIKACHU_FLYING
-Pikachu
-
-#org @NAME_PIKACHU_COSPLAY
-Pikachu
-
-#org @NAME_PIKACHU_LIBRE
-Pikachu
-
-#org @NAME_PIKACHU_POP_STAR
-Pikachu
-
-#org @NAME_PIKACHU_ROCK_STAR
-Pikachu
-
-#org @NAME_PIKACHU_BELLE
-Pikachu
-
-#org @NAME_PIKACHU_PHD
-Pikachu
-
-#org @NAME_PIKACHU_CAP_ORIGINAL
-Pikachu
-
-#org @NAME_PIKACHU_CAP_HOENN
-Pikachu
-
-#org @NAME_PIKACHU_CAP_SINNOH
-Pikachu
-
-#org @NAME_PIKACHU_CAP_UNOVA
-Pikachu
-
-#org @NAME_PIKACHU_CAP_KALOS
-Pikachu
-
-#org @NAME_PIKACHU_CAP_ALOLA
-Pikachu
-
-#org @NAME_PIKACHU_CAP_PARTNER
-Pikachu
-
-#org @NAME_PICHU_SPIKY
-Pichu
-
-#org @NAME_XERNEAS_NATURAL
-Xerneas
 
 #org @NAME_VENUSAUR_GIGA
 Venusaur
