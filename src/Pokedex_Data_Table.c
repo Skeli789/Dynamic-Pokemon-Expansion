@@ -10111,9 +10111,9 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_APPLETUN] =
 	{
 		.categoryName = {_A, _p, _p, _l, _e, _N, _e, _c, _t, _a, _r, _END},
-		.height = 4
-		.weight = 130
-		.description = DEX_ENTRY_APPLETUN
+		.height = 4,
+		.weight = 130,
+		.description = DEX_ENTRY_APPLETUN,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
 		.pokemonOffset = 0,
