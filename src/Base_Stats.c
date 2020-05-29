@@ -36039,11 +36039,11 @@ const struct BaseStats gBaseStats[] =
 		.friendship = 50,
 		.growthRate = GROWTH_FAST,
 		.eggGroup1 = EGG_GROUP_FIELD,
-		.eggGroup2 = EGG_GROUP_FIELD
-		.ability1 = ABILITY_RUNAWAY
-		.ability2 = ABILITY_UNBURDEN
+		.eggGroup2 = EGG_GROUP_FIELD,
+		.ability1 = ABILITY_RUNAWAY,
+		.ability2 = ABILITY_UNBURDEN,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_STAKEOUT
+		.hiddenAbility = ABILITY_STAKEOUT,
 		.noFlip = TRUE,
 	},
 	
@@ -36600,7 +36600,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_WATER_1,
 		.eggGroup2 = EGG_GROUP_FLYING,
-		.ability1 = ABILITY_GULP_MISSILE,
+		.ability1 = ABILITY_GULPMISSILE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
@@ -37458,7 +37458,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_WATER_1,
 		.eggGroup2 = EGG_GROUP_AMORPHOUS,
-		.ability1 = ABILITY_LIGHTINGROD,
+		.ability1 = ABILITY_LIGHTNINGROD,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_ELECTRICSURGE,
@@ -37673,8 +37673,8 @@ const struct BaseStats gBaseStats[] =
 		.baseSpeed 		= 40,
 		.type1 = TYPE_STEEL,
 		.type2 = TYPE_STEEL,
-		.catchRate = 190
-		.expYield = 66
+		.catchRate = 190,
+		.expYield = 66,
 		.evYield_HP 		= 0,
 		.evYield_Attack 	= 1
 		.evYield_Defense 	= 0,
@@ -37683,16 +37683,16 @@ const struct BaseStats gBaseStats[] =
 		.evYield_Speed 		= 0,
 		.item1 = ITEM_NONE,
 		.item2 = ITEM_LAGGING_TAIL,
-		.genderRatio = PERCENT_FEMALE(50
+		.genderRatio = PERCENT_FEMALE(50),
 		.eggCycles = 25,
 		.friendship = 50,
-		.growthRate = GROWTH_MEDIUM_FAST
-		.eggGroup1 = EGG_GROUP_FIELD
-		.eggGroup2 = EGG_GROUP_MINERAL
-		.ability1 = ABILITY_SHEERFORCE
+		.growthRate = GROWTH_MEDIUM_FAST,
+		.eggGroup1 = EGG_GROUP_FIELD,
+		.eggGroup2 = EGG_GROUP_MINERAL,
+		.ability1 = ABILITY_SHEERFORCE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_HEAVYMETAL
+		.hiddenAbility = ABILITY_HEAVYMETAL,
 		.noFlip = TRUE,
 	},
 	
@@ -40664,5 +40664,6 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
-	}, */
+	}, 
+*/
 };
