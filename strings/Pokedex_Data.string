@@ -1576,11 +1576,11 @@ Its small horn hides a healing power.\nWith a few rubs from this its horn, any\n
 #org @DEX_ENTRY_RAPIDASH_G
 Brave and prideful, it dashes airily\nthrough the forest, its steps aided by\npsychic powers stored in its fetlocks.
 
-#org @DEX_ENTRY_SLOWPOKE_G
+/* #org @DEX_ENTRY_SLOWPOKE_G
 This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
 
 #org @DEX_ENTRY_SLOWBRO_G
-This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
+This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time. */
 
 #org @DEX_ENTRY_FARFETCHD_G
 It uses the stalks of leeks that are\nlarger and thicker than usual, which\nmade them to adapt to a unique form.
