@@ -1234,8 +1234,8 @@ extern const u8 gFrontSprite1255CopperajahGigaTiles[];
 extern const u8 gFrontSprite1256DuraludonGigaTiles[];
 extern const u8 gFrontSprite1257UrshifuSilentGigaTiles[];
 extern const u8 gFrontSprite1258UrshifuRapidGigaTiles[];
-extern const u8 gFrontSprite252Tiles[];
 */
+extern const u8 gFrontSprite252Tiles[];
 
 extern const u8 gBackShinySprite000NoneTiles[];
 extern const u8 gBackShinySprite001BulbasaurTiles[];
@@ -2471,8 +2471,8 @@ extern const u8 gBackShinySprite1255CopperajahGigaTiles[];
 extern const u8 gBackShinySprite1256DuraludonGigaTiles[];
 extern const u8 gBackShinySprite1257UrshifuSilentGigaTiles[];
 extern const u8 gBackShinySprite1258UrshifuRapidGigaTiles[];
-extern const u8 gBackShinySprite252Tiles[];
 */
+extern const u8 gBackShinySprite252Tiles[];
 
 #pragma once
 
@@ -3710,8 +3710,8 @@ extern const u8 gFrontSprite1255CopperajahGigaPal[];
 extern const u8 gFrontSprite1256DuraludonGigaPal[];
 extern const u8 gFrontSprite1257UrshifuSilentGigaPal[];
 extern const u8 gFrontSprite1258UrshifuRapidGigaPal[];
-extern const u8 gFrontSprite252Pal[];
 */
+extern const u8 gFrontSprite252Pal[];
 
 extern const u8 gBackShinySprite000NonePal[];
 extern const u8 gBackShinySprite001BulbasaurPal[];
@@ -4947,8 +4947,8 @@ extern const u8 gBackShinySprite1255CopperajahGigaPal[];
 extern const u8 gBackShinySprite1256DuraludonGigaPal[];
 extern const u8 gBackShinySprite1257UrshifuSilentGigaPal[];
 extern const u8 gBackShinySprite1258UrshifuRapidGigaPal[];
-extern const u8 gBackShinySprite252Pal[];
 */
+extern const u8 gBackShinySprite252Pal[];
 
 extern const u8 gIconSprite000NoneTiles[];
 extern const u8 gIconSprite001BulbasaurTiles[];
@@ -6184,5 +6184,5 @@ extern const u8 gIconSprite1255CopperajahGigaTiles[];
 extern const u8 gIconSprite1256DuraludonGigaTiles[];
 extern const u8 gIconSprite1257UrshifuSilentGigaTiles[];
 extern const u8 gIconSprite1258UrshifuRapidGigaTiles[];
-extern const u8 gIconSprite252Tiles[];
 */
+extern const u8 gIconSprite252Tiles[];
