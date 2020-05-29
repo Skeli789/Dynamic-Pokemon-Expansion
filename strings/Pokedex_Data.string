@@ -1510,7 +1510,7 @@ It slept for aeons while in the form\nof a statue. It was asleep for so long,\np
 #org @DEX_ENTRY_ETERNATUS
 It was inside a meteorite that fell\n20,000 years ago. The energy that\nits core absorbs allows it to live.
 
-#org @DEX_ENTRY_ZARUDE
+/* #org @DEX_ENTRY_ZARUDE
 This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
 
 #org @DEX_ENTRY_KUBFU
@@ -1521,6 +1521,7 @@ This is a newly discovered Pokémon.\nIt is currently under investigation. No\ni
 
 #org @DEX_ENTRY_CALYREX
 This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
+*/
 
 //Special Form Entries
 
@@ -1602,7 +1603,7 @@ This Pokémon consumes particles that\ncontaminate the air. Instead of leaving\n
 #org @DEX_ENTRY_MR_MIME_G
 It can radiate chilliness from the\nbottoms of its feet. It’ll spend its\nday tap dancing on a frozen floor.
 
-#org @DEX_ENTRY_ARTICUNO_G
+/*  #org @DEX_ENTRY_ARTICUNO_G
 This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
 
 #org @DEX_ENTRY_ZAPDOS_G
@@ -1612,7 +1613,7 @@ This is a newly discovered Pokémon.\nIt is currently under investigation. No\ni
 This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
 
 #org @DEX_ENTRY_SLOWKING_G
-This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
+This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time. */
 
 #org @DEX_ENTRY_CORSOLA_G
 Sudden climate change wiped out this\nancient kind of Corsola. It absorbs the\nlife force of others through its branches.
@@ -1722,5 +1723,5 @@ Now that it has equipped its shield,\nit can shrug off impressive blows,\neven f
 #org @DEX_ENTRY_ETERNATUS_ETERNAMAX
 Infinite amounts of energy pour from\nthis Pokémon’s enlarged core, warping\nthe surrounding space-time.
 
-#org @DEX_ENTRY_URSHIFU_RAPID
-This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.
+/* #org @DEX_ENTRY_URSHIFU_RAPID
+This is a newly discovered Pokémon.\nIt is currently under investigation. No\ninformation is available at this time.*/
