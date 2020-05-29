@@ -2140,7 +2140,7 @@ const u16 gUrbanPage10[] =
 {
 	SPECIES_MIME_JR_G,
 	SPECIES_MR_MIME_G,
-	SPECIES_MR_RIME_G,
+	SPECIES_MR_RIME,
 };
 
 const u16 gUrbanPage11[] =
