@@ -1105,7 +1105,7 @@ const u8* const gMonIconTable[NUM_SPECIES] =
 	[SPECIES_PIKACHU_CAP_PARTNER] =  gIconSprite1099PikachuCapPartnerTiles,
 	[SPECIES_PICHU_SPIKY] =          gIconSprite1100PichuSpikyTiles,
 	[SPECIES_XERNEAS_NATURAL] =      gIconSprite1101XerneasNaturalTiles,
-	[SPECIES_GROOKEY] =              gIconSprite1102GrookeyTiles,
+/*	[SPECIES_GROOKEY] =              gIconSprite1102GrookeyTiles,
 	[SPECIES_THWACKEY] =             gIconSprite1103ThwackeyTiles,
 	[SPECIES_RILLABOOM] =            gIconSprite1104RillaboomTiles,
 	[SPECIES_SCORBUNNY] =            gIconSprite1105ScorbunnyTiles,
@@ -1262,4 +1262,5 @@ const u8* const gMonIconTable[NUM_SPECIES] =
 	[SPECIES_DURALUDON_GIGA] =       gIconSprite1256DuraludonGigaTiles, 
 	[SPECIES_URSHIFU_SINGLE_GIGA] =  gIconSprite1257UrshifuSingleGigaTiles,
 	[SPECIES_URSHIFU_RAPID_GIGA] =   gIconSprite1258UrshifuRapidGigaTiles,
+	*/
 };
