@@ -38092,7 +38092,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 					      
-	[SPECIES_ZARUDE] = //PLACEHOLDER DATA
+/*	[SPECIES_ZARUDE] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 100,
@@ -38222,7 +38222,7 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
-	},
+	}, */
 			
 	[SPECIES_CRAMORANT_GULPING] =
 	{
@@ -38356,7 +38356,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 					      
-		[SPECIES_POLTEAGEIST_CHIPPED] =
+	[SPECIES_POLTEAGEIST_CHIPPED] =
 	{
 		.baseHP 		= 60,
 		.baseAttack 	= 65,
@@ -38785,7 +38785,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 					      
-	[SPECIES_URSHIFU_RAPID] = //PLACEHOLDER DATA
+/*	[SPECIES_URSHIFU_RAPID] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 100,
@@ -38816,7 +38816,7 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
-	},
+	}, */
 	
 	[SPECIES_MEOWTH_G] =
 	{
@@ -38917,7 +38917,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-	[SPECIES_SLOWPOKE_G] =
+/*	[SPECIES_SLOWPOKE_G] =
 	{
 		.baseHP 		= 90,
 		.baseAttack 	= 65,
@@ -38981,7 +38981,7 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_REGENERATOR,
 		.noFlip = TRUE,
-	},
+	}, */
 	
 	[SPECIES_FARFETCHD_G] =
 	{
@@ -39148,7 +39148,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-	[SPECIES_ARTICUNO_G] = //PLACEHOLDER DATA
+/*	[SPECIES_ARTICUNO_G] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 90,
 		.baseAttack 	= 85,
@@ -39278,7 +39278,7 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_REGENERATOR,
 		.noFlip = TRUE,
-	},
+	}, */
 	
 	[SPECIES_CORSOLA_G] =
 	{
@@ -40600,7 +40600,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-	[SPECIES_URSHIFU_SINGLE_GIGA] = //PLACEHOLDER DATA
+/*	[SPECIES_URSHIFU_SINGLE_GIGA] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 100,
@@ -40664,5 +40664,5 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
-	},
+	}, */
 };
