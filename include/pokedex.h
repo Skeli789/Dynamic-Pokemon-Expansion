@@ -1579,7 +1579,7 @@ extern const u8 DEX_ENTRY_ALCREMIE_STAR[];
 extern const u8 DEX_ENTRY_EISCUE_NOICE[];
 extern const u8 DEX_ENTRY_INDEEDEE_FEMALE[];
 extern const u8 DEX_ENTRY_MORPEKO_HANGRY[];
-extern const u8 DEX_ENTRY_ZACIAN_CROWNED];
+extern const u8 DEX_ENTRY_ZACIAN_CROWNED[];
 extern const u8 DEX_ENTRY_ZAMAZENTA_CROWNED[];
 extern const u8 DEX_ENTRY_ETERNATUS_ETERNAMAX[];
 extern const u8 DEX_ENTRY_URSHIFU_RAPID[];
