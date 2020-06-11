@@ -13940,7 +13940,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-		[SPECIES_REGIELEKI] =
+	[SPECIES_REGIELEKI] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -13952,7 +13952,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-		[SPECIES_REGIDRAGO] =
+	[SPECIES_REGIDRAGO] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
