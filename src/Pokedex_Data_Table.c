@@ -10698,7 +10698,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 /*		[NATIONAL_DEX_ZARUDE] =
 	{
-		.categoryName = {_U, _n, _k, _n, _o, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_R, _o, _g, _u, _e, _M, _o, _n, _k, _e, _y, _END},
 		.height = 0,
 		.weight = 0,
 		.description = DEX_ENTRY_ZARUDE,
