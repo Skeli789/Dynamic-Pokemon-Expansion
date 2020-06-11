@@ -18476,6 +18476,14 @@ static const struct LevelUpMove sUrshifuLevelUpLearnset[] = {
 
 static const struct LevelUpMove sCalyrexLevelUpLearnset[] = {
 	LEVEL_UP_END
+}; 
+
+static const struct LevelUpMove sRegielekiLevelUpLearnset[] = {
+	LEVEL_UP_END
+}; 
+
+static const struct LevelUpMove sRegidragoLevelUpLearnset[] = {
+	LEVEL_UP_END
 }; */		
 
 static const struct LevelUpMove sToxtricityLowKeyLevelUpLearnset[] = {
@@ -20026,7 +20034,9 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 /*	[SPECIES_ZARUDE] = sZarudeLevelUpLearnset,
 	[SPECIES_KUBFU] = sKubfuLevelUpLearnset,
 	[SPECIES_URSHIFU_SINGLE] = sUrshifuLevelUpLearnset,
-	[SPECIES_CALYREX] = sCalyrexLevelUpLearnset, */
+	[SPECIES_CALYREX] = sCalyrexLevelUpLearnset, 
+	[SPECIES_REGIELEKI] = sRegielekiLevelUpLearnset,
+	[SPECIES_REGIDRAGO] = sRegidragoLevelUpLearnset,*/
 	[SPECIES_CRAMORANT_GULPING] = sCramorantLevelUpLearnset,
 	[SPECIES_CRAMORANT_GORGING] = sCramorantLevelUpLearnset,
 	[SPECIES_TOXTRICITY_LOW_KEY] = sToxtricityLowKeyLevelUpLearnset,
