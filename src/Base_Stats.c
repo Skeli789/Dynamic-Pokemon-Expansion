@@ -38224,7 +38224,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-		[SPECIES_REGIELEKI] = //PLACEHOLDER DATA
+	[SPECIES_REGIELEKI] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 100,
@@ -38257,7 +38257,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-		[SPECIES_REGIDRAGO] = //PLACEHOLDER DATA
+	[SPECIES_REGIDRAGO] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 100,
