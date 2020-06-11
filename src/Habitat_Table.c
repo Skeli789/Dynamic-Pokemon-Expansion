@@ -1588,6 +1588,12 @@ const u16 gCavePage34[] =
 	SPECIES_COALOSSAL,
 };
 
+const u16 gCavePage35[] =
+{
+	SPECIES_REGIELEKI,
+	SPECIES_REGIDRAGO,
+};
+
 const u16 gMountainPage1[] =
 {
 	SPECIES_GEODUDE,
@@ -2809,6 +2815,7 @@ const struct HabitatPage gCavePages[] =
 	{gCavePage32, ARRAY_COUNT(gCavePage32)}, 
 	{gCavePage33, ARRAY_COUNT(gCavePage33)}, 
 	{gCavePage34, ARRAY_COUNT(gCavePage34)}, 
+	{gCavePage35, ARRAY_COUNT(gCavePage35)}, 
 };
 
 const struct HabitatPage gMountainPages[] =
