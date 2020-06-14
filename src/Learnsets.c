@@ -18466,6 +18466,10 @@ static const struct LevelUpMove sEternatusLevelUpLearnset[] = {
 	LEVEL_UP_END
 };		
 
+static const struct LevelUpMove sUnknownMythicalLevelUpLearnset[] = {
+	LEVEL_UP_END
+};	
+
 static const struct LevelUpMove sKubfuLevelUpLearnset[] = {
 	LEVEL_UP_END
 };		
@@ -20032,6 +20036,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_ZAMAZENTA] = sZamazentaLevelUpLearnset,
 	[SPECIES_ETERNATUS] = sEternatusLevelUpLearnset,
 /*	[SPECIES_ZARUDE] = sZarudeLevelUpLearnset,
+	[SPECIES_UNKNOWN_MYTHICAL] = sUnknownMythicalLevelUpLearnset,
 	[SPECIES_KUBFU] = sKubfuLevelUpLearnset,
 	[SPECIES_URSHIFU_SINGLE] = sUrshifuLevelUpLearnset,
 	[SPECIES_CALYREX] = sCalyrexLevelUpLearnset, 
