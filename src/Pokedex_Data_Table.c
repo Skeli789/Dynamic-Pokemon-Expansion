@@ -10720,7 +10720,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-		[NATIONAL_DEX_URSHIFU_SINGLE] =
+		[NATIONAL_DEX_URSHIFU] =
 	{
 		.categoryName = {_W, _u, _s, _h, _u, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
 		.height = 0,
@@ -10794,7 +10794,7 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(GOLEM_A),
 	ALTERNATE_ENTRY(PONYTA_G),
 	ALTERNATE_ENTRY(RAPIDASH_G),
-/*	ALTERNATE_ENTRY(SLOWPOKE_G),'
+/*	ALTERNATE_ENTRY(SLOWPOKE_G),
 	ALTERNATE_ENTRY(SLOWBRO_G), */
 	ALTERNATE_ENTRY(FARFETCHD_G),
 	ALTERNATE_ENTRY(GRIMER_A),
