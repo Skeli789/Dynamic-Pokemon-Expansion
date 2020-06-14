@@ -1005,9 +1005,10 @@ enum
 #define NATIONAL_DEX_CALYREX 894
 #define NATIONAL_DEX_REGIELEKI 895
 #define NATIONAL_DEX_REGIDRAGO 896
+#define NATIONAL_DEX_UNKNOWN 897
 
-#define FINAL_DEX_ENTRY NATIONAL_DEX_REGIDRAGO //Not +1 b/c used like this for some asm
-#define NATIONAL_DEX_COUNT NATIONAL_DEX_REGIDRAGO + 1
+#define FINAL_DEX_ENTRY NATIONAL_DEX_UNKNOWN //Not +1 b/c used like this for some asm
+#define NATIONAL_DEX_COUNT NATIONAL_DEX_UNKNOWN + 1
 
 extern const u8 DEX_ENTRY_TURTWIG[];
 extern const u8 DEX_ENTRY_GROTLE[];
@@ -1519,6 +1520,7 @@ extern const u8 DEX_ENTRY_URSHIFU_SINGLE[];
 extern const u8 DEX_ENTRY_CALYREX[];
 extern const u8 DEX_ENTRY_REGIELEKI[];
 extern const u8 DEX_ENTRY_REGIDRAGO[];
+extern const u8 DEX_ENTRY_UNKNWON_MYTHICAL[];
 
 extern const u8 DEX_ENTRY_RATTATA_A[];
 extern const u8 DEX_ENTRY_RATICATE_A[];
