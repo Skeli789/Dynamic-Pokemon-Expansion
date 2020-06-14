@@ -527,6 +527,7 @@ extern u8 gCryZacian[];
 extern u8 gCryZamazenta[];
 extern u8 gCryEternatus[];
 /*extern u8 gCryZarude[];
+extern u8 gCryUnknownMythical[];
 extern u8 gCryKubfu[];
 extern u8 gCryUrshifu[];
 extern u8 gCryCalyrex[];
