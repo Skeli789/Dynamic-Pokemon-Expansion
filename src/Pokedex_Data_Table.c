@@ -10696,30 +10696,6 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-/*		[NATIONAL_DEX_ZARUDE] =
-	{
-		.categoryName = {_R, _o, _g, _u, _e, _M, _o, _n, _k, _e, _y, _END},
-		.height = 0,
-		.weight = 0,
-		.description = DEX_ENTRY_ZARUDE,
-		.unusedDescription = (const u8*) 0x8444cb1,
-		.pokemonScale = 0,
-		.pokemonOffset = 0,
-		.trainerScale = 0,
-		.trainerOffset = 0,
-	},
-		[NATIONAL_DEX_UNKNOWN] =
-	{
-		.categoryName = {_U, _n, _k, _n, _o, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
-		.description = DEX_ENTRY_UNKNOWN_MYTHICAL,
-		.unusedDescription = (const u8*) 0x8444cb1,
-		.pokemonScale = 0,
-		.pokemonOffset = 0,
-		.trainerScale = 0,
-		.trainerOffset = 0,
-	},
 		[NATIONAL_DEX_KUBFU] =
 	{
 		.categoryName = {_W, _u, _s, _h, _u, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
@@ -10737,14 +10713,26 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.categoryName = {_W, _u, _s, _h, _u, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
 		.height = 0,
 		.weight = 0,
-		.description = DEX_ENTRY_URSHIFU,
+		.description = DEX_ENTRY_URSHIFU_SINGLE,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
 		.pokemonOffset = 0,
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-		[NATIONAL_DEX_CALYREX] =
+		[NATIONAL_DEX_ZARUDE] =
+	{
+		.categoryName = {_R, _o, _g, _u, _e, _M, _o, _n, _k, _e, _y, _END},
+		.height = 0,
+		.weight = 0,
+		.description = DEX_ENTRY_ZARUDE,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
+/*		[NATIONAL_DEX_CALYREX] =
 	{
 		.categoryName = {_K, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
 		.height = 0,
@@ -10780,6 +10768,18 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
+		[NATIONAL_DEX_UNKNOWN] =
+	{
+		.categoryName = {_U, _n, _k, _n, _o, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 0,
+		.weight = 0,
+		.description = DEX_ENTRY_UNKNOWN_MYTHICAL,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
 	*/
 };
 
@@ -10806,8 +10806,8 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(GOLEM_A),
 	ALTERNATE_ENTRY(PONYTA_G),
 	ALTERNATE_ENTRY(RAPIDASH_G),
-/*	ALTERNATE_ENTRY(SLOWPOKE_G),
-	ALTERNATE_ENTRY(SLOWBRO_G), */
+	ALTERNATE_ENTRY(SLOWPOKE_G),
+	ALTERNATE_ENTRY(SLOWBRO_G),
 	ALTERNATE_ENTRY(FARFETCHD_G),
 	ALTERNATE_ENTRY(GRIMER_A),
 	ALTERNATE_ENTRY(MUK_A),
@@ -10855,6 +10855,6 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(ZACIAN_CROWNED),
 	ALTERNATE_ENTRY(ZAMAZENTA_CROWNED),
 	ALTERNATE_ENTRY(ETERNATUS_ETERNAMAX),
-//	ALTERNATE_ENTRY(URSHIFU_RAPID),
+	ALTERNATE_ENTRY(URSHIFU_RAPID),
 	{SPECIES_TABLES_TERMIN, 0} 
 };
