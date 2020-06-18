@@ -5918,22 +5918,22 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-	[SPECIES_ZARUDE] =
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
-	[SPECIES_UNKNOWN_MYTHICAL] =
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
 	[SPECIES_KUBFU] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
 	[SPECIES_URSHIFU_SINGLE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+		[SPECIES_ZARUDE] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_UNKNOWN_MYTHICAL] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
