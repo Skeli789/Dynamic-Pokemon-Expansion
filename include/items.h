@@ -765,6 +765,8 @@
 #define ITEM_FLOWER_SWEET 0x2D0
 #define ITEM_RIBBON_SWEET 0x2D1
 #define ITEM_STAR_SWEET 0x2D2
+#define ITEM_GALARICA_CUFF 0x2D3
+#define ITEM_GALARICA_CROWN 0x2D4 //Placeholder name for G-Slowking item
 
 //New Key Items
 #define ITEM_GRACIDEA 0x217
