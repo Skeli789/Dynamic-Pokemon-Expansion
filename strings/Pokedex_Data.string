@@ -1509,18 +1509,18 @@ It slept for aeons while in the form\nof a statue. It was asleep for so long,\np
 
 #org @DEX_ENTRY_ETERNATUS
 It was inside a meteorite that fell\n20,000 years ago. The energy that\nits core absorbs allows it to live.
-
-/* 
-#org @DEX_ENTRY_ZARUDE
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
-
-#org @DEX_ENTRY_UNKNOWN_MYTHICAL
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
-
+ 
 #org @DEX_ENTRY_KUBFU
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+If it pulls the long white hair on\nits head, its fighting spirit heightens and\npower wells up from deep in its belly.
 
 #org @DEX_ENTRY_URSHIFU_SINGLE
+Inhabiting the mountains of a distant\nregion, it races across sheer cliffs, training\nits legs and refining its moves.
+
+#org @DEX_ENTRY_ZARUDE
+Once the vines on its body tear off,\nthey become nutrients in the soil. This helps\nthe plants of the forest grow.
+
+/*
+#org @DEX_ENTRY_UNKNOWN_MYTHICAL
 This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
 
 #org @DEX_ENTRY_CALYREX
@@ -1586,13 +1586,11 @@ Its small horn hides a healing power.\nWith a few rubs from this its horn, any\n
 #org @DEX_ENTRY_RAPIDASH_G
 Brave and prideful, it dashes airily\nthrough the forest, its steps aided by\npsychic powers stored in its fetlocks.
 
-/*
 #org @DEX_ENTRY_SLOWPOKE_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+Because it eats the seeds of a plant\nthat grows only in Galar, their tails have\ndeveloped a spicy flavor.
 
 #org @DEX_ENTRY_SLOWBRO_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
-*/
+\n\n
 
 #org @DEX_ENTRY_FARFETCHD_G
 It uses the stalks of leeks that are\nlarger and thicker than usual, which\nmade them to adapt to a unique form.
@@ -1737,7 +1735,6 @@ Now that it has equipped its shield,\nit can shrug off impressive blows,\neven f
 #org @DEX_ENTRY_ETERNATUS_ETERNAMAX
 Infinite amounts of energy pour from\nthis Pok\emon's enlarged core, warping\nthe surrounding space-time.
 
-/*
 #org @DEX_ENTRY_URSHIFU_RAPID
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
-*/
+\n\n
+
