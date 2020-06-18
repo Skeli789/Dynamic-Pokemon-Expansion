@@ -1,5 +1,3 @@
-//Fix Kyurem White
-
 #include "defines.h"
 #include "../include/cries.h"
 #include "../include/cry_data.h"
@@ -13892,31 +13890,7 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-/*	[SPECIES_ZARUDE] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryZarude,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_UNKNOWN_MYTHICAL] =
-	{	
-		.type = 0x20,
-		.key = 0x3c,
-		.length = 0x0,
-		.pan_sweep = 0x0,
-		.wav = gCryUnknownMythical,
-		.attack = 0xff,
-		.decay = 0x0,
-		.sustain = 0xff,
-		.release = 0x0,
-	},
-	[SPECIES_KUBFU] =
+/*	[SPECIES_KUBFU] =
 	{	
 		.type = 0x20,
 		.key = 0x3c,
@@ -13935,6 +13909,30 @@ const struct ToneData gCryTable[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = gCryUrshifu,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_ZARUDE] =
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryZarude,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_UNKNOWN_MYTHICAL] =
+	{	
+		.type = 0x20,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryUnknownMythical,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
