@@ -4485,4 +4485,3 @@ u16 GetEggSpecies(u16 species)
 
     return species;
 }
-
