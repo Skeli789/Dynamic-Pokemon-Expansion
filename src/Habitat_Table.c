@@ -1554,8 +1554,8 @@ const u16 gMountainPage14[] =
 
 const u16 gMountainPage15[] =
 {
-	SPECIES_TIRTOUGA,
-	SPECIES_CARRACOSTA,
+	SPECIES_MUNCHLAX,
+	SPECIES_SNORLAX,
 };
 
 const u16 gMountainPage16[] =
