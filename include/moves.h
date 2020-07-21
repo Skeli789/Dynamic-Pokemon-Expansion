@@ -785,7 +785,7 @@
 
 #define MOVE_CATASTROPIKA 0x308
 #define MOVE_10000000_VOLT_THUNDERBOLT 0x309
-#define MOVE_STOKED_SPARKSURFER 0x30A			//Paralyze Target
+#define MOVE_STOKED_SPARKSURFER 0x30A		//Paralyze Target
 #define MOVE_EXTREME_EVOBOOST 0x30B				//Double Ancient Power
 #define MOVE_PULVERIZING_PANCAKE 0x30C
 #define MOVE_GENESIS_SUPERNOVA 0x30D			//Sets up Psychic Terrain
