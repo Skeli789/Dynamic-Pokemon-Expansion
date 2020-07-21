@@ -9522,7 +9522,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_NIHILEGO] =
 	{
-		.categoryName = {_P, _a, _r, _a, _s, _i, _t, _e, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_P, _a, _r, _a, _s, _i, _t, _e, _END, _SPACE, _SPACE, _SPACE},
 		.height = 12,
 		.weight = 555,
 		.description = DEX_ENTRY_NIHILEGO,
@@ -9594,7 +9594,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_GUZZLORD] =
 	{
-		.categoryName = {_J, _u, _n, _k, _i, _v, _o, _r, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_J, _u, _n, _k, _i, _v, _o, _r, _END, _SPACE, _SPACE, _SPACE},
 		.height = 55,
 		.weight = 8880,
 		.description = DEX_ENTRY_GUZZLORD,

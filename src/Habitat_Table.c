@@ -1707,8 +1707,8 @@ const u16 gMountainPage15[] =
 
 const u16 gMountainPage16[] =
 {
-	SPECIES_SNOM,
-	SPECIES_FROSMOTH,
+	SPECIES_MUNCHLAX,
+	SPECIES_SNORLAX,
 };
 
 const u16 gMountainPage17[] =
@@ -1884,6 +1884,12 @@ const u16 gMountainPage42[] =
 	SPECIES_CUFANT,
 	SPECIES_COPPERAJAH,
 	SPECIES_DURALUDON,
+};
+
+const u16 gMountainPage43[] =
+{
+	SPECIES_SNOM,
+	SPECIES_FROSMOTH,
 };
 
 const u16 gRoughTerrainPage1[] =
@@ -2863,6 +2869,7 @@ const struct HabitatPage gMountainPages[] =
 	{gMountainPage40, ARRAY_COUNT(gMountainPage40)},
 	{gMountainPage41, ARRAY_COUNT(gMountainPage41)},
 	{gMountainPage42, ARRAY_COUNT(gMountainPage42)},
+	{gMountainPage43, ARRAY_COUNT(gMountainPage43)},
 };
 
 const struct HabitatPage gRoughTerrainPages[] =

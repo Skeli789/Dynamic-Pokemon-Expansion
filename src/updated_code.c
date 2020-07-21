@@ -34,6 +34,7 @@ u8 __attribute__((long_call)) GetGenderFromSpeciesAndPersonality(u16 species, u3
 u8  __attribute__((long_call)) GetUnownLetterFromPersonality(u32 personality);
 bool8 __attribute__((long_call)) GetSetPokedexFlag(u16 nationalNum, u8 caseID);
 s8 __attribute__((long_call)) DexFlagCheck(u16 nationalDexNo, u8 caseId, bool8 indexIsSpecies);
+u16 __attribute__((long_call)) SpeciesToNationalPokedexNum(u16 species);
 void __attribute__((long_call)) break_func();
 
 //This file's functions
@@ -235,7 +236,7 @@ u16 CountSpeciesInDex(u8 caseId, bool8 whichDex)
 		case 0: //Regional
 			for (i = 0; i < gRegionalDexCount; ++i)
 			{
-				if (DexFlagCheck(gPokedexOrder_Regional[i], caseId, FALSE))
+				if (DexFlagCheck(SpeciesToNationalPokedexNum(gPokedexOrder_Regional[i]), caseId, FALSE))
 					count++;
 			}
 			break;
@@ -251,24 +252,14 @@ u16 CountSpeciesInDex(u8 caseId, bool8 whichDex)
 	return count;
 }
 
-u16 GetRegionalPokedexCount(u8 caseID)
+u16 GetRegionalPokedexCount(u8 caseId)
 {
-	u16 count = 0;
-	u16 i;
+	u16 i, count;
 
-	for (i = 0; i < gRegionalDexCount; ++i)
+	for (i = 0, count = 0; i < gRegionalDexCount; ++i)
 	{
-		switch (caseID)
-		{
-		case FLAG_GET_SEEN:
-			if (GetSetPokedexFlag(gPokedexOrder_Regional[i], FLAG_GET_SEEN))
-				count++;
-			break;
-		case FLAG_GET_CAUGHT:
-			if (GetSetPokedexFlag(gPokedexOrder_Regional[i], FLAG_GET_CAUGHT))
-				count++;
-			break;
-		}
+		if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(gPokedexOrder_Regional[i]), caseId))
+			count++;
 	}
 
 	return count;
@@ -280,7 +271,20 @@ bool16 HasAllRegionalMons(void)
 
 	for (i = 0; i < gRegionalDexCount; ++i)
 	{
-		if (!GetSetPokedexFlag(gPokedexOrder_Regional[i], FLAG_GET_CAUGHT))
+		if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(gPokedexOrder_Regional[i]), FLAG_GET_CAUGHT))
+			return FALSE;
+	}
+
+	return TRUE;
+}
+
+bool16 sp1B9_SeenAllRegionalMons(void)
+{
+	u16 i;
+
+	for (i = 0; i < gRegionalDexCount; ++i)
+	{
+		if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(gPokedexOrder_Regional[i]), FLAG_GET_SEEN))
 			return FALSE;
 	}
 
