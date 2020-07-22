@@ -6136,72 +6136,72 @@ const struct MonCoords gMonFrontPicCoords[NUM_SPECIES] =
 	[SPECIES_VENUSAUR_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 5,
 	},
 	[SPECIES_CHARIZARD_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0,
 	},
 	[SPECIES_BLASTOISE_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 5,
 	},
 	[SPECIES_BUTTERFREE_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 3,
 	},
 	[SPECIES_PIKACHU_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 2,
 	},
 	[SPECIES_MEOWTH_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 3,
 	},
 	[SPECIES_MACHAMP_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0,
 	},
 	[SPECIES_GENGAR_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 7,
 	},
 	[SPECIES_KINGLER_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0,
 	},
 	[SPECIES_LAPRAS_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0,
 	},
 	[SPECIES_EEVEE_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 8,
 	},
 	[SPECIES_SNORLAX_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0,
 	},
 	[SPECIES_GARBODOR_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 2,
 	},
 	[SPECIES_MELMETAL_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 1,
 	},
 	[SPECIES_RILLABOOM_GIGA] =
 	{
