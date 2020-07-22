@@ -283,14 +283,17 @@ def ProcessSpriteGraphics():
     frontFlags = GetFlagsFromFlagFile(GRAPHICS + "/frontspriteflags.grit")
     backFlags = GetFlagsFromFlagFile(GRAPHICS + "/backspriteflags.grit")
     iconFlags = GetFlagsFromFlagFile(GRAPHICS + "/iconspriteflags.grit")
+    castformFlags = GetFlagsFromFlagFile(GRAPHICS + "/castform/gritflags.txt")
 
     backsprites = [file for file in glob(GRAPHICS + "/backspr" + "**/*.png", recursive=True)]
     frontsprites = [file for file in glob(GRAPHICS + "/frontspr" + "**/*.png", recursive=True)]
     iconsprites = [file for file in glob(GRAPHICS + "/pokeicon" + "**/*.png", recursive=True)]
+    castformsprites = [file for file in glob(GRAPHICS + "/castform" + "**/*.png", recursive=True)]
 
     ProcessSpriteSet(frontsprites, frontFlags, 'frontsprites.s', "Front Sprites")
     ProcessSpriteSet(backsprites, backFlags, 'backsprites.s', "Back Sprites")
     ProcessSpriteSet(iconsprites, iconFlags, 'iconsprites.s', "Icon Sprites")
+    ProcessSpriteSet(castformsprites, castformFlags, 'castformsprites.s', "Castform Sprites")
 
 
 def ProcessAudio(audioFile: str) -> str:

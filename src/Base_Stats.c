@@ -27133,7 +27133,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_FLOWERVEIL,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_SYMBIOSIS,
 		.noFlip = TRUE,
 	},
 
