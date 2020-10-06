@@ -10,6 +10,7 @@ GetFrontSpritePalFromSpeciesAndPersonality 80440F4 3
 GetMonSpritePalStructFromOtIdPersonality 8044180 3
 GetEggSpecies 8045970 1
 GetEggMoves 8045C28 2
+EggHatchManaphyEggHook 80471A8 0
 CreateMonSprite_PicBoxHook 808398C 1
 GetRegionalPokedexCount 8088EDC 1
 HasAllRegionalMons 8088F58 0
@@ -22,3 +23,19 @@ DisplayRegionalDexNumHook 8104A66 1
 CountSpeciesInDex 8104BBC 2
 AlternateDexEntriesHook 8105CBC 0
 SummaryScreenIconPalHook 8139DDC 1
+
+##Manaphy Egg Hooks
+PokemonStorageSystemManaphyEggHook1 809008E 1
+PokemonStorageSystemManaphyEggHook2 80900F4 0
+PokemonStorageSystemManaphyEggHook3 80901F8 0
+PokemonStorageSystemManaphyEggHook4 80907B2 0
+PokemonStorageSystemManaphyEggHook5 80908A4 1
+PokemonStorageSystemManaphyEggHook6 80908E0 2
+PokemonStorageSystemManaphyEggHook7 80956BC 0
+PokemonStorageSystemManaphyEggHook8 80440C8 1
+PokemonStorageSystemManaphyEggHook9 8093C94 3
+PokemonStorageSystemManaphyEggHook10 808F414 1
+PartyMenuManaphyEggHook 8122214 0
+SummaryScreenManaphyEggHook 8139978 1
+
+

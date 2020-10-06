@@ -1263,10 +1263,10 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x66,
 		.y_offset = 0x7,
 	},
-	[252] =
+	[SPECIES_MANAPHY_EGG] =
 	{
 		.size = 0x88,
-		.y_offset = 0x1,
+		.y_offset = 0x10,
 	},
 	[253] =
 	{
@@ -3536,7 +3536,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SHADOW_WARRIOR] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x3,
 	},
 	[SPECIES_BURMY_SANDY] =
 	{

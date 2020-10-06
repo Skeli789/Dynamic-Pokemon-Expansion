@@ -7,9 +7,13 @@ __umodsi3 = 0x081E4684|1;
 memcpy_ = 0x081E5E78|1;
 memset_ = 0x081E5ED8|1;
 
+gPlayerParty = 0x2024284;
 gPokedexScreenDataPtr = 0x203ACF0;
 gMain = 0x30030F0;
+sEggHatchData = 0x3000E74;
 
+LoadSpriteSheet = 0x80086DC | 1;
+LoadSpritePalette = 0x8008928 | 1;
 GetGenderFromSpeciesAndPersonality = 0x803F78C | 1;
 GetMonData = 0x803FBE8 | 1;
 SpeciesToNationalPokedexNum = 0x8043298 | 1;

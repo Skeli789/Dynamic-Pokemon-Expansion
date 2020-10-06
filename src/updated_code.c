@@ -6,9 +6,17 @@
 
 //Backsprite battle start
 
+struct Pokemon
+{
+	u8 data[0x20];
+	u16 species;
+	u8 data2[0x42];
+};
+
 extern const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1];
 extern const u16 gSpeciesIdToCryId[];
 extern const u16 gSpeciesToNationalPokedexNum[];
+extern struct Pokemon gPlayerParty[6];
 
 extern const u16 gPokedexOrder_Regional[];
 extern const u16 gRegionalDexCount;
@@ -29,6 +37,12 @@ extern const struct CompressedSpritePalette gMonShinyPaletteTable[];
 
 const u16 gNumSpecies = NUM_SPECIES;
 const u16 gNumDexEntries = FINAL_DEX_ENTRY;
+
+#define MON_DATA_SPECIES           11
+#define MON_DATA_SPECIES2          65
+
+typedef u32 (*GetBoxMonDataAt_T) (u8 boxId, u8 boxPosition, s32 request);
+#define GetBoxMonDataAt ((GetBoxMonDataAt_T) (0x0808BA18 |1))
 
 u8 __attribute__((long_call)) GetGenderFromSpeciesAndPersonality(u16 species, u32 personality);
 u8  __attribute__((long_call)) GetUnownLetterFromPersonality(u32 personality);
@@ -221,11 +235,50 @@ u16 GetIconSpecies(u16 species, u32 personality)
 	return result;
 }
 
+u16 TryReplaceSpeciesWithManaphyEgg(struct Pokemon* mon, u16 species)
+{
+	if (species == SPECIES_EGG)
+	{
+		if (mon->species == SPECIES_MANAPHY)
+			return SPECIES_MANAPHY_EGG;
+	}
+
+	return species;
+}
+
+bool8 IsPartyMonManaphy(u8 partyId)
+{
+	return gPlayerParty[partyId].species == SPECIES_MANAPHY;
+}
+
+u16 GetBoxMonSpeciesAt_HandleManaphyEgg(u8 boxId, u8 boxPosition)
+{
+	u16 species2 = GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SPECIES2);
+
+	if (species2 == SPECIES_EGG && GetBoxMonDataAt(boxId, boxPosition, MON_DATA_SPECIES) == SPECIES_MANAPHY)
+		return SPECIES_MANAPHY_EGG;
+
+	return species2;
+}
+
+#define gCurrentBoxMonId *((u8*) *((u32*) 0x3005010))
+u16 GetCurrentBoxMonSpeciesAt_HandleManaphyEgg(u8 boxPosition)
+{
+	return GetBoxMonSpeciesAt_HandleManaphyEgg(gCurrentBoxMonId, boxPosition);
+}
+
+u16 ChangeSpeciesIfManaphyEggPalette(const u8* palette, u16 species)
+{
+	if (palette == gMonPaletteTable[SPECIES_MANAPHY_EGG].data)
+		species = SPECIES_MANAPHY_EGG;
+
+	return species;
+}
+
 bool8 IsInBattle(void)
 {
 	return gMain.inBattle;
 }
-
 
 u16 CountSpeciesInDex(u8 caseId, bool8 whichDex)
 {

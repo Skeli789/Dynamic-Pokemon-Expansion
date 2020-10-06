@@ -8294,6 +8294,11 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 
+	[SPECIES_MANAPHY_EGG] =
+	{
+		.noFlip = TRUE,
+	},
+
 	[SPECIES_TREECKO] =
 	{
 		.baseHP 		= 40,
@@ -15286,7 +15291,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_STENCH,
 		.ability2 = ABILITY_AFTERMATH,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_KEENEYE,
+		.hiddenAbility = ABILITY_POISONTOUCH,
 		.noFlip = TRUE,
 	},
 
@@ -15847,7 +15852,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_BATTLEARMOR,
 		.ability2 = ABILITY_SNIPER,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_KEENEYE,
+		.hiddenAbility = ABILITY_SUPERLUCK,
 		.noFlip = TRUE,
 	},
 
@@ -22263,7 +22268,7 @@ const struct BaseStats gBaseStats[] =
 		.baseSpeed 		= 108,
 		.type1 = TYPE_WATER,
 		.type2 = TYPE_FIGHTING,
-		.catchRate = 3,
+		.catchRate = 6,
 		.expYield = 255,
 		.evYield_HP 		= 0,
 		.evYield_Attack 	= 0,
@@ -22455,9 +22460,9 @@ const struct BaseStats gBaseStats[] =
 	{
 		.baseHP 		= 60,
 		.baseAttack 	= 115,
-		.baseDefense 	= 65,
+		.baseDefense 	= 85,
 		.baseSpAttack 	= 80,
-		.baseSpDefense 	= 65,
+		.baseSpDefense 	= 85,
 		.baseSpeed 		= 115,
 		.type1 = TYPE_GHOST,
 		.type2 = TYPE_DARK,
@@ -22479,7 +22484,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_TOUGHCLAWS,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_WONDERGUARD,
 		.noFlip = TRUE,
 	},
 
