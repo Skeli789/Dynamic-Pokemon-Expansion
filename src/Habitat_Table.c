@@ -2294,6 +2294,29 @@ const u16 gRarePage31[] =
 	SPECIES_MELMETAL,
 };
 
+const u16 gRarePage32[] =
+{
+	SPECIES_ZACIAN,
+	SPECIES_ZACIAN_CROWNED,
+	SPECIES_ZAMAZENTA,
+	SPECIES_ZAMAZENTA_CROWNED,
+};
+
+const u16 gRarePage33[] =
+{
+	SPECIES_ETERNATUS,
+	SPECIES_ETERNATUS_ETERNAMAX,
+	SPECIES_ZARUDE,
+	SPECIES_CALYREX,
+};
+
+const u16 gRarePage34[] =
+{
+	SPECIES_KUBFU,
+	SPECIES_URSHIFU_SINGLE,
+	SPECIES_URSHIFU_RAPID,
+};
+
 const struct HabitatPage gGrasslandPages[] =
 {
 	{gGrasslandPage1, ARRAY_COUNT(gGrasslandPage1)}, 

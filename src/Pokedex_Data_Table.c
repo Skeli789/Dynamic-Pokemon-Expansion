@@ -5850,7 +5850,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_GIRATINA] =
 	{
-		.categoryName = {_R, _e, _n, _e, _g, _a, _g, _e, _END, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_R, _e, _n, _e, _g, _a, _d, _e, _END, _SPACE, _SPACE, _SPACE},
 		.height = 45,
 		.weight = 7500,
 		.description = DEX_ENTRY_GIRATINA,
@@ -6992,7 +6992,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	{
 		.categoryName = {_F, _r, _e, _s, _h, _SPACE, _S, _n, _o, _w, _END, _SPACE},
 		.height = 4,
-		.weight = 1720,
+		.weight = 57,
 		.description = DEX_ENTRY_VANILLITE,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -7339,8 +7339,8 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_FRAXURE] =
 	{
 		.categoryName = {_A, _x, _e, _SPACE, _J, _a, _w, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 10,
+		.weight = 360,
 		.description = DEX_ENTRY_FRAXURE,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 256,
@@ -8659,8 +8659,8 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_VOLCANION] =
 	{
 		.categoryName = {_S, _t, _e, _a, _m, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 17,
+		.weight = 1950,
 		.description = DEX_ENTRY_VOLCANION,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
@@ -8826,7 +8826,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_GUMSHOOS] =
 	{
-		.categoryName = {_S, _t, _a, _k, _e, _o, _u, _t, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_S, _t, _a, _k, _e, _o, _u, _t, _END, _SPACE, _SPACE, _SPACE},
 		.height = 7,
 		.weight = 142,
 		.description = DEX_ENTRY_GUMSHOOS,
@@ -9114,7 +9114,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_STUFFUL] =
 	{
-		.categoryName = {_F, _l, _a, _i, _l, _i, _n, _g, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_F, _l, _a, _i, _l, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE},
 		.height = 5,
 		.weight = 68,
 		.description = DEX_ENTRY_STUFFUL,
@@ -9306,7 +9306,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_KOMALA] =
 	{
-		.categoryName = {_D, _r, _o, _w, _s, _i, _n, _g, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_D, _r, _o, _w, _s, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE},
 		.height = 4,
 		.weight = 199,
 		.description = DEX_ENTRY_KOMALA,
@@ -9342,7 +9342,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_MIMIKYU] =
 	{
-		.categoryName = {_D, _i, _s, _g, _u, _i, _s, _e, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_D, _i, _s, _g, _u, _i, _s, _e, _END, _SPACE, _SPACE, _SPACE},
 		.height = 2,
 		.weight = 7,
 		.description = DEX_ENTRY_MIMIKYU,
