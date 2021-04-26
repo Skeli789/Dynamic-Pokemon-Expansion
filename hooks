@@ -16,6 +16,9 @@ HasAllRegionalMons 8088F58 0
 HasAllMons 8088F84 0
 GenderedMonIconHook 8096E38 2
 GetIconSpecies 8096F5C 2
+EvolutionSceneHook1 80CDF10 1
+EvolutionSceneHook2 80CDF88 2
+EvolutionSceneHook3 80CE1C0 2
 PokedexMemoryAllocationHook 81025E8 0
 LoadPokedexViews 8103518 1
 DisplayRegionalDexNumHook 8104A66 1

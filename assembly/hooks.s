@@ -110,3 +110,42 @@ CreateMonSprite_PicBoxHook:
 	ldr r2, =0x8083994 | 1
 bxr2:
 	bx r2
+
+.pool
+@0x80CDF10 with r1
+EvolutionSceneHook1:
+	mov r9, r0
+	mov r0, r5 @currSpecies
+	mov r1, r9 @personality
+	bl TryGetFemaleGenderedSpecies
+	lsl r0, #0x3
+	ldr r1, =gMonFrontPicTable
+	add r0, r1
+	ldr r2, =0x80CDF18 | 1
+	bx r2
+
+.pool
+@0x80CDF88 with r2
+EvolutionSceneHook2:
+	strb r0, [r1]
+	mov r0, r10 @speciesToEvolve
+	mov r1, r9 @personality
+	bl TryGetFemaleGenderedSpecies
+	lsl r0, #0x3
+	ldr r2, =gMonFrontPicTable
+	add r0, r2
+	ldr r2, =0x80CDF92 | 1
+	bx r2
+
+.pool
+@0x80CE1C0 with r2
+EvolutionSceneHook3:
+	strb r0, [r1]
+	mov r0, r5 @postEvoSpecies
+	mov r1, r6 @personality
+	bl TryGetFemaleGenderedSpecies
+	lsl r0, #0x3
+	ldr r1, =gMonFrontPicTable
+	add r0, r1
+	ldr r2, =0x80CE1C8 | 1
+	bx r2
