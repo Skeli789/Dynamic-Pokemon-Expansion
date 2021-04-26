@@ -3560,17 +3560,20 @@ Urshifu
 #org @NAME_ZARUDE
 Zarude
 
-#org @NAME_UNKNOWN_MYTHICAL
-??????
-
-#org @NAME_CALYREX
-Calyrex
-
 #org @NAME_REGIELEKI
 Regieleki
 
 #org @NAME_REGIDRAGO
 Regidrago
+
+#org @NAME_GLASTRIER
+Glastrier
+
+#org @NAME_SPECTRIER
+Spectrier
+
+#org @NAME_CALYREX
+Calyrex
 
 #org @NAME_CRAMORANT_GULPING
 Cramorant
@@ -3625,6 +3628,12 @@ Eternatus
 
 #org @NAME_URSHIFU_RAPID
 Urshifu
+
+#org @NAME_CALYREX_ICE
+Calyrex
+
+#org @NAME_CALYREX_SHADOW
+Calyrex
 
 #org @NAME_MEOWTH_G
 Meowth
