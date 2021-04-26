@@ -4191,12 +4191,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_ZYGARDE_10] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x8,
 	},
 	[SPECIES_ZYGARDE_COMPLETE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x3,
 	},
 	[SPECIES_ASHGRENINJA] =
 	{
@@ -5081,7 +5081,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_KARTANA] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0xB,
 	},
 	[SPECIES_GUZZLORD] =
 	{
@@ -5928,17 +5928,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-		[SPECIES_ZARUDE] =
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
-	[SPECIES_UNKNOWN_MYTHICAL] =
-	{
-		.size = 0x0,
-		.y_offset = 0x0,
-	},
-	[SPECIES_CALYREX] =
+	[SPECIES_ZARUDE] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
@@ -5949,6 +5939,21 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.y_offset = 0x0,
 	},
 	[SPECIES_REGIDRAGO] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_GLASTRIER] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_SPECTRIER] =
+	{
+		.size = 0x0,
+		.y_offset = 0x0,
+	},
+	[SPECIES_CALYREX] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
