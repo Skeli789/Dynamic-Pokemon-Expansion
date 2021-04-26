@@ -2580,7 +2580,6 @@ const u16 gRarePage34[] =
 	SPECIES_KUBFU,
 	SPECIES_URSHIFU_SINGLE,
 	SPECIES_URSHIFU_RAPID,
-	SPECIES_UNKNOWN_MYTHICAL,
 };
 
 const struct HabitatPage gGrasslandPages[] =
