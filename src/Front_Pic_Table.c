@@ -1192,7 +1192,6 @@ const struct CompressedSpriteSheet gMonFrontPicTable[NUM_SPECIES] =
 	[SPECIES_KUBFU] =                {gFrontSprite1183KubfuTiles, (64 * 64) / 2, SPECIES_KUBFU},
 	[SPECIES_URSHIFU_SINGLE] =       {gFrontSprite1184UrshifuSingleTiles, (64 * 64) / 2, SPECIES_URSHIFU_SINGLE},
 	[SPECIES_ZARUDE] =               {gFrontSprite1185ZarudeTiles, (64 * 64) / 2, SPECIES_ZARUDE},
-	[SPECIES_UNKNOWN_MYTHICAL] =     {gFrontSprite1186UnknownMythicalTiles, (64 * 64) / 2, SPECIES_UNKNOWN_MYTHICAL},
 	[SPECIES_CALYREX] =              {gFrontSprite1187CalyrexTiles, (64 * 64) / 2, SPECIES_CALYREX},
 	[SPECIES_REGIELEKI] =            {gFrontSprite1188RegielekiTiles, (64 * 64) / 2, SPECIES_REGIELEKI},
 	[SPECIES_REGIDRAGO] =            {gFrontSprite1189RegidragoTiles, (64 * 64) / 2, SPECIES_REGIDRAGO},	

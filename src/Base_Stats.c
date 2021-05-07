@@ -38191,39 +38191,7 @@ const struct BaseStats gBaseStats[] =
 		.noFlip = TRUE,
 	},
 	
-/*	[SPECIES_UNKNOWN_MYTHICAL] = //PLACEHOLDER DATA
-	{
-		.baseHP 		= 100,
-		.baseAttack 	= 100,
-		.baseDefense 	= 100,
-		.baseSpAttack 	= 100,
-		.baseSpDefense 	= 100,
-		.baseSpeed 		= 100,
-		.type1 = TYPE_NORMAL,
-		.type2 = TYPE_NORMAL,
-		.catchRate = 255,
-		.expYield = 255,
-		.evYield_HP 		= 0,
-		.evYield_Attack 	= 0,
-		.evYield_Defense 	= 0,
-		.evYield_SpAttack 	= 0,
-		.evYield_SpDefense 	= 0,
-		.evYield_Speed 		= 0,
-		.item1 = ITEM_NONE,
-		.item2 = ITEM_NONE,
-		.genderRatio = MON_GENDERLESS,
-		.eggCycles = 120,
-		.friendship = 0,
-		.growthRate = GROWTH_SLOW,
-		.eggGroup1 = EGG_GROUP_UNDISCOVERED,
-		.eggGroup2 = EGG_GROUP_UNDISCOVERED,
-		.ability1 = ABILITY_PRESSURE,
-		.ability2 = ABILITY_NONE,
-		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
-		.noFlip = TRUE,
-	},
-	
+/*	
 	[SPECIES_CALYREX] = //PLACEHOLDER DATA
 	{
 		.baseHP 		= 100,
