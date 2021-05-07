@@ -21280,7 +21280,6 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_KUBFU] = sKubfuLevelUpLearnset,
 	[SPECIES_URSHIFU_SINGLE] = sUrshifuLevelUpLearnset,
 	[SPECIES_ZARUDE] = sZarudeLevelUpLearnset,
-	[SPECIES_UNKNOWN_MYTHICAL] = sUnknownMythicalLevelUpLearnset,
 	[SPECIES_CALYREX] = sCalyrexLevelUpLearnset, 
 	[SPECIES_REGIELEKI] = sRegielekiLevelUpLearnset,
 	[SPECIES_REGIDRAGO] = sRegidragoLevelUpLearnset,

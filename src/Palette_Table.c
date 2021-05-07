@@ -1192,7 +1192,6 @@ const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES] =
 	[SPECIES_KUBFU] =                {gFrontSprite1183KubfuPal, SPECIES_KUBFU, 0x0},
 	[SPECIES_URSHIFU_SINGLE] =       {gFrontSprite1184UrshifuSinglePal, SPECIES_URSHIFU_SINGLE, 0x0},
 	[SPECIES_ZARUDE] =               {gFrontSprite1185ZarudePal, SPECIES_ZARUDE, 0x0},
-	[SPECIES_UNKNOWN_MYTHICAL] =     {gFrontSprite1186UnknownMythicalPal, SPECIES_UNKNOWN_MYTHICAL, 0x0},
 	[SPECIES_CALYREX] =              {gFrontSprite1187CalyrexPal, SPECIES_CALYREX, 0x0},
 	[SPECIES_REGIELEKI] =            {gFrontSprite1188RegielekiPal, SPECIES_REGIELEKI, 0x0},
 	[SPECIES_REGIDRAGO] =            {gFrontSprite1189RegidragoPal, SPECIES_REGIDRAGO, 0x0},

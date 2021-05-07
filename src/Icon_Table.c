@@ -1189,7 +1189,6 @@ const u8* const gMonIconTable[NUM_SPECIES] =
 	[SPECIES_KUBFU] =                gIconSprite1183KubfuTiles,
 	[SPECIES_URSHIFU_SINGLE] =       gIconSprite1184UrshifuSingleTiles,
 	[SPECIES_ZARUDE] =               gIconSprite1185ZarudeTiles,
-	[SPECIES_UNKNOWN_MYTHICAL] =     gIconSprite1186UnknownMythicalTiles,
 	[SPECIES_CALYREX] =              gIconSprite1187CalyrexTiles,
 	[SPECIES_REGIELEKI] =            gIconSprite1188RegielekiTiles,
 	[SPECIES_REGIDRAGO] =            gIconSprite1189RegidragoTiles,
