@@ -9198,7 +9198,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	},
 	[NATIONAL_DEX_PASSIMIAN] =
 	{
-		.categoryName = {_T, _e, _a, _m, _w, _o, _r, _k, _SPACE, _SPACE, _SPACE, _SPACE},
+		.categoryName = {_T, _e, _a, _m, _w, _o, _r, _k, _END, _SPACE, _SPACE, _SPACE},
 		.height = 20,
 		.weight = 828,
 		.description = DEX_ENTRY_PASSIMIAN,
