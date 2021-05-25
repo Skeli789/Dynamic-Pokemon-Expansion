@@ -6841,7 +6841,7 @@ static const struct LevelUpMove sMakuhitaLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sHariyamaLevelUpLearnset[] = {
-	LEVEL_UP_MOVE( 0, MOVE_BRINE),
+	LEVEL_UP_MOVE( 1, MOVE_BRINE),
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
 	LEVEL_UP_MOVE( 1, MOVE_FOCUSENERGY),
 	LEVEL_UP_MOVE( 1, MOVE_SANDATTACK),
