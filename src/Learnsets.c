@@ -18212,7 +18212,7 @@ static const struct LevelUpMove sMelmetalLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-/*
+
 static const struct LevelUpMove sGrookeyLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_GROWL),
 	LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
@@ -19686,10 +19686,6 @@ static const struct LevelUpMove sZarudeLevelUpLearnset[] = {
 	LEVEL_UP_END
 };		
 
-static const struct LevelUpMove sUnknownMythicalLevelUpLearnset[] = {
-	LEVEL_UP_END
-};
-
 static const struct LevelUpMove sCalyrexLevelUpLearnset[] = {
 	LEVEL_UP_END
 }; 
@@ -20098,7 +20094,7 @@ static const struct LevelUpMove sStunfiskGLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(50, MOVE_FLAIL),
 	LEVEL_UP_MOVE(55, MOVE_FISSURE),
 	LEVEL_UP_END
-};*/
+};
 
 const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 {
@@ -21204,7 +21200,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_PIKACHU_CAP_PARTNER] = sPikachuLevelUpLearnset,
 	[SPECIES_PICHU_SPIKY] = sPichuLevelUpLearnset,
 	[SPECIES_XERNEAS_NATURAL] = sXerneasLevelUpLearnset,
-/*	[SPECIES_GROOKEY] = sGrookeyLevelUpLearnset,
+	[SPECIES_GROOKEY] = sGrookeyLevelUpLearnset,
 	[SPECIES_THWACKEY] = sThwackeyLevelUpLearnset,
 	[SPECIES_RILLABOOM] = sRillaboomLevelUpLearnset,
 	[SPECIES_SCORBUNNY] = sScorbunnyLevelUpLearnset,
@@ -21330,7 +21326,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_DARMANITAN_G] = sDarmanitanGLevelUpLearnset,
 	[SPECIES_DARMANITAN_G_ZEN] = sDarmanitanGLevelUpLearnset,
 	[SPECIES_YAMASK_G] = sYamaskGLevelUpLearnset,
-	[SPECIES_STUNFISK_G] = sStunfiskGLevelUpLearnset,*/
+	[SPECIES_STUNFISK_G] = sStunfiskGLevelUpLearnset,
 	[SPECIES_VENUSAUR_GIGA] = sVenusaurLevelUpLearnset,
 	[SPECIES_CHARIZARD_GIGA] = sCharizardLevelUpLearnset,
 	[SPECIES_BLASTOISE_GIGA] = sBlastoiseLevelUpLearnset,
@@ -21345,7 +21341,7 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_SNORLAX_GIGA] = sSnorlaxLevelUpLearnset,
 	[SPECIES_GARBODOR_GIGA] = sGarbodorLevelUpLearnset,
 	[SPECIES_MELMETAL_GIGA] = sMelmetalLevelUpLearnset,
-/*	[SPECIES_RILLABOOM_GIGA] = sRillaboomLevelUpLearnset,
+	[SPECIES_RILLABOOM_GIGA] = sRillaboomLevelUpLearnset,
 	[SPECIES_CINDERACE_GIGA] = sCinderaceLevelUpLearnset,
 	[SPECIES_INTELEON_GIGA] = sInteleonLevelUpLearnset,
 	[SPECIES_CORVIKNIGHT_GIGA] = sCorviknightLevelUpLearnset,
@@ -21364,6 +21360,6 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_COPPERAJAH_GIGA] = sCopperajahLevelUpLearnset,
 	[SPECIES_DURALUDON_GIGA] = sDuraludonLevelUpLearnset,
 	[SPECIES_URSHIFU_SINGLE_GIGA] = sUrshifuLevelUpLearnset,
-	[SPECIES_URSHIFU_RAPID_GIGA] = sUrshifuRapidLevelUpLearnset,*/
+	[SPECIES_URSHIFU_RAPID_GIGA] = sUrshifuRapidLevelUpLearnset,
 };
 #endif
