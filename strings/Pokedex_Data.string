@@ -1267,7 +1267,6 @@ It melts particles of iron and other\nmetals found in the subsoil, so it can\nab
 #org @DEX_ENTRY_MELMETAL
 Revered long ago for its capacity\nto create iron from nothing, it has\ncome back to life after 3000 years.
 
-/*
 #org @DEX_ENTRY_GROOKEY
 It attacks with rapid beats of its\nstick. As it strikes with amazing speed,\nit gets more and more pumped.
 
@@ -1520,19 +1519,20 @@ Inhabiting the mountains of a distant\nregion, it races across sheer cliffs, tra
 #org @DEX_ENTRY_ZARUDE
 Once the vines on its body tear off,\nthey become nutrients in the soil. This helps\nthe plants of the forest grow.
 
-#org @DEX_ENTRY_UNKNOWN_MYTHICAL
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+#org @DEX_ENTRY_REGIELEKI
+Its entire body is made of an organ\nthat generates electricity. It is capable of\ngenerating a region's worth of electricity.
+
+#org @DEX_ENTRY_REGIDRAGO
+Its body is composed of crystallized\ndragon energy. It is said to contain the\npower of every Dragon Pok\emon.
+
+#org @DEX_ENTRY_GLASTRIER
+Glastrier has tremendous physical\nstrength. The mask covering its face is\n100 times stronger than diamond.
+
+#org @DEX_ENTRY_SPECTRIER
+As it dashes through the night, it\nabsorbs the life energy of sleeping Pok\emon. It\ncraves silence and solitude.
 
 #org @DEX_ENTRY_CALYREX
 Its every move is filled with grace\nand dignity. Extremely intelligent, it is said\nto see past, present, and future events.
-
-#org @DEX_ENTRY_REGIELEKI
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
-
-#org @DEX_ENTRY_REGIDRAGO
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
-
-*/
 
 //Special Form Entries
 
@@ -1615,16 +1615,16 @@ This Pok\emon consumes particles that\ncontaminate the air. Instead of leaving\n
 It can radiate chilliness from the\nbottoms of its feet. It'll spend its\nday tap dancing on a frozen floor.
 
 #org @DEX_ENTRY_ARTICUNO_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+Known as Articuno, this Pok\emon fires\nbeams that can immobilize opponents as\nif they had been frozen solid.
 
 #org @DEX_ENTRY_ZAPDOS_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+One kick from its powerful legs will\npulverize a dump truck. It supposedly runs\nthrough the mountains at over 180 mph.
 
 #org @DEX_ENTRY_MOLTRES_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time.
+Its sinister, flame-like aura consumes\nthe spirit of any creature it hits. Victims\nbecome burned-out shadows of themselves.
 
 #org @DEX_ENTRY_SLOWKING_G
-This is a newly discovered Pok\emon.\nIt is currently under investigation. No\ninformation is available at this time. 
+While chanting strange spells, this\nPok\emon combines its internal toxins with what\nit's eaten, creating a strange potion.
 
 #org @DEX_ENTRY_CORSOLA_G
 Sudden climate change wiped out this\nancient kind of Corsola. It absorbs the\nlife force of others through its branches.
@@ -1736,4 +1736,12 @@ Infinite amounts of energy pour from\nthis Pok\emon's enlarged core, warping\nth
 
 #org @DEX_ENTRY_URSHIFU_RAPID
 This form of Urshifu strongly believes\nin defeating foes by raining many blows down\non them. Its strikes flow like a river.
-*/
+
+#org @DEX_ENTRY_ZARUDE_DADA
+This Zarude left its pack to raise a\nhuman child. It would wrap the child with its\ncloth to calm the child's crying.
+
+#org @DEX_ENTRY_CALYREX_ICE_RIDER
+It is said that it once moved a\nlarge forest,and all the Pok\emon living there,\nto a new location overnight.
+
+#org @DEX_ENTRY_CALYREX_SHADOW_RIDER
+Legends say that by using its power\nto see all from the past and future, this Pok\emon\nsaved forest creatures from a meteor strike.

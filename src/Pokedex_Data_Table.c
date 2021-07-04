@@ -9724,7 +9724,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-/*	[NATIONAL_DEX_GROOKEY] =
+	[NATIONAL_DEX_GROOKEY] =
 	{
 		.categoryName = {_C, _h, _i, _m, _p, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
 		.height = 3,
@@ -10732,23 +10732,12 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-	[NATIONAL_DEX_CALYREX] =
-	{
-		.categoryName = {_K, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
-		.description = DEX_ENTRY_CALYREX,
-		.unusedDescription = (const u8*) 0x8444cb1,
-		.pokemonScale = 0,
-		.pokemonOffset = 0,
-		.trainerScale = 0,
-		.trainerOffset = 0,
-	},
+	
 	[NATIONAL_DEX_REGIELEKI] =
 	{
 		.categoryName = {_E, _l, _e, _c, _t, _r, _o, _n, _END, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 12,
+		.weight = 1450,
 		.description = DEX_ENTRY_REGIELEKI,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
@@ -10759,8 +10748,8 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 	[NATIONAL_DEX_REGIDRAGO] =
 	{
 		.categoryName = {_D, _r, _a, _g, _o, _n, _SPACE, _O, _r, _b, _END, _SPACE},
-		.height = 0,
-		.weight = 0,
+		.height = 21,
+		.weight = 2000,
 		.description = DEX_ENTRY_REGIDRAGO,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
@@ -10768,18 +10757,45 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-	[NATIONAL_DEX_UNKNOWN] =
+	
+	[NATIONAL_DEX_GLASTRIER] =
 	{
-		.categoryName = {_U, _n, _k, _n, _o, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
-		.height = 0,
-		.weight = 0,
-		.description = DEX_ENTRY_UNKNOWN_MYTHICAL,
+		.categoryName = {_W, _i, _l, _d, _SPACE, _H, _o, _r, _s, _e, _END, _SPACE},
+		.height = 22,
+		.weight = 8000,
+		.description = DEX_ENTRY_GLASTRIER,
 		.unusedDescription = (const u8*) 0x8444cb1,
 		.pokemonScale = 0,
 		.pokemonOffset = 0,
 		.trainerScale = 0,
 		.trainerOffset = 0,
-	},*/
+	},
+	
+	[NATIONAL_DEX_SPECTRIER] =
+	{
+		.categoryName = {_S, _w, _i, _f, _t, _SPACE, _H, _o, _r, _s, _e, _END},
+		.height = 20,
+		.weight = 445,
+		.description = DEX_ENTRY_SPECTRIER,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
+	
+	[NATIONAL_DEX_CALYREX] =
+	{
+		.categoryName = {_K, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 11,
+		.weight = 77,
+		.description = DEX_ENTRY_CALYREX,
+		.unusedDescription = (const u8*) 0x8444cb1,
+		.pokemonScale = 0,
+		.pokemonOffset = 0,
+		.trainerScale = 0,
+		.trainerOffset = 0,
+	},
 };
 
 //Certain Pokemon forms can have alternate dex entries when viewed
@@ -10803,16 +10819,16 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(GEODUDE_A),
 	ALTERNATE_ENTRY(GRAVELER_A),
 	ALTERNATE_ENTRY(GOLEM_A),
-/*	ALTERNATE_ENTRY(PONYTA_G),
+	ALTERNATE_ENTRY(PONYTA_G),
 	ALTERNATE_ENTRY(RAPIDASH_G),
 	ALTERNATE_ENTRY(SLOWPOKE_G),
 	ALTERNATE_ENTRY(SLOWBRO_G),
-	ALTERNATE_ENTRY(FARFETCHD_G),*/
+	ALTERNATE_ENTRY(FARFETCHD_G),
 	ALTERNATE_ENTRY(GRIMER_A),
 	ALTERNATE_ENTRY(MUK_A),
 	ALTERNATE_ENTRY(EXEGGUTOR_A),
 	ALTERNATE_ENTRY(MAROWAK_A),
-/*	ALTERNATE_ENTRY(WEEZING_G),
+	ALTERNATE_ENTRY(WEEZING_G),
 	ALTERNATE_ENTRY(MR_MIME_G),
 	ALTERNATE_ENTRY(ARTICUNO_G),
 	ALTERNATE_ENTRY(ZAPDOS_G),
@@ -10825,7 +10841,7 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(DARMANITAN_G),
 	ALTERNATE_ENTRY(DARMANITAN_G_ZEN),
 	ALTERNATE_ENTRY(YAMASK_G),
-	ALTERNATE_ENTRY(STUNFISK_G),*/
+	ALTERNATE_ENTRY(STUNFISK_G),
 	ALTERNATE_ENTRY(ZYGARDE_10),
 	ALTERNATE_ENTRY(ZYGARDE_COMPLETE),
 	ALTERNATE_ENTRY(ORICORIO_Y),
@@ -10837,7 +10853,7 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(NECROZMA_DUSK_MANE),
 	ALTERNATE_ENTRY(NECROZMA_DAWN_WINGS),
 	ALTERNATE_ENTRY(NECROZMA_ULTRA),
-/*	ALTERNATE_ENTRY(CRAMORANT_GULPING),
+	ALTERNATE_ENTRY(CRAMORANT_GULPING),
 	ALTERNATE_ENTRY(CRAMORANT_GORGING),
 	ALTERNATE_ENTRY(TOXTRICITY_LOW_KEY),
 	ALTERNATE_ENTRY(SINISTEA_CHIPPED),
@@ -10854,6 +10870,9 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(ZACIAN_CROWNED),
 	ALTERNATE_ENTRY(ZAMAZENTA_CROWNED),
 	ALTERNATE_ENTRY(ETERNATUS_ETERNAMAX),
-	ALTERNATE_ENTRY(URSHIFU_RAPID),*/
+	ALTERNATE_ENTRY(URSHIFU_RAPID),
+	ALTERNATE_ENTRY(ZARUDE_DADA),
+	ALTERNATE_ENTRY(CALYREX_ICE_RIDER),
+	ALTERNATE_ENTRY(CALYREX_SHADOW_RIDER),
 	{SPECIES_TABLES_TERMIN, 0} 
 };
