@@ -43,10 +43,11 @@ enum EvolutionMethods
 	EVO_MOVE,	// knows a given move
 	EVO_OTHER_PARTY_MON,	//another poke in the party, arg is a specific species
 	EVO_LEVEL_SPECIFIC_TIME_RANGE, // above given level with a range (unknown is [start][end]. eg lycanroc -> 1700-1800 hrs -> 0x1112)
-//	EVO_CRITICAL_HIT, // successfully land 3 critical hits in one battle
-//	EVO_NATURE_HIGH, // evolution based on high key nature at a certain level
-//	EVO_NATURE_LOW, // evolution based on low key nature at a certain level
-//	EVO_DAMAGE_LOCATION // recieve 49+ damage in battle without fainting, walk to specific tile
+	EVO_FLAG_SET, //If a certain flag is set. Can be used for touching the Mossy/Icy Rock for Leafeon/Glaceon evolutions
+	EVO_CRITICAL_HIT, // successfully land 3 critical hits in one battle
+	EVO_NATURE_HIGH, // evolution based on high key nature at a certain level
+	EVO_NATURE_LOW, // evolution based on low key nature at a certain level
+	EVO_DAMAGE_LOCATION // recieve 49+ damage in battle without fainting, walk to specific tile
 };
 
 #define EVO_GIGANTAMAX 0xFD
@@ -60,24 +61,5 @@ enum MegaEvoVariants
 	MEGA_VARIANT_ULTRA_BURST, //Necrozma
 };
 
-#define MAP_NAME_ROUTE_1 0x65
-#define MAP_NAME_ROUTE_2 0x66
-#define MAP_NAME_FLOWER_PARADISE 0x88
-#define MAP_NAME_GRIM_WOODS 0x7E
-#define MAP_NAME_ROUTE_4 0x63
-#define MAP_NAME_CINDER_VOLCANO 0x7F
-#define MAP_NAME_ROUTE_5 0x69
-#define MAP_NAME_VALLEY_CAVE 0x83
-#define MAP_NAME_ROUTE_6 0x6A
-#define MAP_NAME_ROUTE_7 0x6B
-#define MAP_NAME_ROUTE_8 0x6C
-#define MAP_NAME_FROST_MOUNTAIN 0x82
-#define MAP_NAME_BLIZZARD_CITY 0x5C
-#define MAP_NAME_ROUTE_9 0x6D
-#define MAP_NAME_ROUTE_10 0x64
-#define MAP_NAME_ROUTE_11 0x6F
-#define MAP_NAME_THUNDERCAP_MT 0x8A
-#define MAP_NAME_ROUTE_12 0x70
-#define MAP_NAME_VIVILL_WOODS 0x8C
-#define MAP_NAME_ROUTE_16 0x74
-#define MAP_NAME_ROUTE_17 0x75
+#define MAPSEC_POWER_PLANT 0x8E
+#define MAPSEC_ICEFALL_CAVE 0xB1
