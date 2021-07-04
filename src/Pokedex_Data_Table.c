@@ -2,7 +2,7 @@
 #include "../include/pokedex.h"
 #include "../include/text.h"
 
-const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
+const struct PokedexEntry gPokedexEntries[/*NATIONAL_DEX_COUNT*/] =
 {
 	[NATIONAL_DEX_NONE] =
 	{
