@@ -1268,10 +1268,10 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x88,
 		.y_offset = 0x10,
 	},
-	[253] =
+	[SPECIES_MISSINGNO] =
 	{
 		.size = 0x88,
-		.y_offset = 0x1,
+		.y_offset = 0x6,
 	},
 	[254] =
 	{
