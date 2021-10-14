@@ -2,7 +2,6 @@
 .align 2
 .thumb
 
-.equ NUM_SPECIES, 1266
 .equ EVOS_PER_MON, 16
 .equ FINAL_DEX_ENTRY, 898
 
