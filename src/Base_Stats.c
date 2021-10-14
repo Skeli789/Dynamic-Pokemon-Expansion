@@ -6178,7 +6178,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_LEAFGUARD,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_INFILTRATOR,
+		.hiddenAbility = ABILITY_PRANKSTER,
 		.noFlip = TRUE,
 	},
 
@@ -6211,7 +6211,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_LEAFGUARD,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_INFILTRATOR,
+		.hiddenAbility = ABILITY_PRANKSTER,
 		.noFlip = TRUE,
 	},
 
@@ -6244,7 +6244,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_COTTONDOWN,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_INFILTRATOR,
+		.hiddenAbility = ABILITY_PRANKSTER,
 		.noFlip = TRUE,
 	},
 
@@ -8922,7 +8922,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_SHIELDDUST,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_TINTEDLENS,
+		.hiddenAbility = ABILITY_ICESCALES, //-ABILITY_DUSTYSCALES
 		.noFlip = TRUE,
 	},
 
@@ -9714,7 +9714,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_LEVITATE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_MULTISCALE, //-ABILITY_PROTECTIVEGAZE
+		.hiddenAbility = ABILITY_MULTISCALE, //-ABILITY_MULTIEYE
 		.noFlip = TRUE,
 	},
 
@@ -9747,7 +9747,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_LEVITATE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_MULTISCALE, //-ABILITY_PROTECTIVEGAZE
+		.hiddenAbility = ABILITY_MULTISCALE, //-ABILITY_MULTIEYE
 		.noFlip = TRUE,
 	},
 
@@ -11428,7 +11428,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_FIELD,
 		.ability1 = ABILITY_SOUNDPROOF,
-		.ability2 = ABILITY_PUNKROCK,
+		.ability2 = ABILITY_PUNKROCK, //-ABILITY_BELLOW
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_RATTLED,
 		.noFlip = TRUE,
@@ -11461,7 +11461,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_FIELD,
 		.ability1 = ABILITY_SOUNDPROOF,
-		.ability2 = ABILITY_PUNKROCK,
+		.ability2 = ABILITY_PUNKROCK, //-ABILITY_BELLOW
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SCRAPPY,
 		.noFlip = TRUE,
@@ -11494,7 +11494,7 @@ const struct BaseStats gBaseStats[] =
 		.eggGroup1 = EGG_GROUP_MONSTER,
 		.eggGroup2 = EGG_GROUP_FIELD,
 		.ability1 = ABILITY_SOUNDPROOF,
-		.ability2 = ABILITY_PUNKROCK,
+		.ability2 = ABILITY_PUNKROCK, //-ABILITY_BELLOW
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_SCRAPPY,
 		.noFlip = TRUE,
@@ -14499,7 +14499,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_STURDY,
 		.ability2 = ABILITY_SOUNDPROOF,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_DAUNTLESSSHIELD,
+		.hiddenAbility = ABILITY_DAUNTLESSSHIELD, //-ABILITY_FACESHIELD
 		.noFlip = TRUE,
 	},
 
@@ -14532,7 +14532,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_STURDY,
 		.ability2 = ABILITY_SOUNDPROOF,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_DAUNTLESSSHIELD,
+		.hiddenAbility = ABILITY_DAUNTLESSSHIELD, //-ABILITY_FACESHIELD
 		.noFlip = TRUE,
 	},
 
@@ -14697,7 +14697,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_PRESSURE,
 		.ability2 = ABILITY_DAZZLING, //-ABILITY_QUEENLYMAJESTY
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_FURCOAT, //-ABILITY_HONEYARMOR
+		.hiddenAbility = ABILITY_DAUNTLESSSHIELD, //-ABILITY_HONEYARMOR
 		.noFlip = TRUE,
 	},
 
@@ -17141,7 +17141,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_SLOWSTART,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_STALL,
 		.noFlip = TRUE,
 	},
 
