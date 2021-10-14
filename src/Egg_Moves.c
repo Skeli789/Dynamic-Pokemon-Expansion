@@ -4573,23 +4573,38 @@ const u16 gEggMoves[] =
 		MOVE_ENDURE,
 		MOVE_CHIPAWAY,
 		MOVE_CURSE),
-	
+
 	egg_moves(KOFFING_G,
-		MOVE_CURSE,
-		MOVE_GRUDGE,
-		MOVE_PAINSPLIT,
+		MOVE_SCREECH,
+		MOVE_PSYWAVE,
 		MOVE_PSYBEAM,
+		MOVE_DESTINYBOND,
+		MOVE_PAINSPLIT,
+		MOVE_GRUDGE,
 		MOVE_SPITE,
+		MOVE_CURSE,
 		MOVE_STOCKPILE,
 		MOVE_SWALLOW,
-		MOVE_SPITUP),
+		MOVE_SPITUP,
+		MOVE_TOXICSPIKES,
+		MOVE_VENOMDRENCH),
 	
 	egg_moves(MIME_JR_G,
-		MOVE_CONFUSERAY,
-		MOVE_FAKEOUT,
+		MOVE_FUTURESIGHT,
 		MOVE_HYPNOSIS,
+		MOVE_MIMIC,
+		MOVE_FAKEOUT,
+		MOVE_TRICK,
+		MOVE_CONFUSERAY,
+		MOVE_WAKEUPSLAP,
+		MOVE_TEETERDANCE,
+		MOVE_HEALINGWISH,
+		MOVE_CHARM,
+		MOVE_NASTYPLOT,
 		MOVE_POWERSPLIT,
-		MOVE_TICKLE),
+		MOVE_MAGICROOM,
+		MOVE_ICYWIND,
+		MOVE_PSYCHICTERRAIN),
 	
 	egg_moves(MR_MIME_G,
 		MOVE_CONFUSERAY,
@@ -4651,6 +4666,287 @@ const u16 gEggMoves[] =
 		MOVE_TAILWIND,
 		MOVE_SAFEGUARD,
 		MOVE_CAPTIVATE),
+
+	egg_moves(GROOKEY,
+		MOVE_GROWTH,
+		MOVE_HAMMERARM,
+		MOVE_FAKEOUT,
+		MOVE_STRENGTH,
+		MOVE_NATUREPOWER,
+		MOVE_WORRYSEED,
+		MOVE_LEECHSEED),
+
+	egg_moves(SCORBUNNY,
+		MOVE_HIGHJUMPKICK,
+		MOVE_SANDATTACK,
+		MOVE_SUCKERPUNCH,
+		MOVE_SUPERFANG),
+
+	egg_moves(SOBBLE,
+		MOVE_AQUAJET,
+		MOVE_DOUBLETEAM,
+		MOVE_AQUARING,
+		MOVE_MIST,
+		MOVE_HAZE,
+		MOVE_ICESHARD,
+		MOVE_FELLSTINGER),
+
+	egg_moves(SKWOVET,
+		MOVE_ROLLOUT,
+		MOVE_DEFENSECURL,
+		MOVE_LASTRESORT,
+		MOVE_BELLYDRUM),
+
+	egg_moves(ROOKIDEE,
+		MOVE_SKYATTACK,
+		MOVE_SANDATTACK,
+		MOVE_TAILWIND,
+		MOVE_DEFOG,
+		MOVE_ROCKSMASH,
+		MOVE_SPITE,
+		MOVE_ROOST),
+
+	egg_moves(BLIPBUG,
+		MOVE_INFESTATION,
+		MOVE_SUPERSONIC,
+		MOVE_STICKYWEB,
+		MOVE_RECOVER),
+
+	egg_moves(NICKIT,
+		MOVE_QUICKGUARD,
+		MOVE_KNOCKOFF,
+		MOVE_HOWL,
+		MOVE_TORMENT),
+
+	egg_moves(GOSSIFLEUR,
+		MOVE_GROWTH,
+		MOVE_LEECHSEED,
+		MOVE_WORRYSEED,
+		MOVE_POISONPOWDER,
+		MOVE_STUNSPORE,
+		MOVE_SLEEPPOWDER),
+
+	egg_moves(WOOLOO,
+		MOVE_STOMP,
+		MOVE_SWAGGER,
+		MOVE_COUNTER),
+
+	egg_moves(CHEWTLE,
+		MOVE_SKULLBASH,
+		MOVE_GASTROACID,
+		MOVE_DRAGONTAIL),
+
+	egg_moves(YAMPER,
+		MOVE_DOUBLEEDGE,
+		MOVE_SANDATTACK,
+		MOVE_FLAMECHARGE,
+		MOVE_DISCHARGE,
+		MOVE_HOWL),
+
+	egg_moves(ROLYCOLY,
+		MOVE_EXPLOSION,
+		MOVE_MUDSLAP,
+		MOVE_BLOCK),
+
+	egg_moves(APPLIN,
+		MOVE_SUCKERPUNCH,
+		MOVE_ROLLOUT,
+		MOVE_DEFENSECURL,
+		MOVE_RECYCLE),
+
+	egg_moves(SILICOBRA,
+		MOVE_DRAGONRUSH,
+		MOVE_MUDSLAP,
+		MOVE_LASTRESORT,
+		MOVE_BELCH,
+		MOVE_POISONTAIL),
+
+	egg_moves(CRAMORANT,
+		MOVE_DEFOG,
+		MOVE_AERIALACE,
+		MOVE_FEATHERDANCE,
+		MOVE_AQUARING,
+		MOVE_ROOST),
+
+	egg_moves(ARROKUDA,
+		MOVE_THRASH,
+		MOVE_ACUPRESSURE,
+		MOVE_SLASH,
+		MOVE_NIGHTSLASH),
+
+	egg_moves(TOXEL,
+		MOVE_ENDEAVOR,
+		MOVE_METALSOUND,
+		MOVE_POWERUPPUNCH),
+
+	egg_moves(SIZZLIPEDE,
+		MOVE_KNOCKOFF,
+		MOVE_STRUGGLEBUG,
+		MOVE_ROLLOUT,
+		MOVE_DEFENSECURL),
+
+	egg_moves(CLOBBOPUS,
+		MOVE_PAINSPLIT,
+		MOVE_SOAK,
+		MOVE_SUCKERPUNCH,
+		MOVE_CIRCLETHROW,
+		MOVE_SEISMICTOSS,
+		MOVE_POWERUPPUNCH),
+
+	egg_moves(HATENNA,
+		MOVE_AROMATICMIST,
+		MOVE_NUZZLE,
+		MOVE_AFTERYOU,
+		MOVE_QUASH),
+
+	egg_moves(MILCERY,
+		MOVE_BABYDOLLEYES,
+		MOVE_LASTRESORT),
+
+	egg_moves(PINCURCHIN,
+		MOVE_MEMENTO,
+		MOVE_SUCKERPUNCH),
+
+	egg_moves(SNOM,
+		MOVE_FAIRYWIND,
+		MOVE_MIRRORCOAT,
+		MOVE_BUGBITE),
+
+	egg_moves(STONJOURNER,
+		MOVE_CURSE,
+		MOVE_ANCIENTPOWER),
+
+	egg_moves(EISCUE,
+		MOVE_SOAK,
+		MOVE_AQUARING,
+		MOVE_BELLYDRUM,
+		MOVE_DOUBLEEDGE,
+		MOVE_ICICLECRASH,
+		MOVE_HEADSMASH),
+
+	egg_moves(INDEEDEE,
+		MOVE_PSYCHUP,
+		MOVE_FAKEOUT,
+		MOVE_EXTRASENSORY),
+
+	egg_moves(INDEEDEE_FEMALE,
+		MOVE_PSYCHUP,
+		MOVE_FAKEOUT,
+		MOVE_PSYCHOSHIFT,
+		MOVE_HEALPULSE),
+
+	egg_moves(MORPEKO,
+		MOVE_SWAGGER,
+		MOVE_SUPERFANG,
+		MOVE_CHARGE,
+		MOVE_TICKLE,
+		MOVE_RAPIDSPIN,
+		MOVE_QUASH,
+		MOVE_PARTINGSHOT,
+		MOVE_FAKEOUT),
+
+	egg_moves(CUFANT,
+		MOVE_DOUBLEEDGE,
+		MOVE_BELCH,
+		MOVE_CURSE,
+		MOVE_SLAM,
+		MOVE_FISSURE,
+		MOVE_SWAGGER,
+		MOVE_WHIRLWIND,
+		MOVE_DEFENSECURL),
+
+	egg_moves(DURALUDON,
+		MOVE_SLASH,
+		MOVE_NIGHTSLASH,
+		MOVE_MIRRORCOAT),
+
+	egg_moves(DREEPY,
+		MOVE_CURSE,
+		MOVE_GRUDGE,
+		MOVE_CONFUSERAY,
+		MOVE_DOUBLETEAM,
+		MOVE_DISABLE,
+		MOVE_DRAGONTAIL,
+		MOVE_SUCKERPUNCH),
+
+	egg_moves(MEOWTH_G,
+		MOVE_SPITE,
+		MOVE_DOUBLEEDGE,
+		MOVE_CURSE,
+		MOVE_FLAIL,
+		MOVE_NIGHTSLASH,
+		MOVE_COVET),
+
+	egg_moves(PONYTA_G,
+		MOVE_THRASH,
+		MOVE_DOUBLEKICK,
+		MOVE_HYPNOSIS,
+		MOVE_DOUBLEEDGE,
+		MOVE_HORNDRILL,
+		MOVE_MORNINGSUN),
+
+	egg_moves(SLOWPOKE_G,
+		MOVE_BELCH,
+		MOVE_BELLYDRUM,
+		MOVE_BLOCK,
+		MOVE_STOMP),
+
+	egg_moves(FARFETCHD_G,
+		MOVE_COUNTER,
+		MOVE_QUICKATTACK,
+		MOVE_FLAIL,
+		MOVE_QUICKGUARD,
+		MOVE_CURSE,
+		MOVE_COVET,
+		MOVE_NIGHTSLASH,
+		MOVE_SIMPLEBEAM,
+		MOVE_DOUBLEEDGE,
+		MOVE_FEINT,
+		MOVE_SKYATTACK),
+
+	egg_moves(MR_MIME_G,
+		MOVE_FAKEOUT,
+		MOVE_CONFUSERAY,
+		MOVE_POWERSPLIT,
+		MOVE_TICKLE),
+
+	egg_moves(CORSOLA_G,
+		MOVE_HAZE,
+		MOVE_CONFUSERAY,
+		MOVE_NATUREPOWER,
+		MOVE_DESTINYBOND,
+		MOVE_WATERPULSE,
+		MOVE_HEADSMASH),
+
+	egg_moves(ZIGZAGOON_G,
+		MOVE_PARTINGSHOT,
+		MOVE_QUICKGUARD,
+		MOVE_KNOCKOFF),
+
+	egg_moves(DARUMAKA_G,
+		MOVE_FOCUSPUNCH,
+		MOVE_HAMMERARM,
+		MOVE_TAKEDOWN,
+		MOVE_FLAMEWHEEL,
+		MOVE_YAWN,
+		MOVE_FREEZEDRY,
+		MOVE_INCINERATE,
+		MOVE_POWERUPPUNCH),
+
+	egg_moves(YAMASK_G,
+		MOVE_MEMENTO),
+
+	egg_moves(STUNFISK_G,
+		MOVE_BIND,
+		MOVE_YAWN,
+		MOVE_ASTONISH,
+		MOVE_CURSE,
+		MOVE_SPITE,
+		MOVE_COUNTER,
+		MOVE_PAINSPLIT,
+		MOVE_REFLECTTYPE),
+
+	EGG_MOVES_TERMINATOR
 };
 
 u32 __attribute__((long_call)) GetMonData(void*, s32, const void *data);
@@ -4697,34 +4993,37 @@ extern const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON];
 // given species.
 u16 GetEggSpecies(u16 species)
 {
-    int i, j, k;
-    bool8 found;
+	int i, j, k;
+	bool8 found;
 
-    // Working backwards up to 5 times seems arbitrary, since the maximum number
-    // of times would only be 3 for 3-stage evolutions.
-    for (i = 0; i < EVOS_PER_MON; i++)
-    {
-        found = FALSE;
-        for (j = 1; j < NUM_SPECIES; j++)
-        {
-            for (k = 0; k < EVOS_PER_MON; k++)
-            {
-                if (gEvolutionTable[j][k].method != EVO_MEGA && gEvolutionTable[j][k].targetSpecies == species)
-                {
-                    species = j;
-                    found = TRUE;
-                    break;
-                }
-            }
+	for (i = 0; i < 3; ++i)
+	{
+		found = FALSE;
 
-            if (found)
-                break;
-        }
+		for (j = 1; j < NUM_SPECIES; ++j)
+		{
+			for (k = 0; k < EVOS_PER_MON; ++k)
+			{
+				if (gEvolutionTable[j][k].method != EVO_MEGA
+				&& gEvolutionTable[j][k].method != EVO_GIGANTAMAX
+				&& gEvolutionTable[j][k].targetSpecies == species)
+				{
+					species = j;
+					found = TRUE;
+					break;
+				}
 
-        if (j == NUM_SPECIES)
-            break;
-    }
+				if (gEvolutionTable[j][k].method == EVO_NONE) //Most likely end of entries
+					break; //Break now to save time
+			}
 
-    return species;
+			if (found)
+				break;
+		}
+
+		if (j == NUM_SPECIES)
+			break;
+	}
+
+	return species;
 }
-
