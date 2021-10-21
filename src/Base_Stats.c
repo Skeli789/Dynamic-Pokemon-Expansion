@@ -6343,7 +6343,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_SOLARPOWER,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_EARLYBIRD,
+		.hiddenAbility = ABILITY_FLOWERVEIL,
 		.noFlip = TRUE,
 	},
 
