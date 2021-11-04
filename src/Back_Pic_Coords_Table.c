@@ -4376,7 +4376,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_PIDGEOT_MEGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x3,
 	},
 	[SPECIES_ALAKAZAM_MEGA] =
 	{
@@ -4556,7 +4556,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_KYOGRE_PRIMAL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x13,
+		.y_offset = 0x18,
 	},
 	[SPECIES_RAYQUAZA_MEGA] =
 	{
@@ -6121,7 +6121,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_MOLTRES_G] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x1,
 	},
 	[SPECIES_SLOWKING_G] =
 	{
