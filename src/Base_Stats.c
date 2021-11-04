@@ -10473,7 +10473,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_THICKFAT,
 		.ability2 = ABILITY_ICEBODY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_ICESCALES,
+		.hiddenAbility = ABILITY_OBLIVIOUS,
 		.noFlip = TRUE,
 	},
 
@@ -10506,7 +10506,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_THICKFAT,
 		.ability2 = ABILITY_ICEBODY,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_ICESCALES,
+		.hiddenAbility = ABILITY_OBLIVIOUS,
 		.noFlip = TRUE,
 	},
 
@@ -30868,7 +30868,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_HYPERCUTTER,
 		.ability2 = ABILITY_IRONFIST,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_ANGERPOINT,
+		.hiddenAbility = ABILITY_GORILLATACTICS, //-ABILITY_CRABBYTACTICS
 		.noFlip = TRUE,
 	},
 
