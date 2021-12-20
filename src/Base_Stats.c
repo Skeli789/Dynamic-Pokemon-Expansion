@@ -35089,7 +35089,7 @@ const struct BaseStats gBaseStats[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroup1 = EGG_GROUP_FIELD,
 		.eggGroup2 = EGG_GROUP_FAIRY,
-		.ability1 = ABILITY_STATIC,
+		.ability1 = ABILITY_SURGESURFER,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
@@ -35125,7 +35125,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_LEVITATE,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_NONE,
+		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
 
