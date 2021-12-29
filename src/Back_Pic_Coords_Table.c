@@ -4556,7 +4556,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_KYOGRE_PRIMAL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x18,
+		.y_offset = 0x12,
 	},
 	[SPECIES_RAYQUAZA_MEGA] =
 	{
