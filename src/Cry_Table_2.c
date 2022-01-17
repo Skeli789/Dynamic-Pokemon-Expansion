@@ -14310,6 +14310,18 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
+	[SPECIES_KOFFING_G] =
+	{
+		.type = 0x30,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = (u8*) 0x8583f4c,
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
 	[SPECIES_WEEZING_G] =
 	{	
 		.type = 0x30,
@@ -14413,6 +14425,18 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.length = 0x0,
 		.pan_sweep = 0x0,
 		.wav = (u8*) 0x868c884,	
+		.attack = 0xff,
+		.decay = 0x0,
+		.sustain = 0xff,
+		.release = 0x0,
+	},
+	[SPECIES_MIME_JR_G] = 
+	{	
+		.type = 0x30,
+		.key = 0x3c,
+		.length = 0x0,
+		.pan_sweep = 0x0,
+		.wav = gCryMimeJr,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,

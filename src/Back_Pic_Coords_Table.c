@@ -5426,7 +5426,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_MELMETAL] =
 	{
 		.size = 0x0,
-		.y_offset = 0xd,
+		.y_offset = 0x10,
 	},
 	[SPECIES_PIKACHU_SURFING] =
 	{
