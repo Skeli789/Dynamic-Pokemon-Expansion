@@ -6013,7 +6013,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_TRIAGE,
+		.hiddenAbility = ABILITY_FLOWERVEIL,
 		.noFlip = TRUE,
 	},
 
@@ -9879,7 +9879,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_OBLIVIOUS,
 		.ability2 = ABILITY_ANTICIPATION,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_WATERBUBBLE,
+		.hiddenAbility = ABILITY_ADAPTABILITY,
 		.noFlip = TRUE,
 	},
 
@@ -9912,7 +9912,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_OBLIVIOUS,
 		.ability2 = ABILITY_ANTICIPATION,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_WATERBUBBLE,
+		.hiddenAbility = ABILITY_ADAPTABILITY,
 		.noFlip = TRUE,
 	},
 
