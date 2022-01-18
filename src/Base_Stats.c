@@ -6013,7 +6013,7 @@ const struct BaseStats gBaseStats[] =
 		.ability1 = ABILITY_CHLOROPHYLL,
 		.ability2 = ABILITY_NONE,
 		.safariZoneFleeRate = 0,
-		.hiddenAbility = ABILITY_FLOWERVEIL,
+		.hiddenAbility = ABILITY_TRIAGE,
 		.noFlip = TRUE,
 	},
 
