@@ -9,6 +9,7 @@
 
 //  Punctutation
 #define _EXCLAMATION 0xAB
+#define _HYPHEN 0xAE
 #define _APOSTROPHE 0xB4
 
 // Uppercase
