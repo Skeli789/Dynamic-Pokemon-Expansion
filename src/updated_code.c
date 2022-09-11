@@ -14,6 +14,7 @@ struct Pokemon
 };
 
 extern const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1];
+extern const struct PokedexEntry gPokedexEntries[];
 extern const u16 gSpeciesIdToCryId[];
 extern const u16 gSpeciesToNationalPokedexNum[];
 extern struct Pokemon gPlayerParty[6];
@@ -30,6 +31,7 @@ extern const u16 gPokedexOrder_Type[];
 extern const u16 gPokedexOrderTypeCount;
 
 extern const struct AlternateDexEntries gAlternateDexEntries[];
+extern const struct AlternateDexEntries gAlternateDexCategories[];
 extern const struct CompressedSpriteSheet gMonBackPicTable[];
 extern const struct CompressedSpriteSheet gMonFrontPicTable[];
 extern const struct CompressedSpritePalette gMonPaletteTable[];
@@ -118,6 +120,24 @@ const u8* TryLoadAlternateDexEntry(u16 species)
 	}
 	
 	return 0;
+}
+
+const u8* TryLoadAlternateDexCategory(u16 species)
+{
+	u32 i;
+	u16 dexNum = SpeciesToNationalPokedexNum(species);
+	const u8* category = gPokedexEntries[dexNum].categoryName;
+
+	for (i = 0; gAlternateDexCategories[i].species != SPECIES_TABLES_TERMIN; ++i)
+	{
+		if (gAlternateDexCategories[i].species == species)
+		{
+			category = gAlternateDexCategories[i].description;
+			break;
+		}
+	}
+
+	return category;
 }
 
 void LoadSpecialPokePic(const struct CompressedSpriteSheet* src, void* dest, u16 species, u32 personality, bool8 isFrontPic)

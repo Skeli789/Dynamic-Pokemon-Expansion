@@ -24,6 +24,7 @@ PokedexMemoryAllocationHook 81025E8 0
 LoadPokedexViews 8103518 1
 DisplayRegionalDexNumHook 8104A66 1
 CountSpeciesInDex 8104BBC 2
+AlternateDexCategoryHook 810581C 1
 AlternateDexEntriesHook 8105CBC 0
 SummaryScreenIconPalHook 8139DDC 1
 

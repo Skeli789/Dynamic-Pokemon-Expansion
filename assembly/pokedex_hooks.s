@@ -91,3 +91,14 @@ DexFlagCheckCall:
 	ldr r3, =0x8104AB0 | 1
 	bx r3
 
+.pool
+@0x810581C with r1
+AlternateDexCategoryHook:
+	push {r0} @;Backup species
+	bl TryLoadAlternateDexCategory
+	mov r5, r0
+	pop {r0}
+	ldr r1, =SpeciesToNationalPokedexNum
+	bl bxr1
+	ldr r1, =0x810582A | 1
+	bx r1
