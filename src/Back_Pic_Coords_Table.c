@@ -5541,7 +5541,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_CINDERACE] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x0,
 	},
 	[SPECIES_SOBBLE] =
 	{
@@ -6176,12 +6176,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_GROWLITHE_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x8,
 	},
 	[SPECIES_ARCANINE_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x3,
 	},
 	[SPECIES_VOLTORB_H] =
 	{
@@ -6196,12 +6196,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_TYPHLOSION_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x3,
+		.y_offset = 0x2,
 	},
 	[SPECIES_QWILFISH_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x6,
+		.y_offset = 0x8,
 	},
 	[SPECIES_SNEASEL_H] =
 	{
@@ -6211,12 +6211,12 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SAMUROTT_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x8,
 	},
 	[SPECIES_LILLIGANT_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x5,
+		.y_offset = 0x4,
 	},
 	[SPECIES_BASCULIN_H] =
 	{
@@ -6226,7 +6226,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_ZORUA_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x1,
+		.y_offset = 0x3,
 	},
 	[SPECIES_ZOROARK_H] =
 	{
@@ -6241,7 +6241,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_SLIGGOO_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x0,
+		.y_offset = 0x1,
 	},
 	[SPECIES_GOODRA_H] =
 	{
@@ -6251,7 +6251,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_AVALUGG_H] =
 	{
 		.size = 0x0,
-		.y_offset = 0x11,
+		.y_offset = 0x10,
 	},
 	[SPECIES_DECIDUEYE_H] =
 	{
@@ -6271,7 +6271,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_URSALUNA] =
 	{
 		.size = 0x0,
-		.y_offset = 0xe,
+		.y_offset = 0x9,
 	},
 	[SPECIES_BASCULEGION_M] =
 	{
@@ -6291,7 +6291,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_OVERQWIL] =
 	{
 		.size = 0x0,
-		.y_offset = 0x7,
+		.y_offset = 0x0,
 	},
 	[SPECIES_ENAMORUS] =
 	{
@@ -6383,7 +6383,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 	[SPECIES_CINDERACE_GIGA] =
 	{
 		.size = 0x0,
-		.y_offset = 0x4,
+		.y_offset = 0x0,
 	},
 	[SPECIES_INTELEON_GIGA] =
 	{
